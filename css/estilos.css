@@ -114,7 +114,7 @@ ul.redes-sociales li a:active{background-color: transparent;}
 
 
 
-div#nosotros1{background-image: url(../img/portfolio/publi3.jpg);
+div#nosotros1{background-image: url(img/portfolio/publi3.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -128,7 +128,7 @@ div#nosotros1{background-image: url(../img/portfolio/publi3.jpg);
     background-position: center;
     height: 661px;
 }
-.aduanas{background-image: url(../img/portfolio/publi.jpg);
+.aduanas{background-image: url(img/portfolio/publi.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -157,7 +157,7 @@ div#nosotros1{background-image: url(../img/portfolio/publi3.jpg);
 }
 div.aduanas:hover div.aduana-info{ margin-top:500px; }
 
-.logistica{background-image: url(../img/portfolio/publi2.jpg);
+.logistica{background-image: url(img/portfolio/publi2.jpg);
    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -317,7 +317,7 @@ div.servi .logisinfo .parrafos-servicios
 /* TE BRINDAMOS*/
 .personal1
     {
-        background-image: url(../img/portfolio/t3.jpg);
+        background-image: url(img/portfolio/t3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 447px;
@@ -339,7 +339,7 @@ div.servi .logisinfo .parrafos-servicios
 div.personal1:hover div.personal1-info{ margin-top:210px; }
 .personal2
     {
-        background-image: url(../img/portfolio/t1.jpg);
+        background-image: url(img/portfolio/t1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -363,7 +363,7 @@ div.personal1:hover div.personal1-info{ margin-top:210px; }
 
 .personal3
     {
-        background-image: url(../img/portfolio/t2.jpg);
+        background-image: url(img/portfolio/t2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -387,7 +387,7 @@ div.personal1:hover div.personal1-info{ margin-top:210px; }
 
 .personal4
     {
-        background-image: url(../img/portfolio/t03.jpg);
+        background-image: url(img/portfolio/t03.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 447px; 
@@ -410,7 +410,7 @@ div.personal4:hover div.personal4-info{ margin-top:210px; }
 
 .personal5
     {
-        background-image: url(../img/portfolio/t01.jpg);
+        background-image: url(img/portfolio/t01.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -434,7 +434,7 @@ div.personal4:hover div.personal4-info{ margin-top:210px; }
 
 .personal6
     {
-        background-image: url../img/portfolio/t02.jpg);
+        background-image: url(img/portfolio/t02.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -478,3 +478,84 @@ div.personal4:hover div.personal4-info{ margin-top:210px; }
         text-transform: none;
     }
 body{overflow-x:hidden; }
+.blog-texto1
+    {
+        background-color: rgba(81,83,94,0.8);
+        height: 235px;
+    }
+.blog-imagen1
+    {
+        height: 235px;
+        width: 100%;
+    }
+.pm
+    {
+        padding: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+.blog-titulo1
+    {
+        color: white;
+        padding-left: 25px;
+        padding-top: 10px;
+
+    }   
+.blog-parrafo01
+    {
+        font-family: helvetica,sans-serif;
+        margin: auto;
+        font-size: 15px;
+        text-align: justify;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-transform: none;
+        color: white;
+
+    }
+.boton
+    {
+        margin-left: 515px;
+    }
+#contacto
+    {
+        background-color: #e5e5e7;
+    }
+.subtitu
+    {
+        margin-left: 399px;
+        margin-top: 30px;
+        color: #8c8c8c;
+        font-family:  helvetica,sans-serif;
+
+    }
+    .subtitu1
+    {
+        margin-left: 337px;
+        margin-top: -50px;
+        color: #8c8c8c;
+        font-family:  helvetica,sans-serif;
+
+    }
+ .subtitu2
+    {
+        margin-left: 6px;
+        margin-top: 0px;
+        color: #8c8c8c;
+        font-family:  helvetica,sans-serif;
+
+    }
+ .subtitu3
+    {
+        margin-left: 10px;
+        margin-top: -50px;
+        color: #8c8c8c;
+        font-family:  helvetica,sans-serif;
+
+    }
+.subtitu4 
+    {
+         font-family:  helvetica,sans-serif;
+         font-size: 18px;
+    }
+textarea{height: 117px;}

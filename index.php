@@ -19,7 +19,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body id  ="page-top" class="index">
+<body id  ="page-top" class="index>"
 <div class="contenedor">
     <!-- Navigation -->
     <div class="row">
@@ -236,7 +236,85 @@
         </div>
     </section>
 
-    
+     <!-- BLOG Section -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">BLOG</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum ES SIMPLEMTE EL TEXTO DE.</h3>
+                    <h3 class="section-subheading text-muted">RELLENO DE LAS IMPRENTAS Y ARCHIVOS DE RELLENO.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 pm">
+                        <div class="blog-texto1">
+                            <h2 class="blog-titulo1">
+                                GESTIONAR DE FORMA ÓPTIMA
+                                LA LOGÍSTICA
+                            </h2>
+                            <h3 class="blog-parrafo01">
+                                Lorem Ipsum es simplemente el texto de relleno de las 
+                                imprentas y archivos de texto. Lorem Ipsum ha sido 
+                                el texto de relleno estándar de las industrias desde 
+                                el año 1500 [...]
+                            </h3>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  pm">
+                            <img src="img/portfolio/blogimagen.jpg" class="img-responsive blog-imagen1" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pm">
+                            <img src="img/portfolio/blogimagen2.jpg" class="img-responsive blog-imagen1" alt="">
+                    </div>
+                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pm">
+                        <div class="blog-texto1">
+                            <h2 class="blog-titulo1">
+                               MÁS VUELOS DIRECTOS DE  
+                               AEROMÉXICO A PANAMÁ
+                            </h2>
+                            <h3 class="blog-parrafo01">
+                                Lorem Ipsum es simplemente el texto de relleno de las 
+                                imprentas y archivos de texto. Lorem Ipsum ha sido 
+                                el texto de relleno estándar de las industrias desde 
+                                el año 1500 [...]
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 pm">
+                        <div class="blog-texto1">
+                             <h2 class="blog-titulo1">
+                               SIL ACERCARÁ TENDENCIAS DE  
+                               GOBERNANZA PORTUARIA
+                            </h2>
+                            <h3 class="blog-parrafo01">
+                                Lorem Ipsum es simplemente el texto de relleno de las 
+                                imprentas y archivos de texto. Lorem Ipsum ha sido 
+                                el texto de relleno estándar de las industrias desde 
+                                el año 1500 [...]
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pm">
+                            <img src="img/portfolio/blogimagen3.jpg" class="img-responsive blog-imagen1" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <input type="submit" class="btn btn-success btn-center" value="IR AL BLOG">
+                
+            </div>
+        </div>
+    </div>
+    </section>
+
     <!-- jQuery -->
     <script src="<?php bloginfo('template_url');?>/js/jquery.js"></script>
 

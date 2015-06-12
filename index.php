@@ -157,7 +157,7 @@
              </div>
         </section>
 
-    <!-- Portfolio Grid Section -->
+
     <section id="nosotros2" class="bg-light-gray">
         <div class="container-fluid sin-padding">
             <div class="row">

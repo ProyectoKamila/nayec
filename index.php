@@ -108,7 +108,7 @@
                                 <div class="aduana-info  ">
                                     <h2 class="text-center texto-servicios">SERVICIOS ADUANALES</h2>
                                 </div>
-                            </div>
+                        </div>
                             <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6">
                                 <div class="logisinfo">
                                     <h2 class="titulo-logistica">LOGÍSTICA Y TRANSPORTE</h2>
@@ -262,7 +262,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  pm">
-                            <img src="img/portfolio/blogimagen.jpg" class="img-responsive blog-imagen1" alt="">
+                            <img src=""<?php bloginfo('template_url');?>/img/portfolio/blogimagen.jpg" class="img-responsive blog-imagen1" alt="">
                     </div>
                 </div>
                 <div class="row">

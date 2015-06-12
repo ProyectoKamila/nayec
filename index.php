@@ -46,7 +46,7 @@
                                 <a href="#page-top"></a>
                             </li>
                             <li>
-                                <a class="page-scroll tama" href="#services"><b>Servicios</b></a>
+                                <a class="page-scroll tama" href="#servicios"><b>Servicios</b></a>
                             </li>
                             <li>
                                 <a class="page-scroll tama" href="#nosotros"><b>Nosotros</b></a>
@@ -92,7 +92,7 @@
     <!-- Services Section -->
         <div class="container-fluid sin-padding">
             <div class="servi">
-                <section id="services">
+                <section id="servicios">
                     <div class="row">
                         <div class="col-lg-12 text-center">
                             <h2 class="section-heading">SERVICIOS ADUANEROS</h2>

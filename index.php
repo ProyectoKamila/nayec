@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title><?php wp_title(); ?></title>
+    <title><?php pk_title(); ?></title>
     <!-- Bootstrap Core CSS -->
     <link href="<?php bloginfo('template_url');?>/css/main.less" rel="stylesheet/less">
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>
@@ -343,7 +343,8 @@
             expand       : true,
                 buildStartStop            : false,
                 buildArrows         : true,
-            autoPlay     : true 
+            autoPlay     : true ,
+            hashtags: false
                         
         });
 

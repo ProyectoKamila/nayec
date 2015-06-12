@@ -267,7 +267,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pm">
-                            <img src="img/portfolio/blogimagen2.jpg" class="img-responsive blog-imagen1" alt="">
+                            <img src="<?php bloginfo('template_url');?>/img/portfolio/blogimagen2.jpg" class="img-responsive blog-imagen1" alt="">
                     </div>
                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pm">
                         <div class="blog-texto1">
@@ -300,7 +300,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pm">
-                            <img src="img/portfolio/blogimagen3.jpg" class="img-responsive blog-imagen1" alt="">
+                            <img src="<?php bloginfo('template_url');?>/img/portfolio/blogimagen3.jpg" class="img-responsive blog-imagen1" alt="">
                     </div>
                 </div>
             </div>

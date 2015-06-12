@@ -114,7 +114,7 @@ ul.redes-sociales li a:active{background-color: transparent;}
 
 
 
-div#nosotros1{background-image: url(img/portfolio/publi3.jpg);
+div#nosotros1{background-image: url(../img/portfolio/publi3.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -128,7 +128,7 @@ div#nosotros1{background-image: url(img/portfolio/publi3.jpg);
     background-position: center;
     height: 661px;
 }
-.aduanas{background-image: url(img/portfolio/publi.jpg);
+.aduanas{background-image: url(../img/portfolio/publi.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -157,7 +157,7 @@ div#nosotros1{background-image: url(img/portfolio/publi3.jpg);
 }
 div.aduanas:hover div.aduana-info{ margin-top:500px; }
 
-.logistica{background-image: url(img/portfolio/publi2.jpg);
+.logistica{background-image: url(../img/portfolio/publi2.jpg);
    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -317,7 +317,7 @@ div.servi .logisinfo .parrafos-servicios
 /* TE BRINDAMOS*/
 .personal1
     {
-        background-image: url(img/portfolio/t3.jpg);
+        background-image: url(../img/portfolio/t3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 447px;
@@ -339,7 +339,7 @@ div.servi .logisinfo .parrafos-servicios
 div.personal1:hover div.personal1-info{ margin-top:210px; }
 .personal2
     {
-        background-image: url(img/portfolio/t1.jpg);
+        background-image: url(../img/portfolio/t1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -363,7 +363,7 @@ div.personal1:hover div.personal1-info{ margin-top:210px; }
 
 .personal3
     {
-        background-image: url(img/portfolio/t2.jpg);
+        background-image: url(../img/portfolio/t2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -387,7 +387,7 @@ div.personal1:hover div.personal1-info{ margin-top:210px; }
 
 .personal4
     {
-        background-image: url(img/portfolio/t03.jpg);
+        background-image: url(../img/portfolio/t03.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 447px; 
@@ -410,7 +410,7 @@ div.personal4:hover div.personal4-info{ margin-top:210px; }
 
 .personal5
     {
-        background-image: url(img/portfolio/t01.jpg);
+        background-image: url(../img/portfolio/t01.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -434,7 +434,7 @@ div.personal4:hover div.personal4-info{ margin-top:210px; }
 
 .personal6
     {
-        background-image: url(img/portfolio/t02.jpg);
+        background-image: url../img/portfolio/t02.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

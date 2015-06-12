@@ -8,11 +8,10 @@
     <meta name="author" content="">
     <title><?php wp_title(); ?></title>
     <!-- Bootstrap Core CSS -->
-    <link href="<?php bloginfo('template_url');?>/css/main.less" rel="stylesheet">
+    <link href="<?php bloginfo('template_url');?>/css/main.less" rel="stylesheet/less">
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='' rel='stylesheet' type='text/css'>
+    <link href="<?php bloginfo('template_url');?>/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

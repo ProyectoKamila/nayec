@@ -1,0 +1,480 @@
+.navbar-default.navbar-shrink 
+ 	{
+        background-color: white;
+    }
+@media(min-width:768px) {
+    section {
+        padding: 150px 0;
+    }
+}
+@media(min-width:768px) 
+	{
+        .navbar-default {
+	        padding: 0px 0;
+	        
+	        transition: padding .3s;
+	        border-top: 3px;  solid red;
+	        background: rgba(255,255,255,0.8);
+            padding-top: 0px;
+            border-top: 6px solid red;
+    }
+
+
+    .navbar-default .navbar-nav>.active>a 
+    {
+	    border-radius: 0;
+	    color: black;
+	    background-color: #ededef;
+        padding: 18px 12px;
+	}
+	
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color:black;
+    background-color: #ededef;
+}
+ul.social-buttons li a {
+    display: block;
+    width: 43px;
+    height: 42px;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 31px;
+    line-height: 46px;
+    outline: 0;
+    color: black;
+    background-color: white;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+.twi{color: black;}
+.twi:hover{color: red;}
+.face{color: black;}
+.face:hover{color: red;}
+.in{color: black;}
+.in:hover{color: red;}
+
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: black;
+}
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 13px;
+}
+
+.navbar-default.navbar-shrink {
+        padding: 0px 0;
+        background-color: white;
+    }
+.nav{padding-left: 41px;}
+.conten-nav{background-color: #ededef;
+	color: black;
+	}
+
+#wrapper01 {
+        width: 115%;
+        height: 700px;
+        margin: auto;
+        position: relative;
+        right: 89px;
+        bottom:66px;
+        padding: 2px 7px;}
+.menu{padding-top: 82px;
+        font-size: 15px;
+    margin: -44.5px -15px;
+    padding-left: 34px;}
+.logo{position: relative;
+        bottom: 15px;}
+.textos{margin-bottom: 10px;
+        font-size: 20px;
+        color:gray;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;}
+.tama{padding: 5px 10px;}
+.navbar-header1{background-color: white;}
+.navbar-brand1{float:left;height:115px;padding:15px 15px;font-size:18px;line-height:20px; width: 305px; }
+.redes-sociales{
+    margin: -73px 8px 123px 1044px; visibility: visible; }
+.navbar2-default{background-color: white;}
+.servi{margin: auto;
+margin-top: -247px;}
+.imag-somos{margin: 10px 5px 10px;}
+}
+ul.redes-sociales li a:hover,
+ul.redes-sociales li a:focus,
+ul.redes-sociales li a:active{background-color: transparent;}
+
+
+
+div#nosotros1{background-image: url(img/portfolio/publi3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 661px;
+    }
+#nosotros-info{
+    max-width: 100%;
+    background-color: rgba(81,83,94,0.6);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 661px;
+}
+.aduanas{background-image: url(img/portfolio/publi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 664px;
+    display:block;
+    padding:0 !important;
+    margin:0;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+@media(min-width:768px) {
+    section {
+        padding: 150px 0;
+    }
+}
+.aduana-info{width: 100%;
+    height: 180px;
+    background-position: center center;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+    margin-top:664px;
+    background-color: rgba(255,255,255,0.6);
+    overflow: hidden;
+    transition:1s all ease-in-out;
+}
+div.aduanas:hover div.aduana-info{ margin-top:500px; }
+
+.logistica{background-image: url(img/portfolio/publi2.jpg);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 667px;
+    display:block;
+    padding:0 !important;
+    margin:0;
+    box-sizing:border-box;
+    overflow: hidden;
+    
+}
+    
+.logisinfo{width: 100%;
+    height: 667px;
+    background-position: center center;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+    margin-top:664px;
+    background-color: rgba(81,83,94,0.9);
+    overflow: hidden;
+    transition:1s all ease-in-out;
+    }
+ 
+div.logistica:hover div.logisinfo{margin-top:0px;}
+.titulo-logistica{color: white; text-align: center; 
+padding: 34px 10px;}
+.parrafos-servicios{color: white; text-align: justify; font-size: 20px;
+font-family: Helvetica, Sans-Serif; padding: 5px 35px 2px 54px; text-transform: capitalize;}
+.nosotros{color: white; font-family: Helvetica, Sans-Serif; position: relative; top: 24px;}
+/* Escritorio */
+@media (min-width: 1200px) {
+    
+    
+}
+/* Escritorio pequeño o table */
+@media (min-width: 768px) and (max-width: 979px)  {
+     
+section#nosotros .parrafo-mision
+    {
+        color: white; 
+        text-transform: none;
+         font-size: 17px;
+         width: 70%;
+         text-indent: 25px;
+         line-height: 26px;
+         text-align: justify;
+         margin: auto;
+         font-family: Helvetica, Sans-Serif;  
+    }
+}
+/* tablet o smartphone */
+@media (max-width: 767px) {
+     
+section#nosotros .parrafo-mision
+    {
+      color: white; 
+    text-transform: none;
+     font-size: 17px;
+     width: 70%;
+     text-indent: 25px;
+     line-height: 26px;
+     text-align: justify;
+     margin: auto;
+     font-family: Helvetica, Sans-Serif;  
+
+    }
+    
+}
+/* smartphone */
+@media (max-width: 480px) {
+.aduanas
+    {
+        margin: 1px 0px;
+        height: 378px;
+        background-position: right;
+        background-size: cover;
+    }
+
+div.servi .aduanas .aduana-info
+    {
+        width: 100%;
+        height: 200px;
+        background-position: center center;
+        max-width: 100%;
+        margin: auto;
+        position: relative;
+        margin-top:664px;
+        background-color: rgba(255,255,255,0.6);
+        overflow: hidden;
+        transition:1s all ease-in-out;
+    }
+.texto-servicios{
+                    color: #353743; 
+                    font-size: 25px;
+                }
+div.aduanas:hover div.aduana-info{ margin-top:200px; }
+
+.logistica
+        {
+            height: 381px;
+            background-position: right;
+            background-size: cover;
+        }
+
+section#nosotros .parrafo-mision
+    {
+        color: white; 
+        text-transform: none;
+        font-size: 13px;
+        width: 100%;
+        text-indent: 20px;
+        line-height: 26px;
+        text-align: justify;
+        padding: 1px;
+        font-family: Helvetica, Sans-Serif;  
+
+    }
+
+div.servi .logisinfo .parrafos-servicios
+    {
+        color: white; 
+        text-align: justify; 
+        font-size: 13px;
+        width: 100%;
+        text-transform: none;
+        margin: auto;
+        margin-top: 15px;
+    }
+}
+/*CIERRA MEDIA QUERY */
+.texto-servicios{color: #353743;}
+.sin-padding
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+.mision{color: white;}
+.parrafo-mision 
+    {
+        color: white; 
+        text-transform: none;
+         font-size: 18px;
+         width: 48%;
+         text-indent: 25px;
+         line-height: 26px;
+         text-align: justify;
+         margin-left: auto;
+         margin-right: 43px;
+         font-family: Helvetica, Sans-Serif;
+    }
+
+.borde{border: 5px solid green;}
+.ensayo{border: 5px solid #ff0000;}
+
+/* TE BRINDAMOS*/
+.personal1
+    {
+        background-image: url(img/portfolio/t3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 447px;
+        overflow: hidden;
+        box-sizin:border-box;
+    }
+.personal1-info
+    {
+        width: 100%;
+        height: 300px;
+        background-position: center center;
+        max-width: 100%;
+        margin: auto;
+        margin-top:664px;
+        background-color: rgba(81,83,94,0.8);
+        overflow: hidden;
+        transition:1s all ease-in-out;
+    }
+div.personal1:hover div.personal1-info{ margin-top:210px; }
+.personal2
+    {
+        background-image: url(img/portfolio/t1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 219px;
+        overflow: hidden;
+        margin: auto;
+    }
+.personal2-info
+    {
+        width: 100%;
+        height: 200px;
+        background-position: center center;
+        max-width: 100%;
+        margin: auto;
+        margin-top:664px;
+        background-color: rgba(81,83,94,0.8);
+        overflow: hidden;
+        transition:1s all ease-in-out;
+    }
+    div.personal2:hover div.personal2-info{ margin-top:160px; }
+
+.personal3
+    {
+        background-image: url(img/portfolio/t2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 228px;
+        overflow: hidden;
+        margin: auto;
+    }
+.personal3-info
+    {
+        width: 100%;
+        height: 200px;
+        background-position: center center;
+        max-width: 100%;
+        margin: auto;
+        margin-top:664px;
+        background-color: rgba(81,83,94,0.8);
+        overflow: hidden;
+        transition:1s all ease-in-out;
+    }
+    div.personal3:hover div.personal3-info{ margin-top:180px; }
+
+.personal4
+    {
+        background-image: url(img/portfolio/t03.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 447px; 
+        overflow: hidden; 
+    }
+
+.personal4-info
+    {
+        width: 100%;
+        height: 447px;
+        background-position: center center;
+        max-width: 100%;
+        margin: auto;
+        margin-top:664px;
+        background-color: rgba(81,83,94,0.8);
+        overflow: hidden;
+        transition:1s all ease-in-out;
+    }
+div.personal4:hover div.personal4-info{ margin-top:210px; }
+
+.personal5
+    {
+        background-image: url(img/portfolio/t01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 219px;
+        overflow: hidden;
+        
+    }
+.personal5-info
+    {
+        width: 100%;
+        height: 200px;
+        background-position: center center;
+        max-width: 100%;
+        margin: auto;
+        margin-top:600px;
+        background-color: rgba(81,83,94,0.8);
+        overflow: hidden;
+        transition:1s all ease-in-out;
+    }
+    div.personal5:hover div.personal5-info{ margin-top:160px; }
+
+.personal6
+    {
+        background-image: url(img/portfolio/t02.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 228px;
+        overflow: hidden;
+    }
+.personal6-info
+    {
+        width: 100%;
+        height: 200px;
+        background-position: center center;
+        max-width: 100%;
+        margin: auto;
+        margin-top:664px;
+        background-color: rgba(81,83,94,0.8);
+        overflow: hidden;
+        transition:1s all ease-in-out;
+    }
+    div.personal6:hover div.personal6-info{ margin-top:180px; }
+.titulo-image
+    {
+        color: rgba(255,255,255,.8);
+        padding-left: 10px;
+
+    }
+.titulo-image1
+    {
+        color: rgba(255,255,255,.8);
+        font-size: 22px;
+        padding-left: 10px;
+    }
+.texto-image
+    {
+        color: rgba(255,255,255,.8);
+        font-family: helvetica,sans-serif;
+        margin: auto;
+        font-size: 15px;
+        text-align: justify;
+        padding-left: 6px;
+        padding-right: 6px;
+        text-transform: none;
+    }
+body{overflow-x:hidden; }

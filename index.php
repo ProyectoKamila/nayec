@@ -45,13 +45,19 @@
 <li class="hidden">
 <a href="#page-top"></a>
                             </li>
-                            <li>
-<a class="page-scroll tama" href="#servicios"><b>Servicios</b></a>
-                            </li>
-                            <li>
-<a class="page-scroll tama" href="#nosotros"><b>Nosotros</b></a>
-                            </li>
-                        </ul>
+        <li>
+            <a class="page-scroll tama" href="#servicios"><b>Servicios</b></a>
+        </li>
+        <li>
+            <a class="page-scroll tama" href="#nosotros"><b>Nosotros</b></a>
+        </li>
+        <li>
+            <a class="page-scroll tama" href="#blog"><b>Blog</b></a>
+        </li>
+        <li>
+            <a class="page-scroll tama" href="#contacto"><b>Contacto</b></a>
+        </li>
+        </ul>
                          <!-- Redes sociales -->
                     
 <ul class=" list-inline social-buttons redes-sociales col-md-6">

@@ -26,7 +26,7 @@ include('library/limited-caracter.php');
 show_admin_bar( false );
 add_theme_support('post-thumbnails');
 //funcion para poner nombre de la pagina
-//add_filter( 'wp_title', 'pk_title', 10, 2 );
+add_filter( 'wp_title', 'pk_title', 10, 2 );
 //Crear Post Personalizados
 function theme_custom_types() {
 

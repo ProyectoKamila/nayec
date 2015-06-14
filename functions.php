@@ -39,8 +39,8 @@ function theme_custom_types() {
         'singular' => 'configuracion'
     ));
    add_custom_taxonomy(array(
-        'name' => 'tipo',
-        'singular' => 'tipo',
+        'name' => 'posicion',
+        'singular' => 'posicion',
         'genero' => 'f',
         'post_type' => 'configuracion',
         'hierarchical' => true

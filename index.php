@@ -37,7 +37,11 @@
                     </div>
                 </div>
 <a class="navbar-brand1 page-scroll " href="#home"> 
-<img src="<?php bloginfo('template_url');?>/img/logos/logo.jpg" class="img-responsive logo" alt="">
+<?php query_posts(array('post_type'=>'configuracion','posicion'=>'logo','posts_per_page'=>1))?>
+<?php while(have_posts()){ the_post();?>
+<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
+    <img src="<?php echo $feat_image;?>" class="img-responsive logo" alt="<?php the_title(); ?>">
+<?php } ?>
                                 </a>
                     <!-- Collect the nav links, forms, and other content for toggling -->
 <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
@@ -118,11 +122,19 @@ if(!empty($pagename)){
                                         </div>
                     <div class="container-fluid sin-padding">
                     <div class="row sin-padding">
+                        <?php if(get_field('background_left')){?>
+                    <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>) top center no-repeat; backgroun-size:cover;">
+
+                        <?php }else{ ?>
                     <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  ">
-                    <div class="aduana-info  ">
-                    <h2 class="text-center texto-servicios">SERVICIOS ADUANALES</h2>
-                                                    </div>
-                                            </div>
+                        <?php } ?>
+                        <?php if(get_field('title_left')){?>
+                                <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
+                                <?php }else{?>
+                                <h2 class="text-center texto-servicios">SERVICIOS ADUANALES</h2>
+                                <?php } ?>
+                            </div>
+                    </div>
                     <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6">
                     <div class="logisinfo">
                     <h2 class="titulo-logistica">LOGÍSTICA Y TRANSPORTE</h2>

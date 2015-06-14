@@ -144,7 +144,8 @@ div#nosotros1{background-image: url(../img/portfolio/publi3.jpg);
         padding: 150px 0;
     }
 }
-.aduana-info{width: 100%;
+.aduana-info{
+    width: 100%;
     height: 180px;
     background-position: center center;
     max-width: 100%;
@@ -254,7 +255,7 @@ div.servi .aduanas .aduana-info
                     color: #353743; 
                     font-size: 25px;
                 }
-div.aduanas:hover div.aduana-info{ margin-top:200px; }
+div.aduanas:hover div.aduana-info{ margin-top:100px; }
 
 .logistica
         {

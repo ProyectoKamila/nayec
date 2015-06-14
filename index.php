@@ -108,7 +108,10 @@ if(!empty($pagename)){
                                             <h2 class="section-heading"><?php the_title();?></h2>
                                             <?php if(get_field('subtitle')){?>
                                             <p class="textos">
-                                                        <?php the_field('subtitle');?>
+                                                        <?php the_field('subtitle');?> 
+                                                        <?php if(get_field('subtitle_2')){?>
+                                                        <br/> <?php the_field('subtitle_2');?> 
+                                                        <?php }?>
                                                                          </p>
                                          <?php } ?>
                                             </div>

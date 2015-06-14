@@ -100,7 +100,7 @@
 if(!empty($pagename)){
 ?>
         <div class="container-fluid sin-padding">
-        <div class="servi">
+        <div class="servi services">
                         <?php while(have_posts()){ the_post();?>
                     <section id="servicios">
                     <div class="row">

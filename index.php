@@ -129,7 +129,7 @@ if(!empty($pagename)){
                     <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  ">
                         <?php } ?>
                         <div class="aduana-info">
-                        <?php if(get_field('title_left')){?>
+                        <?php if(get_field('title_left')) { ?>
                         
                                 <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
                                 <?php }else{?>
@@ -137,14 +137,13 @@ if(!empty($pagename)){
                                 <?php } ?>
                             </div>
                     </div>
-                    <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6">
-                    <div class="logisinfo">
-                    <h2 class="titulo-logistica">LOGÍSTICA Y TRANSPORTE</h2>
-                    <h3 class="parrafos-servicios">-Transporte Internacional; Aéreo, Marítimo y Terrestre.</h3>
-                    <h3 class="parrafos-servicios">-Consolidados; Aéreo y  Marítimo.</h3>
-                    <h3 class="parrafos-servicios">-Seguro de carga.</h3>
-                    <h3 class="parrafos-servicios">-Almacén General; Administración de Inventarios, Recepción de Mercadería Despacho de Pedidos, Control de Devoluciones.</h3>
-                    <h3 class="parrafos-servicios">-Otros.</h3>
+                    <?php if(get_field('background_right')) { ?>
+                    <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">
+                    <?php } else {?>
+                        <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" >
+                    <?php } ?>
+                            <div class="logisinfo">
+                                    <?php the_field('content_right');?>
                                                     </div>
                                                 </div>
                                             </div>

@@ -129,6 +129,7 @@ if(!empty($pagename)){
                     <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  ">
                         <?php } ?>
                         <?php if(get_field('title_left')){?>
+                        <div class="aduana-info">
                                 <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
                                 <?php }else{?>
                                 <h2 class="text-center texto-servicios">SERVICIOS ADUANALES</h2>

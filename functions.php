@@ -15,7 +15,7 @@ include('library/widget-delete.php');
 //Debug para las consultas
 include('library/debug.php');
 //opciones del themplate
-include('library/options.php');
+//include('library/options.php');
 //generar las portadas
 include('library/slideshow.php');
 include('library/mensaje.php');
@@ -34,7 +34,17 @@ function theme_custom_types() {
         'type' => 'servicio',
         'singular' => 'servicio'
     ));
-   
+    add_custom_post_type(array(
+        'type' => 'configuracion',
+        'singular' => 'configuracion'
+    ));
+   add_custom_taxonomy(array(
+        'name' => 'tipo',
+        'singular' => 'tipo',
+        'genero' => 'f',
+        'post_type' => 'configuracion',
+        'hierarchical' => true
+    ));
     add_custom_taxonomy(array(
         'name' => 'tipo',
         'singular' => 'tipo',

@@ -532,7 +532,7 @@ body{overflow-x:hidden; }
         font-size: 18px;
 
     }
-    .subtitu1
+.subtitu1
     {
         margin-left: 337px;
         margin-top: -50px;
@@ -542,12 +542,14 @@ body{overflow-x:hidden; }
         font-size: 18px;
 
     }
- .subtitu2
+.subtitu2
     {
         margin-left: 6px;
         margin-top: 0px;
         color: #8c8c8c;
         font-family:  helvetica,sans-serif;
+         margin: auto;
+        font-size: 18px;
 
     }
  .subtitu3
@@ -556,6 +558,8 @@ body{overflow-x:hidden; }
         margin-top: -50px;
         color: #8c8c8c;
         font-family:  helvetica,sans-serif;
+         margin: auto;
+        font-size: 18px;
 
     }
 .subtitu4 

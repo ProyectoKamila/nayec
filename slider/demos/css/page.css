@@ -1,7 +1,7 @@
 /********************
   Overall Demo pages
  ********************/
-body, p                { font: 14px Georgia, Serif; background: #fff; color: #000; }
+/*body, p                { font: 14px Georgia, Serif; background: #fff; color: #000; }*/
 a, a img               { border: 0; text-decoration: none; }
 
 #page-wrap, #demo2     { width: 90%; padding: 0 15px; margin: 0 auto 50px; position: relative; }

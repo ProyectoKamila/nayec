@@ -405,7 +405,10 @@ if(!empty($pagename)){
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                   <h4>col1</h4>
+                   <h3>col1</h3>
+                   <h4>+507 664-9112</h4>
+                   <h4>+507 360-5506</h4>
+                   
                 </div>
                 <div class="col-md-3">
                      <h4>col2</h4>
@@ -415,6 +418,11 @@ if(!empty($pagename)){
                 </div>
                 <div class="col-md-3">
                      <h4>col4</h4>
+                    <h4>VÍA RICARDO J. ALFARO
+                        THE CENTURY TOWER
+                        PISO 4, OFICINA 402-006
+                        PANAMÁ, REP. DE PANAMÁ
+                    </h4>
                 </div>
             </div>
         </div>

@@ -155,37 +155,40 @@ if(!empty($pagename)){
                 </div>
                  <!--  Section Nosotros-->
 <?php } ?>   
-<?php ?>
+<?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'nosotros','posts_per_page'=>1)); ?>
+<?php if(!empty($pagename)) {?>
+<?php while(have_posts()){ the_post();?>
 <section id="nosotros">
-<div id="nosotros1">
+    <?php if(get_field('background')){?>
+<div id="nosotros1" style="background: url(<?php the_field('background');?>) top center no-repeat; background-size:cover; background-attachment:fixed;">
+    <?php } else{?>
+    <div id="nosotros1">
+    <?php } ?>
 <div class="container-fluid sin-padding">
 <div id="nosotros-info">
 <div class="row">
+    
 <div class="col-lg-12 text-center">
-<h2 class="section-heading nosotros ">¿QUIÉNES SOMOS?</h2>
-<h3 class=" nosotros section-subheading text-muted ">SOMOS UNA EMPRESA JOVEN, ESPECIALIZADA EN ADUANAS Y LOGÍSTICA, QUE</h3>
-<h2 class="mision">MISIÓN</h2>
+<h2 class="section-heading nosotros "><?php the_title()?></h2>
+
+<h3 class=" nosotros section-subheading text-muted "><?php the_field('subtitle');?></h3>
+<h2 class="mision"><?php the_field('title_1');?></h2>
 <h3 class="parrafo-mision">
-                                        Ser un aliado estratégico para nuestros clientes permitiéndoles a estos 
-                                        descansar en nosotros sus operaciones diarias. Le ofrecemos un servicio
-                                        integral de corretaje aduanero y logística, apoyándonos en nuestros
-                                        valores de confianza, responsabilidad, honestidad, compromiso y 
-                                        transparencia, utilizando un recurso humano altamente calificado y 
-                                        personalizado.
+                                        <?php the_field('content_1');?>
                                     </h3>
-<h2 class="mision">VISIÓN</h2>
+<h2 class="mision"><?php the_field('title_2');?></h2>
 <h3 class="parrafo-mision">
-                                        Consolidarnos como empresa y ser proveedor preferido de 
-                                        servicios, manteniendo un excelente nivel de calidad, es nuestra visión. 
+                                        <?php the_field('content_2');?>
                                     </h3>
                             </div>
+<?php } ?>                            
                         </div>
                     </div>
                      
                 </div>
              </div>
              </section>
-
+<?php } ?>
 <section id="nosotros2" class="bg-light-gray">
 <div class="container-fluid sin-padding">
 <div class="row">

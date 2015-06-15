@@ -207,8 +207,7 @@ if(!empty($pagename)){
 <h2 class="titulo-image"><?php the_title();?></h2>
 
 <p class="texto-image">
-                                OPERACIÓN EFICIENTE EN LOS PROCESOS DE TRAMITACIÓN 
-                                ADUANAL QUE AGILIZA EL DESPECHO DE SU CARGA.
+                                <?php echo max_charlength(get_the_content(),150);?>
                             </p>
                         </div>
                     </div>

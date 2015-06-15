@@ -206,7 +206,7 @@ if(!empty($pagename)){
 <div class="col-lg-3 col-md-3 col-sm-6 sin-padding">
 <div class="personal4">
 <div class="personal4-info">
-<h2 class="titulo-image"><?php the_title();?></h2>
+<h2 class="titulo-image h2"><?php the_title();?></h2>
 
 <p class="texto-image">
                                 <?php echo max_charlength(get_the_content(),150);?>

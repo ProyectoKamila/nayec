@@ -390,11 +390,10 @@ if(!empty($pagename)){
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
-                                <div id="success"></div>
                                 <button type="submit" class="btn btn-xl">ENVIAR</button>
+                                <h3 class="subtitu">LOREM ipsum ES SIMPLEMTE EL TEXTO DE</h3>
+                                <h3 class=" subtitu1">RELLENO DE LAS IMPRENTAS Y ARCHIVOS DE RELLENO.</h3>
                             </div>
-                            <h3 class="subtitu">LOREM ipsum ES SIMPLEMTE EL TEXTO DE</h3>
-                            <h3 class=" subtitu1">RELLENO DE LAS IMPRENTAS Y ARCHIVOS DE RELLENO.</h3>
                         </div>
                     </form>
                 </div>

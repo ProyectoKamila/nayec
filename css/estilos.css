@@ -528,6 +528,8 @@ body{overflow-x:hidden; }
         margin-top: 30px;
         color: #8c8c8c;
         font-family:  helvetica,sans-serif;
+        margin: auto;
+        font-size: 18px;
 
     }
     .subtitu1
@@ -536,6 +538,8 @@ body{overflow-x:hidden; }
         margin-top: -50px;
         color: #8c8c8c;
         font-family:  helvetica,sans-serif;
+        margin: auto;
+        font-size: 18px;
 
     }
  .subtitu2

@@ -393,8 +393,8 @@ if(!empty($pagename)){
                                 <div id="success"></div>
                                 <button type="submit" class="btn btn-xl">ENVIAR</button>
                             </div>
-                            <h3 class="section-subheading subtitu">LOREM ipsum ES SIMPLEMTE EL TEXTO DE</h3>
-                            <h3 class="section-subheading subtitu1">RELLENO DE LAS IMPRENTAS Y ARCHIVOS DE RELLENO.</h3>
+                            <h3 class="subtitu">LOREM ipsum ES SIMPLEMTE EL TEXTO DE</h3>
+                            <h3 class=" subtitu1">RELLENO DE LAS IMPRENTAS Y ARCHIVOS DE RELLENO.</h3>
                         </div>
                     </form>
                 </div>

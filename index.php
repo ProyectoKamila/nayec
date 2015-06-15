@@ -200,7 +200,9 @@ if(!empty($pagename)){
             </div>
 <div class="clearfix"></div>
 <?php query_posts(array('post_type'=>'servicios','posts_per_page'=>-1,));?>
+<?php while(have_posts()){ the_post();?>
 <?if(get_field('pos1')){?>
+
 <div class="col-lg-3 col-md-3 col-sm-6 sin-padding">
 <div class="personal4">
 <div class="personal4-info">
@@ -212,6 +214,7 @@ if(!empty($pagename)){
                         </div>
                     </div>
                 </div>
+<?php } ?>                
 <?php } ?>                
 <div class="col-lg-3 col-md-3 col-sm-6 sin-padding">
 <div class="row">

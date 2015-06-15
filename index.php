@@ -199,19 +199,19 @@ if(!empty($pagename)){
                 </div>
             </div>
 <div class="clearfix"></div>
+
 <div class="col-lg-3 col-md-3 col-sm-6 sin-padding">
 <div class="personal4">
 <div class="personal4-info">
 <h2 class="titulo-image">VELOCIDAD EN EL</h2>
 <h2 class="titulo-image">DESPACHO</h2> 
 <h2 class="titulo-image">ADUANERO</h2>
-<h3 class="texto-image">
+<p class="texto-image">
                                 OPERACIÓN EFICIENTE EN LOS PROCESOS DE TRAMITACIÓN 
                                 ADUANAL QUE AGILIZA EL DESPECHO DE SU CARGA.
-                            </h3>
+                            </p>
                         </div>
-                    </div>
-                </div>
+                    </div</div>
 <div class="col-lg-3 col-md-3 col-sm-6 sin-padding">
 <div class="row">
 <div class="col-lg-12">
@@ -231,17 +231,17 @@ if(!empty($pagename)){
                                 </div>
                             </div>
                         </div>
-                </div>
+</div>
 <div class="col-lg-3 col-md-3 col-sm-6 sin-padding">
 <div class="personal1">
 <div class="personal1-info">
 <h2 class="titulo-image">VELOCIDAD EN EL</h2>
 <h2 class="titulo-image">DESPACHO</h2> 
 <h2 class="titulo-image">ADUANERO</h2>
-<h3 class="texto-image">
+<p class="texto-image">
                                 OPERACIÓN EFICIENTE EN LOS PROCESOS DE TRAMITACIÓN 
                                 ADUANAL QUE AGILIZA EL DESPECHO DE SU CARGA.
-                            </h3>
+                            </p>
                        </div>
                     </div>
                 </div>
@@ -284,12 +284,12 @@ if(!empty($pagename)){
                                 GESTIONAR DE FORMA ÓPTIMA
                                 LA LOGÍSTICA
                             </h2>
-<h3 class="blog-parrafo01">
+<p class="blog-parrafo01">
                                 Lorem Ipsum es simplemente el texto de relleno de las 
                                 imprentas y archivos de texto. Lorem Ipsum ha sido 
                                 el texto de relleno estándar de las industrias desde 
                                 el año 1500 [...]
-                            </h3>
+                            </p>
 
                         </div>
                     </div>
@@ -307,12 +307,12 @@ if(!empty($pagename)){
                                MÁS VUELOS DIRECTOS DE  
                                AEROMÉXICO A PANAMÁ
                             </h2>
-<h3 class="blog-parrafo01">
+<p class="blog-parrafo01">
                                 Lorem Ipsum es simplemente el texto de relleno de las 
                                 imprentas y archivos de texto. Lorem Ipsum ha sido 
                                 el texto de relleno estándar de las industrias desde 
                                 el año 1500 [...]
-                            </h3>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -323,12 +323,12 @@ if(!empty($pagename)){
                                SIL ACERCARÁ TENDENCIAS DE  
                                GOBERNANZA PORTUARIA
                             </h2>
-<h3 class="blog-parrafo01">
+<p class="blog-parrafo01">
                                 Lorem Ipsum es simplemente el texto de relleno de las 
                                 imprentas y archivos de texto. Lorem Ipsum ha sido 
                                 el texto de relleno estándar de las industrias desde 
                                 el año 1500 [...]
-                            </h3>
+                            </p>
                         </div>
                     </div>
 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 pm">

@@ -516,7 +516,7 @@ body{overflow-x:hidden; }
     }
 .boton
     {
-        margin-left: 515px;
+        margin: auto;
     }
 #contacto
     {
@@ -525,7 +525,7 @@ body{overflow-x:hidden; }
 .subtitu
     {
         margin-left: 399px;
-        margin-top: 30px;
+        padding-top:15px;
         color: #8c8c8c;
         font-family:  helvetica,sans-serif;
         margin: auto;

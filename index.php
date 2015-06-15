@@ -199,7 +199,7 @@ if(!empty($pagename)){
                 </div>
             </div>
 <div class="clearfix"></div>
-<?php query_posts(array('post_type'=>'servicios','posts_per_page'=>-1,));?>
+<?php query_posts(array('post_type'=>'servicio','posts_per_page'=>-1,));?>
 <?php while(have_posts()){ the_post();?>
 <?php if(get_field('pos1')){?>
 

@@ -465,7 +465,7 @@ if(!empty($pagename)){
                             <div class="col-md-6">
                                 <div class="form-group">
                                      <h3 class="subtitu4">MENSAJE</h3>
-                                    <textarea class="form-control" placeholder="Mensaje*" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control area" placeholder="Mensaje*" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>

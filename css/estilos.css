@@ -589,7 +589,7 @@ body{overflow-x:hidden; }
          font-family:  helvetica,sans-serif;
          font-size: 18px;
     }
-textarea{height: 117px;}
+.area{height: 117px;}
 .mapa-container {
 position: relative;
 padding-bottom: 22%; 

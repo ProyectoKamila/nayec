@@ -111,6 +111,7 @@ if(!empty($pagename)){
                                             <div class="col-lg-12 text-center">
                                             <h2 class="section-heading"><?php the_title();?></h2>
                                             <?php if(get_field('subtitle')){?>
+                                            </br>
                                             <p class="textos">
                                                         <?php the_field('subtitle');?> 
                                                         <?php if(get_field('subtitle_2')){?>
@@ -202,9 +203,9 @@ if(!empty($pagename)){
 <?php query_posts(array('post_type'=>'servicio','posts_per_page'=>-1,));?>
 <?php while(have_posts()){ the_post();?>
 <?php if(get_field('pos1')){?>
-
+<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 <div class="col-lg-3 col-md-3 col-sm-6 sin-padding">
-<div class="personal4">
+<div class="personal4" style="background:url('<?php echo $feat_image;?>') top center no-repeat; background-size:cover">
 <div class="personal4-info">
 <h2 class="titulo-image h2"><?php the_title();?></h2>
 
@@ -218,56 +219,84 @@ if(!empty($pagename)){
 <?php } ?>                
 <div class="col-lg-3 col-md-3 col-sm-6 sin-padding">
 <div class="row">
+    <?php query_posts(array('post_type'=>'servicio','posts_per_page'=>-1,));?>
+<?php while(have_posts()){ the_post();?>
+<?php if(get_field('pos2')){?>
+<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 <div class="col-lg-12">
-<div class="personal2">
+ <div class="personal2" style="background:url('<?php echo $feat_image;?>') top center no-repeat; background-size:cover">
 <div class="personal2-info">
-<h2 class="titulo-image">EXPERIENCIA</h2> 
+<h2 class="titulo-image"><?php the_title(); ?></h2> 
                                     </div>
                                 </div>
                             </div>
+<?php } ?>
+<?php } ?>
                         </div>
 <div class="row">
+        <?php query_posts(array('post_type'=>'servicio','posts_per_page'=>-1,));?>
+<?php while(have_posts()){ the_post();?>
+<?php if(get_field('pos3')){?>
+<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 <div class="col-lg-12">
-<div class="personal3">
+<div class="personal3" style="background:url('<?php echo $feat_image;?>') top center no-repeat; background-size:cover">
 <div class="personal3-info">
-<h2 class="titulo-image1"> ATENCIÓN PERSONALIZADA</h2>
+<h2 class="titulo-image1 h2"> <?php the_title();?></h2>
                                     </div>
                                 </div>
                             </div>
+<?php } ?>
+<?php } ?>    
                         </div>
                 </div>
+<?php query_posts(array('post_type'=>'servicio','posts_per_page'=>-1,));?>
+<?php while(have_posts()){ the_post();?>
+<?php if(get_field('pos4')){?>
+<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 <div class="col-lg-3 col-md-3 col-sm-6 sin-padding">
-<div class="personal1">
-<div class="personal1-info">
-<h2 class="titulo-image">VELOCIDAD EN EL</h2>
-<h2 class="titulo-image">DESPACHO</h2> 
-<h2 class="titulo-image">ADUANERO</h2>
+<div class="personal4" style="background:url('<?php echo $feat_image;?>') top center no-repeat; background-size:cover">
+<div class="personal4-info">
+<h2 class="titulo-image h2"><?php the_title();?></h2>
+
 <p class="texto-image">
-                                OPERACIÓN EFICIENTE EN LOS PROCESOS DE TRAMITACIÓN 
-                                ADUANAL QUE AGILIZA EL DESPECHO DE SU CARGA.
+                                <?php echo max_charlength(get_the_content(),150);?>
                             </p>
-                       </div>
+                        </div>
                     </div>
                 </div>
+<?php } ?>                
+<?php } ?>    
 <div class="col-lg-3 col-md-3 col-sm-6 sin-padding">
-<div class="personal5">
 <div class="row">
+    <?php query_posts(array('post_type'=>'servicio','posts_per_page'=>-1,));?>
+<?php while(have_posts()){ the_post();?>
+<?php if(get_field('pos5')){?>
+<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 <div class="col-lg-12">
-<div class="personal5-info">
-<h2 class="titulo-image">EXPERIENCIA</h2> 
+ <div class="personal2" style="background:url('<?php echo $feat_image;?>') top center no-repeat; background-size:cover">
+<div class="personal2-info">
+<h2 class="titulo-image"><?php the_title(); ?></h2> 
                                     </div>
                                 </div>
                             </div>
-                    </div>
+<?php } ?>
+<?php } ?>
+                        </div>
 <div class="row">
+        <?php query_posts(array('post_type'=>'servicio','posts_per_page'=>-1,));?>
+<?php while(have_posts()){ the_post();?>
+<?php if(get_field('pos6')){?>
+<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 <div class="col-lg-12">
-<div class="personal6">
-<div class="personal6-info">
-<h2 class="titulo-image1"> ATENCIÓN PERSONALIZADA</h2>
+<div class="personal3" style="background:url('<?php echo $feat_image;?>') top center no-repeat; background-size:cover">
+<div class="personal3-info">
+<h2 class="titulo-image1 h2"> <?php the_title();?></h2>
+                                    </div>
                                 </div>
                             </div>
+<?php } ?>
+<?php } ?>    
                         </div>
-                    </div>
                 </div>
         </div>
     </section>

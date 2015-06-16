@@ -490,67 +490,66 @@ if(!empty($pagename)){
         </div>
     </section>
 
-    <footer >
+     <footer >
         <div class="container-footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="row">
-                         <div class="col-lg-6 telefono sin-padding">
-                            <i class="fa fa-phone"></i>
+                         <div class="col-lg-6 telefono ">
+                            <i class="fa fa-phone telefono"></i>
                         </div>
                         <div class="col-lg-6 numeros sin-padding">
                             <p class="numeros">+507 664-9112</p>
                             <p class="numeros">+507 360-5506</p>
                         </div>
-                       
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                      <div class="row">
-                         <div class="col-lg-6 logo-correo ">
+                         <div class="col-lg-4 logo-correo ">
                             <i class="fa fa-envelope"></i>
                         </div>
-                        <div class="col-lg-6 numeros">
+                        <div class="col-lg-8 numeros">
                             <p class="correo">Y.JOHNSON@NAYEC.NET</p>
                         </div>
                        
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="row">
-                            <div class="col-lg-6 col-md-4 col-sm-12 logos-footer">                 
+                            <div class="col-lg-4 col-md-4 col-sm-12 logos-footer">                 
                                 <a href="#"><i class="fa fa-facebook face"></i></a>
                             </div>
-                            <div class="col-lg-6 col-md-8 col-sm-12 text-center"> 
+                            <div class="col-lg-8 col-md-8 col-sm-12 text-center"> 
                                  <p class="redes-footer">ADUANA & SERVICIOS NAYEC</p>
                             </div>
                         </div>
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 logos-footer">
+                                <div class="col-lg-4 col-md-4 logos-footer">
                                     <a  href="#"><i class="fa fa-twitter twi"></i></a>
                                 </div>
-                                 <div class="col-lg-6 col-md-6">
+                                 <div class="col-lg-8 col-md-8">
                                     <p class="redes-footer">@NAYEC</p>
                                 </div>
                             </div>
                              <div class="row">
-                                <div class="col-lg-6 col-md-6 logos-footer">
+                                <div class="col-lg-4 col-md-4 logos-footer">
                                   <a href="#"><i class="fa fa-linkedin in"></i></a>
                                 </div>
-                                 <div class="col-lg-6 col-md-6">
+                                 <div class="col-lg-8 col-md-8">
                                     <p class="redes-footer">ADUANA & SERVICIOS NAYEC</p>
                                 </div>
                             </div>
                        
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6">
                      <div class="row">
-                                <div class="col-lg-6 col-md-6 logo-ubicacion  ">
+                                <div class="col-lg-4 col-md-4 col-sm-12 logo-ubicacion  ">
                                   <a href="#"><i class="fa fa-map-marker twi"></i></a>
                                 </div>
-                                 <div class="col-lg-6 col-md-6">
-                                    <p class="direccion-nayec ">
+                                 <div class="col-lg-8 col-md-8 col-sm-12 text-center">
+                                    <p class="direccion-nayec  ">
                                         VÍA RICARDO J. ALFARO
                                         THE CENTURY TOWER
                                         PISO 4, OFICINA 402-06

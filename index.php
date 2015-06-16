@@ -83,15 +83,55 @@
 <ul id="slider1">
             
 <li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco.jpg) top center no-repeat; background-size:cover; sin-padding">
+    <div class="cuadro-slider">
+        <h2 class="slider-titulo1">UN ALIADO ESTRATÉGICO</h2>
+        <p class="slider-parrafo">
+            LOREM IPSUM ES SIMPLEMENTE EL TEXTO DE RELLENO 
+            DE LAS IMPRENTAS Y ARCHIVOS DE TEXTO. LOREM 
+            IPSUM HA SIDO EL TEXTO DE 
+            RELLENO ESTÁNDAR DE LAS INDUSTRIAS DESDE EL AÑO 1500.
+        </p>
+        <button type="button" class="btn btn-primary slider-boton">VER MÁS</button>
+    </div>
                      
                     </li>
 <li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco.jpg) top center no-repeat; background-size:cover;">
+ <div class="cuadro-slider">
+        <h2 class="slider-titulo1">UN ALIADO ESTRATÉGICO</h2>
+        <p class="slider-parrafo">
+            LOREM IPSUM ES SIMPLEMENTE EL TEXTO DE RELLENO 
+            DE LAS IMPRENTAS Y ARCHIVOS DE TEXTO. LOREM 
+            IPSUM HA SIDO EL TEXTO DE 
+            RELLENO ESTÁNDAR DE LAS INDUSTRIAS DESDE EL AÑO 1500.
+        </p>
+        <button type="button" class="btn btn-primary slider-boton">VER MÁS</button>
+    </div>
                       
                     </li>
 <li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco1.jpg) top center no-repeat; background-size:cover;">
+ <div class="cuadro-slider">
+        <h2 class="slider-titulo1">UN ALIADO ESTRATÉGICO</h2>
+        <p class="slider-parrafo">
+            LOREM IPSUM ES SIMPLEMENTE EL TEXTO DE RELLENO 
+            DE LAS IMPRENTAS Y ARCHIVOS DE TEXTO. LOREM 
+            IPSUM HA SIDO EL TEXTO DE 
+            RELLENO ESTÁNDAR DE LAS INDUSTRIAS DESDE EL AÑO 1500.
+        </p>
+        <button type="button" class="btn btn-primary slider-boton">VER MÁS</button>
+    </div>
                       
                     </li>
 <li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco1.jpg) top center no-repeat; background-size:cover;">
+ <div class="cuadro-slider">
+        <h2 class="slider-titulo1">UN ALIADO ESTRATÉGICO</h2>
+        <p class="slider-parrafo">
+            LOREM IPSUM ES SIMPLEMENTE EL TEXTO DE RELLENO 
+            DE LAS IMPRENTAS Y ARCHIVOS DE TEXTO. LOREM 
+            IPSUM HA SIDO EL TEXTO DE 
+            RELLENO ESTÁNDAR DE LAS INDUSTRIAS DESDE EL AÑO 1500.
+        </p>
+        <button type="button" class="btn btn-primary slider-boton">VER MÁS</button>
+    </div>
                       
                     </li>
                 </li>

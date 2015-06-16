@@ -205,6 +205,7 @@ if(!empty($pagename)){
 <?php if(get_field('pos1')){?>
 <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 <div class="col-lg-3 col-md-3 col-sm-6 sin-padding">
+    <a href="<?php the_permalink(); ?>">
 <div class="personal4" style="background:url('<?php echo $feat_image;?>') top center no-repeat; background-size:cover">
 <div class="personal4-info">
 <h2 class="titulo-image h2"><?php the_title();?></h2>
@@ -214,6 +215,7 @@ if(!empty($pagename)){
                             </p>
                         </div>
                     </div>
+                    </a>
                 </div>
 <?php } ?>                
 <?php } ?>                
@@ -224,11 +226,13 @@ if(!empty($pagename)){
 <?php if(get_field('pos2')){?>
 <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 <div class="col-lg-12">
+    <a href="<?php the_permalink(); ?>">
  <div class="personal2" style="background:url('<?php echo $feat_image;?>') top center no-repeat; background-size:cover">
 <div class="personal2-info">
-<h2 class="titulo-image"><?php the_title(); ?></h2> 
+<h2 class="titulo-image h2"><?php the_title(); ?></h2> 
                                     </div>
                                 </div>
+                                </a>
                             </div>
 <?php } ?>
 <?php } ?>
@@ -239,11 +243,13 @@ if(!empty($pagename)){
 <?php if(get_field('pos3')){?>
 <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 <div class="col-lg-12">
+    <a href="<?php the_permalink(); ?>">
 <div class="personal3" style="background:url('<?php echo $feat_image;?>') top center no-repeat; background-size:cover">
 <div class="personal3-info">
 <h2 class="titulo-image1 h2"> <?php the_title();?></h2>
                                     </div>
                                 </div>
+                                </a>
                             </div>
 <?php } ?>
 <?php } ?>    
@@ -254,6 +260,7 @@ if(!empty($pagename)){
 <?php if(get_field('pos4')){?>
 <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 <div class="col-lg-3 col-md-3 col-sm-6 sin-padding">
+    <a href="<?php the_permalink(); ?>">
 <div class="personal4" style="background:url('<?php echo $feat_image;?>') top center no-repeat; background-size:cover">
 <div class="personal4-info">
 <h2 class="titulo-image h2"><?php the_title();?></h2>
@@ -263,6 +270,7 @@ if(!empty($pagename)){
                             </p>
                         </div>
                     </div>
+                    </a>
                 </div>
 <?php } ?>                
 <?php } ?>    
@@ -273,11 +281,13 @@ if(!empty($pagename)){
 <?php if(get_field('pos5')){?>
 <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 <div class="col-lg-12">
+    <a href="<?php the_permalink(); ?>">
  <div class="personal2" style="background:url('<?php echo $feat_image;?>') top center no-repeat; background-size:cover">
 <div class="personal2-info">
-<h2 class="titulo-image"><?php the_title(); ?></h2> 
+<h2 class="titulo-image h2"><?php the_title(); ?></h2> 
                                     </div>
                                 </div>
+                                </a>
                             </div>
 <?php } ?>
 <?php } ?>
@@ -288,11 +298,13 @@ if(!empty($pagename)){
 <?php if(get_field('pos6')){?>
 <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 <div class="col-lg-12">
+    <a href="<?php the_permalink(); ?>">
 <div class="personal3" style="background:url('<?php echo $feat_image;?>') top center no-repeat; background-size:cover">
 <div class="personal3-info">
 <h2 class="titulo-image1 h2"> <?php the_title();?></h2>
                                     </div>
                                 </div>
+                                </a>
                             </div>
 <?php } ?>
 <?php } ?>    

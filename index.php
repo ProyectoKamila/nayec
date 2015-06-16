@@ -393,90 +393,86 @@ if(!empty($pagename)){
 </div>
     </section>
     
-     <!-- Contact Section -->
-    <section id="contacto">
+    <footer >
+        <div class="container-footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contactos</h2>
-                    <h3 class="section-subheading subtitu2">Lorem ipsum ES SIMPLEMTE EL TEXTO DE</h3>
-                    <h3 class="section-subheading subtitu3">RELLENO DE LAS IMPRENTAS Y ARCHIVOS DE RELLENO.</h3>
+                <div class="col-md-3">
+                    <div class="row">
+                         <div class="col-lg-6 telefono sin-padding">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="col-lg-6 numeros sin-padding">
+                            <p class="numeros">+507 664-9112</p>
+                            <p class="numeros">+507 360-5506</p>
+                        </div>
+                       
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <h3 class="subtitu4">NOMBRE Y APELLIDO</h3>
-                                    <input type="text" class="form-control" placeholder="Nombre y apellido *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <h3 class="subtitu4">EMAIL</h3>
-                                    <input type="email" class="form-control" placeholder=" Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                       <h3 class="subtitu4">TELÉFONO </h3>
-                                    <input type="tel" class="form-control" placeholder="Teléfono *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
+                <div class="col-md-3">
+                     <div class="row">
+                         <div class="col-lg-6 logo-correo ">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="col-lg-6 numeros">
+                            <p class="correo">Y.JOHNSON@NAYEC.NET</p>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                            <div class="col-lg-6 col-md-4 col-sm-12 logos-footer">                 
+                                <a href="#"><i class="fa fa-facebook face"></i></a>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                     <h3 class="subtitu4">MENSAJE</h3>
-                                    <textarea class="form-control" placeholder="Mensaje*" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <button type="submit" class="btn btn-xl">ENVIAR</button>
-                                <h3 class="subtitu">LOREM ipsum ES SIMPLEMTE EL TEXTO DE</h3>
-                                <h3 class=" subtitu1">RELLENO DE LAS IMPRENTAS Y ARCHIVOS DE RELLENO.</h3>
+                            <div class="col-lg-6 col-md-8 col-sm-12 text-center"> 
+                                 <p class="redes-footer">ADUANA & SERVICIOS NAYEC</p>
                             </div>
                         </div>
-                    </form>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 logos-footer">
+                                    <a  href="#"><i class="fa fa-twitter twi"></i></a>
+                                </div>
+                                 <div class="col-lg-6 col-md-6">
+                                    <p class="redes-footer">@NAYEC</p>
+                                </div>
+                            </div>
+                             <div class="row">
+                                <div class="col-lg-6 col-md-6 logos-footer">
+                                  <a href="#"><i class="fa fa-linkedin in"></i></a>
+                                </div>
+                                 <div class="col-lg-6 col-md-6">
+                                    <p class="redes-footer">ADUANA & SERVICIOS NAYEC</p>
+                                </div>
+                            </div>
+                       
+                    </div>
+                    <div class="col-md-3">
+                     <div class="row">
+                                <div class="col-lg-6 col-md-6 logo-ubicacion  ">
+                                  <a href="#"><i class="fa fa-map-marker twi"></i></a>
+                                </div>
+                                 <div class="col-lg-6 col-md-6">
+                                    <p class="direccion-nayec ">
+                                        VÍA RICARDO J. ALFARO
+                                        THE CENTURY TOWER
+                                        PISO 4, OFICINA 402-06
+                                        PANAMÁ, REP. DE PANAMÁ
+                                    </p>
+                                </div>
+                            </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-         <div class="container">
-            <div class="col-lg-12">
-         <div class="mapa-container ">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7881.385361790559!2d-79.53253804026551!3d9.000399793436857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca85c76ab2d47%3A0xea6ae22d50fbc8cd!2sEdificio+Century+Tower!5e0!3m2!1sen!2s!4v1434382131796" width="600" height="450" frameborder="0" style="border:0"></iframe>        
-        </div>
-        </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                   <h3>col1</h3>
-                   <h4>+507 664-9112</h4>
-                   <h4>+507 360-5506</h4>
-                   
-                </div>
-                <div class="col-md-3">
-                     <h4>col2</h4>
-                </div>
-                <div class="col-md-3">
-                     <h4>col3</h4>
-                </div>
-                <div class="col-md-3">
-                     <h4>col4</h4>
-                    <h4>VÍA RICARDO J. ALFARO
-                        THE CENTURY TOWER
-                        PISO 4, OFICINA 402-006
-                        PANAMÁ, REP. DE PANAMÁ
-                    </h4>
+                <div class="row">
+                    <div class="col-lg-12 text-center pk">
+                        <p  class="desarrollado-pk">Copyright © 2015 www.nayec.com Todos los derechos reservados
+                            Desarrollado por Proyecto Kamila C.A
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
-
     <!-- jQuery -->
 <script src="<?php bloginfo('template_url');?>/js/jquery.js"></script>
 

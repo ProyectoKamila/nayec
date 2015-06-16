@@ -245,7 +245,7 @@ if(!empty($pagename)){
 <div class="col-lg-12">
     <a href="<?php the_permalink(); ?>">
 <div class="personal3" style="background:url('<?php echo $feat_image;?>') top center no-repeat; background-size:cover">
-<div class="personal2-info">
+<div class="personal3-info">
 <h2 class="titulo-image1 h2"> <?php the_title();?></h2>
                                     </div>
                                 </div>
@@ -300,7 +300,7 @@ if(!empty($pagename)){
 <div class="col-lg-12">
     <a href="<?php the_permalink(); ?>">
 <div class="personal3" style="background:url('<?php echo $feat_image;?>') top center no-repeat; background-size:cover">
-<div class="personal2-info">
+<div class="personal3-info">
 <h2 class="titulo-image1 h2"> <?php the_title();?></h2>
                                     </div>
                                 </div>

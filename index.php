@@ -436,7 +436,7 @@ if(!empty($pagename)){
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contactos</h2>
+                    <h2 class="section-heading">Contacto</h2>
                     <h3 class="section-subheading subtitu2">Lorem ipsum ES SIMPLEMTE EL TEXTO DE</h3>
                     <h3 class="section-subheading subtitu3">RELLENO DE LAS IMPRENTAS Y ARCHIVOS DE RELLENO.</h3>
                 </div>

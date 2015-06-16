@@ -83,7 +83,7 @@
 <ul id="slider1">
             
 <li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco.jpg) top center no-repeat; background-size:cover; sin-padding">
-                 
+                     
                     </li>
 <li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco.jpg) top center no-repeat; background-size:cover;">
                       

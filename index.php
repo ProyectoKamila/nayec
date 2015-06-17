@@ -495,9 +495,7 @@ if(!empty($pagename)){
         <div class="container">
             <div class="col-lg-12 alto-mapa">
          <div class="mapa-container">
-              <?php if(get_field('google-map')){?>
-           "<?php the_field('google-map');?>
-             <?php } ?>
+     <?php debug(get_field('google-map'));?>
         </div>
         </div>
         </div>

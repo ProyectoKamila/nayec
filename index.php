@@ -438,7 +438,7 @@ if(!empty($pagename)){
     <section id="contacto">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center formu">
+                <div class="col-lg-12 text-center ">
                     <h2 class="section-heading contacto-emca"><?php the_title();?></h2>
                        <?php if(get_field('contacto-texto1')){?>
                     <h3 class="section-subheading subtitu2"><?php the_field('contacto-texto1');?></h3>

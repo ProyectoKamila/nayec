@@ -552,7 +552,7 @@ body{overflow-x:hidden; }
         margin-top: 30px;
         color: #8c8c8c;
         font-family:  helvetica,sans-serif;
-        margin: auto;
+        margin: 5px;
         font-size: 18px;
 
     }
@@ -602,7 +602,7 @@ left: 0;
 width: 100% !important;
 height: 100% !important;
 }
-.alto-mapa{height: 330px;}
+.alto-mapa{height: 330px; margin-top:25px;}
 .telefono{font-size: 40px;}
 .numeros{font-size: 14px;  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; }
 .logo-correo{font-size: 40px;}

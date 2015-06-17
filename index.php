@@ -441,6 +441,7 @@ if(!empty($pagename)){
                 <div class="col-lg-12 text-center">
                      <?php if(get_field('contacto-texto1 ')){?>
                     <h2 class="section-heading"><?php the_field('contacto-texto1 ');?></h2>
+                      <?php } ?>
                     <h3 class="section-subheading subtitu2">Lorem ipsum ES SIMPLEMTE EL TEXTO DE</h3>
                     <h3 class="section-subheading subtitu3">RELLENO DE LAS IMPRENTAS Y ARCHIVOS DE RELLENO.</h3>
                 </div>

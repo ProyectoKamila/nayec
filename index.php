@@ -480,8 +480,12 @@ if(!empty($pagename)){
                             <div class="col-lg-12 text-center">
                                 
                                 <button type="button" class="btn btn-success">ENVIAR</button>
-                                 <h3 class="subtitu">LOREM ipsum ES SIMPLEMTE EL TEXTO DE</h3>
-                            <h3 class="subtitu1">RELLENO DE LAS IMPRENTAS Y ARCHIVOS DE RELLENO.</h3>
+                                                       <?php if(get_field('contacto-texto3')){?>
+                                 <h3 class="subtitu"><?php the_field('contacto-texto3');?></h3>
+                                  <?php if(get_field('contacto-texto4')){?>
+                            <h3 class="subtitu1"><?php the_field('contacto-texto4');?></h3>
+                            <?php } ?>
+                     <?php } ?>
                             </div>
                         </div>
                     </form>

@@ -432,11 +432,14 @@ if(!empty($pagename)){
     </div>
 </div>
  <!-- Contact Section -->
+ <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>
+ <?php if(!empty($pagename)) {?>
+     <?php while(have_posts()){ the_post();?>
     <section id="contacto">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contacto</h2>
+                    <h2 class="section-heading"> <?php the_title();?></h2>
                     <h3 class="section-subheading subtitu2">Lorem ipsum ES SIMPLEMTE EL TEXTO DE</h3>
                     <h3 class="section-subheading subtitu3">RELLENO DE LAS IMPRENTAS Y ARCHIVOS DE RELLENO.</h3>
                 </div>
@@ -488,6 +491,8 @@ if(!empty($pagename)){
         </div>
         </div>
         </div>
+         <?php } ?>
+        <?php } ?>
     </section>
 
      <footer >

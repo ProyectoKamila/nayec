@@ -501,7 +501,7 @@ if(!empty($pagename)){
         if( !empty($location) ):
     ?>
 <div class="acf-map">
-	<div class="marker" <?php echo $location['google-map']; ?>></div>
+	<div class="marker"  <?php the_field('google-map');?> </div>
 </div>
 <?php endif; ?>
         </div>

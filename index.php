@@ -496,14 +496,11 @@ if(!empty($pagename)){
         <div class="container">
             <div class="col-lg-12 alto-mapa">
          <div class="mapa-container">
-     <?php 
-        $location = get_field('google-map');
-        if( !empty($location) ):
-    ?>
-<div class="acf-map">
-	<div class="marker"  <?php the_field('google-map');?> </div>
-</div>
-<?php endif; ?>
+         <?php if(get_field('google-map')){?>
+              <?php the_field('google-map');?> 
+         
+          <?php } ?>
+
         </div>
         </div>
         </div>

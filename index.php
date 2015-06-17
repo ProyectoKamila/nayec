@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+   <?php wp_head(); ?>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -495,7 +496,14 @@ if(!empty($pagename)){
         <div class="container">
             <div class="col-lg-12 alto-mapa">
          <div class="mapa-container">
-     <?php echo (get_field('google-map'));?>
+     <?php 
+        $location = get_field('location');
+        if( !empty($location) ):
+    ?>
+<div class="acf-map">
+	<div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
+</div>
+<?php endif; ?>
         </div>
         </div>
         </div>
@@ -581,6 +589,7 @@ if(!empty($pagename)){
                 </div>
             </div>
         </div>
+        <?php wp_footer();  ?>
     </footer>
     <!-- jQuery -->
 <script src="<?php bloginfo('template_url');?>/js/jquery.js"></script>

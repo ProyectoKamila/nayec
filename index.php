@@ -497,7 +497,7 @@ if(!empty($pagename)){
             <div class="col-lg-12 alto-mapa">
          <div class="mapa-container">
      <?php 
-        $location = get_field('location');
+        $location = get_field('google-map');
         if( !empty($location) ):
     ?>
 <div class="acf-map">

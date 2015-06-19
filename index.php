@@ -579,12 +579,11 @@ if(!empty($pagename)){
                                   <a href="#"><i class="fa fa-map-marker twi"></i></a>
                                 </div>
                                  <div class="col-lg-8 col-md-8 col-sm-12 text-center">
-                                    <p class="direccion-nayec  ">
-                                        VÍA RICARDO J. ALFARO
-                                        THE CENTURY TOWER
-                                        PISO 4, OFICINA 402-06
-                                        PANAMÁ, REP. DE PANAMÁ
-                                    </p>
+                                    <?php if(get_field('contacto-direccion')){?>
+                                        <p class="direccion-nayec  ">
+                                            <?php the_field('contacto-direccion');?>
+                                        </p>
+                                    <?php } ?>
                                 </div>
                             </div>
                     </div>

@@ -90,7 +90,9 @@
                 <li style="background: url(<?php echo $feat_image;?> ) top center no-repeat; background-size:cover; sin-padding">
                
                     <div class="cuadro-slider">
-                        <h2 class="slider-titulo1">UN ALIADO ESTRATÉGICO</h2>
+                         <?php if(get_field('titulo-fondo1')){?>
+                        <h2 class="slider-titulo1"><?php the_field('titulo-fondo1');?> </h2>
+                         <?php } ?>
                         <p class="slider-parrafo">
                             LOREM IPSUM ES SIMPLEMENTE EL TEXTO DE RELLENO 
                             DE LAS IMPRENTAS Y ARCHIVOS DE TEXTO. LOREM 

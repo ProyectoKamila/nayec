@@ -79,10 +79,10 @@
                 <!-- /.container-fluid -->
             </nav>
     </div>
-    <header >
-<?php $pagename = query_posts(array('post_type'=>'portada',''=>'','posts_per_page'=>1)); ?>
+    <?php $pagename = query_posts(array('post_type'=>'portada',''=>'','posts_per_page'=>1)); ?>
     <?php if(!empty($pagename)) {?>
          <?php while(have_posts()){ the_post();?>
+    <header >
         <div id="wrapper01">
             <ul id="slider1">
                 <li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco.jpg ) top center no-repeat; background-size:cover; sin-padding">

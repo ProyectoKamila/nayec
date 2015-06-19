@@ -314,6 +314,11 @@ footer .redes-footer
         margin-top: 9px;
     }
 footer .footer-nayec{margin-top:245px;}
+section.alto-mapa
+    {
+        background-color: #e5e5e7;
+        height: 330px;
+    }
 }
 /*CIERRA MEDIA QUERY */
 .texto-servicios{color: #353743;}

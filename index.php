@@ -80,7 +80,7 @@
             </nav>
     </div>
     <header >
-<?php $pagename = query_posts(array('post_type'=>'portada','pagename'=>'','posts_per_page'=>1)); ?>
+<?php $pagename = query_posts(array('post_type'=>'portada',''=>'','posts_per_page'=>1)); ?>
     <?php if(!empty($pagename)) {?>
          <?php while(have_posts()){ the_post();?>
         <div id="wrapper01">

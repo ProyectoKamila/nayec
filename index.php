@@ -100,7 +100,8 @@
                      
                     </li>
                      
-                    
+    <?php } ?>
+<?php } ?>
 <li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco.jpg) top center no-repeat; background-size:cover;">
  <div class="cuadro-slider">
         <h2 class="slider-titulo1">UN ALIADO ESTRATÉGICO</h2>
@@ -143,8 +144,7 @@
                 </li>
             </ul>
         </div>
-    <?php } ?>
-<?php } ?>
+    
     </header>
               
     <!-- Services Section -->

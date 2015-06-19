@@ -533,7 +533,9 @@ if(!empty($pagename)){
                             <i class="fa fa-envelope"></i>
                         </div>
                         <div class="col-lg-8 numeros">
-                            <p class="correo">Y.JOHNSON@NAYEC.NET</p>
+                             <?php if(get_field('contacto-correo')){?>
+                            <p class="correo"><?php the_field('contacto-correo');?></p>
+                            <?php } ?>
                         </div>
                        
                     </div>
@@ -544,7 +546,9 @@ if(!empty($pagename)){
                                 <a href="#"><i class="fa fa-facebook face"></i></a>
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-12 text-center"> 
-                                 <p class="redes-footer">ADUANA & SERVICIOS NAYEC</p>
+                             <?php if(get_field('redessociales-facebook')){?>
+                                 <p class="redes-footer"><?php the_field('redessociales-facebook');?></p>
+                              <?php } ?>
                             </div>
                         </div>
                             <div class="row">
@@ -552,7 +556,9 @@ if(!empty($pagename)){
                                     <a  href="#"><i class="fa fa-twitter twi"></i></a>
                                 </div>
                                  <div class="col-lg-8 col-md-8">
-                                    <p class="redes-footer">@NAYEC</p>
+                                      <?php if(get_field('redessociales-twitter')){?>
+                                        <p class="redes-footer"><?php the_field('redessociales-twitter');?></p>
+                                    <?php } ?>
                                 </div>
                             </div>
                              <div class="row">
@@ -560,7 +566,9 @@ if(!empty($pagename)){
                                   <a href="#"><i class="fa fa-linkedin in"></i></a>
                                 </div>
                                  <div class="col-lg-8 col-md-8">
-                                    <p class="redes-footer">ADUANA & SERVICIOS NAYEC</p>
+                                     <?php if(get_field('redessociales-in')){?>
+                                        <p class="redes-footer"><?php the_field('redessociales-in');?></p>
+                                     <?php } ?>
                                 </div>
                             </div>
                        

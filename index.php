@@ -86,7 +86,7 @@
             
 <li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco.jpg ) top center no-repeat; background-size:cover; sin-padding">
     <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-    <div  style="background:url(<?php echo '$feat_image';?>)">
+    <div class="cuadro-slider" style="background:url(<?php echo '$feat_image';?>)">
         <h2 class="slider-titulo1">UN ALIADO ESTRATÉGICO</h2>
         <p class="slider-parrafo">
             LOREM IPSUM ES SIMPLEMENTE EL TEXTO DE RELLENO 

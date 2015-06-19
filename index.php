@@ -179,8 +179,9 @@ if(!empty($pagename)){
     
 <div class="col-lg-12 text-center">
 <h2 class="section-heading nosotros "><?php the_title()?></h2>
-
+<br/>
 <h3 class=" nosotros section-subheading text-muted "><?php the_field('subtitle');?></h3>
+<br/>
 <h2 class="mision"><?php the_field('title_1');?></h2>
 <h3 class="parrafo-mision">
                                         <?php the_field('content_1');?>

@@ -89,7 +89,7 @@
 <?php while(have_posts()){ the_post();?>
     <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
     <div class="cuadro-slider" style="background:url(<?php echo '$feat_image';?>)">
-    <?php } ?>
+   
         <h2 class="slider-titulo1">UN ALIADO ESTRATÉGICO</h2>
         <p class="slider-parrafo">
             LOREM IPSUM ES SIMPLEMENTE EL TEXTO DE RELLENO 
@@ -99,6 +99,7 @@
         </p>
         <button type="button" class="btn btn-primary slider-boton">VER MÁS</button>
     </div>
+     <?php } ?>
                      
                     </li>
                     

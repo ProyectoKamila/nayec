@@ -97,8 +97,7 @@
                         </p>
                         <button type="button" class="btn btn-primary slider-boton">VER MÁS</button>
                     </div>
-                     
-                    </li>
+                </li>
                      
     <?php } ?>
 <?php } ?>

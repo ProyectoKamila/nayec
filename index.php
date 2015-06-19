@@ -82,8 +82,10 @@
     <header >
 <div id="wrapper01">
 <ul id="slider1">
+     <?php if(get_field('imagen1')){?>
             
-<li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco.jpg) top center no-repeat; background-size:cover; sin-padding">
+<li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/ <?php the_field('imagen1');?> ) top center no-repeat; background-size:cover; sin-padding">
+     <?php } ?>
     <div class="cuadro-slider">
         <h2 class="slider-titulo1">UN ALIADO ESTRATÉGICO</h2>
         <p class="slider-parrafo">
@@ -96,6 +98,7 @@
     </div>
                      
                     </li>
+                    
 <li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco.jpg) top center no-repeat; background-size:cover;">
  <div class="cuadro-slider">
         <h2 class="slider-titulo1">UN ALIADO ESTRATÉGICO</h2>

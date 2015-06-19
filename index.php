@@ -518,8 +518,12 @@ if(!empty($pagename)){
                             <i class="fa fa-phone telefono"></i>
                         </div>
                         <div class="col-lg-6 numeros sin-padding">
-                            <p class="numeros">+507 664-9112</p>
-                            <p class="numeros">+507 360-5506</p>
+                             <?php if(get_field('contacto-numero1')){?>
+                                <p class="numeros"><?php the_field('contacto-numero1');?></p>
+                             <?php if(get_field('contacto-numero2')){?>
+                                <p class="numeros"><?php the_field('contacto-numero2');?></p>
+                             <?php } ?>
+                            <?php } ?>
                         </div>
                     </div>
                 </div>

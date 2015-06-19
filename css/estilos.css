@@ -243,6 +243,11 @@ footer .redes-footer
         text-align: center;
         margin-top: 9px;
     }
+section div.alto-mapa
+    {
+        background-color: #e5e5e7;
+        height: 150px;
+    }
     
 }
 /* smartphone */
@@ -313,11 +318,11 @@ footer .redes-footer
         text-align: center;
         margin-top: 9px;
     }
-footer .footer-nayec{margin-top:245px;}
+footer .footer-nayec{margin-top:258px;}
 section div.alto-mapa
     {
         background-color: #e5e5e7;
-        height: 330px;
+        height: 95px;
     }
 }
 /*CIERRA MEDIA QUERY */

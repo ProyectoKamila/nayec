@@ -92,7 +92,6 @@
                     <div class="cuadro-slider">
                          <?php if(get_field('titulo-fondo')){?>
                             <h2 class="slider-titulo1"><?php the_field('titulo-fondo');?> </h2>
-                         <?php } ?>
                         <p class="slider-parrafo">
                             LOREM IPSUM ES SIMPLEMENTE EL TEXTO DE RELLENO 
                             DE LAS IMPRENTAS Y ARCHIVOS DE TEXTO. LOREM 
@@ -100,6 +99,7 @@
                             RELLENO ESTÁNDAR DE LAS INDUSTRIAS DESDE EL AÑO 1500.
                         </p>
                         <button type="button" class="btn btn-primary slider-boton">VER MÁS</button>
+                         <?php } ?>
                     </div>
                 </li>
                 

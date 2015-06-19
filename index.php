@@ -83,12 +83,13 @@
 <div id="wrapper01">
 <ul id="slider1">
    
-    <?php query_posts(array('post_type'=>'portada',''=>'','posts_per_page'=>1)); ?>
-<?php while(have_posts()){ the_post();?>     
+   <?php $pagename = query_posts(array('post_type'=>'portada','pagename'=>'','posts_per_page'=>1)); ?>
+ <?php if(!empty($pagename)) {?>
+     <?php while(have_posts()){ the_post();?>    
 <li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco.jpg ) top center no-repeat; background-size:cover; sin-padding">
+    
     <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
     <div class="cuadro-slider" style="background:url(<?php echo '$feat_image';?>)">
-   
         <h2 class="slider-titulo1">UN ALIADO ESTRATÉGICO</h2>
         <p class="slider-parrafo">
             LOREM IPSUM ES SIMPLEMENTE EL TEXTO DE RELLENO 
@@ -98,9 +99,10 @@
         </p>
         <button type="button" class="btn btn-primary slider-boton">VER MÁS</button>
     </div>
-     <?php } ?>
                      
                     </li>
+                     <?php } ?>
+                      <?php } ?>
                     
 <li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco.jpg) top center no-repeat; background-size:cover;">
  <div class="cuadro-slider">

@@ -100,12 +100,12 @@
                         <button type="button" class="btn btn-primary slider-boton">VER MÁS</button>
                     </div>
                 </li>
+             <?php } ?>
+
             </ul>
         </div>
     </header>
- <?php } ?>
-<?php } ?>
-              
+<?php } ?>     
     <!-- Services Section -->
 <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicios-aduaneros','posts_per_page'=>1));
 if(!empty($pagename)){

@@ -36,7 +36,7 @@ function theme_custom_types() {
     ));
       add_custom_post_type(array(
         'type' => 'portadas',
-        'singular' => 'portada'
+        'singular' => 'portadas'
     ));
     add_custom_post_type(array(
         'type' => 'configuracion',

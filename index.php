@@ -82,15 +82,10 @@
     <header >
 <div id="wrapper01">
 <ul id="slider1">
-    <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'portadas','posts_per_page'=>1)); ?>
- <?php if(!empty($pagename)) {?>
-     <?php while(have_posts()){ the_post();?>
-     <?php if(get_field('imagen1')){?>
+<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
             
-<li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/ <?php the_field('imagen1');?> ) top center no-repeat; background-size:cover; sin-padding">
-     <?php } ?>
-      <?php } ?>
-       <?php } ?>
+<li style="background:url(<?php echo '$feat_image';?>)  top center no-repeat; background-size:cover; sin-padding">
+      
     <div class="cuadro-slider">
         <h2 class="slider-titulo1">UN ALIADO ESTRATÉGICO</h2>
         <p class="slider-parrafo">

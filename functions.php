@@ -35,7 +35,7 @@ function theme_custom_types() {
         'singular' => 'servicio'
     ));
       add_custom_post_type(array(
-        'type' => 'portada',
+        'type' => 'portadas',
         'singular' => 'portada'
     ));
     add_custom_post_type(array(

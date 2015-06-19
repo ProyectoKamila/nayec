@@ -219,7 +219,8 @@ footer .redes-footer
 }
 /* tablet o smartphone */
 @media (max-width: 767px) {
-     
+
+footer .footer-nayec{margin-top:195px;}     
 section#nosotros .parrafo-mision
     {
       color: white; 
@@ -311,7 +312,7 @@ footer .redes-footer
         text-align: center;
         margin-top: 9px;
     }
-footer .footer-nayec{margin-top:138px;}
+footer .footer-nayec{margin-top:245px;}
 }
 /*CIERRA MEDIA QUERY */
 .texto-servicios{color: #353743;}

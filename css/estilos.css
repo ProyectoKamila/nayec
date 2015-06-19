@@ -221,7 +221,7 @@ footer .redes-footer
 /* tablet o smartphone */
 @media (max-width: 767px) {
 
-footer .footer-nayec{margin-top:220px;}     
+footer .footer-nayec{margin-top:263px;}     
 section#nosotros .parrafo-mision
     {
       color: white; 
@@ -246,7 +246,7 @@ footer .redes-footer
 section div.alto-mapa
     {
         background-color: #e5e5e7;
-        height: 150px;
+        height: 164px;
     }
     
 }

@@ -141,7 +141,7 @@ div#nosotros1{background-image: url(img/portfolio/publi3.jpg);
 }
 @media(min-width:768px) {
     section {
-        padding: 0px 0;
+        padding: 81px 0;
     }
 }
 .aduana-info{width: 100%;

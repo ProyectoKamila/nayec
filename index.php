@@ -85,7 +85,7 @@
    
             
 <li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco.jpg ) top center no-repeat; background-size:cover; sin-padding">
-   <?php query_posts(array('post_type'=>'portada'=>'posts_per_page'=>1))?>
+ <?php query_posts(array('post_type'=>'portada',''=>'','posts_per_page'=>1)); ?>
 <?php while(have_posts()){ the_post();?>
     <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
     <div class="cuadro-slider" style="background:url(<?php echo '$feat_image';?>)">

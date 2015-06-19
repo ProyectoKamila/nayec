@@ -197,11 +197,7 @@ font-family: Helvetica, Sans-Serif; padding: 5px 35px 2px 54px; text-transform: 
 @media (min-width: 768px) and (max-width: 979px)  {
     
 footer .footer-nayec{margin-top:144px;} 
-section div.alto-mapa
-    {
-        background-color: #e5e5e7;
-        height: 164px;
-    }
+
 section#nosotros .parrafo-mision
     {
         color: white; 

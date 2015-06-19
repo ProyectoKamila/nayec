@@ -83,7 +83,7 @@
 <div id="wrapper01">
 <ul id="slider1">
    
-    <?php query_posts(array('post_type'=>'portada',''=>'','posts_per_page'=>1)); ?>
+    <?php query_posts(array('post_type'=>'portada',''=>'','posts_per_page'=>4)); ?>
 <?php while(have_posts()){ the_post();?>         
 <li style="background: url(<?php bloginfo('template_url');?>/slider/demos/images/barco.jpg ) top center no-repeat; background-size:cover; sin-padding">
     

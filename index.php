@@ -504,8 +504,7 @@ if(!empty($pagename)){
         </div>
         </div>
         </div>
-         <?php } ?>
-        <?php } ?>
+        
     </section>
 
      <footer >
@@ -588,6 +587,8 @@ if(!empty($pagename)){
                             </div>
                     </div>
                 </div>
+         <?php } ?>
+        <?php } ?>
                 <div class="row">
                     <div class="col-lg-12 text-center pk">
                         <p  class="desarrollado-pk">Copyright © 2015 www.nayec.com Todos los derechos reservados

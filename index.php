@@ -511,7 +511,7 @@ if(!empty($pagename)){
      <footer >
         <div class="container-footer">
         <div class="container">
-            <div class="row">
+            <div class="row footer-nayec">
                 <div class="col-md-3 col-sm-6">
                     <div class="row">
                          <div class="col-lg-6 telefono ">

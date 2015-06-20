@@ -254,7 +254,7 @@ section div.alto-mapa
 /* smartphone */
 @media (max-width: 480px) {
 
-.mapa-container {
+section div.mapa-container {
 position: relative;
 padding-bottom: 43%; 
 height: 0;

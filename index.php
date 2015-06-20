@@ -93,12 +93,11 @@
                          <?php if(get_field('titulo-fondo')){?>
                             <h2 class="slider-titulo1"><?php the_field('titulo-fondo');?> </h2>
                              <?php } ?>
+                              <?php if(get_field('parrafo-fondo')){?>
                         <p class="slider-parrafo">
-                            LOREM IPSUM ES SIMPLEMENTE EL TEXTO DE RELLENO 
-                            DE LAS IMPRENTAS Y ARCHIVOS DE TEXTO. LOREM 
-                            IPSUM HA SIDO EL TEXTO DE 
-                            RELLENO ESTÁNDAR DE LAS INDUSTRIAS DESDE EL AÑO 1500.
+                           <?php the_field('parrafo-fondo');?> 
                         </p>
+                         <?php } ?>
                         <button type="button" class="btn btn-primary slider-boton">VER MÁS</button>
                     </div>
                 </li>

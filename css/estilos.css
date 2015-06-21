@@ -258,7 +258,7 @@ footer .redes-footer
 
 section div.mapa-container {
 position: relative;
-padding-bottom: 75%; 
+padding-bottom: 50%; 
 height: 0;
 overflow: hidden;
 }

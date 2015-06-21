@@ -256,7 +256,7 @@ section div.alto-mapa
 
 section div.mapa-container {
 position: relative;
-padding-bottom: 43%; 
+padding-bottom: 60%; 
 height: 0;
 overflow: hidden;
 }
@@ -330,7 +330,7 @@ footer .footer-nayec{margin-top:295px;}
 section div.alto-mapa
     {
         background-color: #e5e5e7;
-        height: 108px;
+        height: 140px;
     }
 }
 /*CIERRA MEDIA QUERY */

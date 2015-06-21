@@ -233,7 +233,7 @@ overflow: hidden;
 /* tablet o smartphone */
 @media (max-width: 767px) {
 
-footer .footer-nayec{margin-top:402px;}     
+footer .footer-nayec{margin-top:0px;}     
 section#nosotros .parrafo-mision
     {
       color: white; 
@@ -255,14 +255,10 @@ footer .redes-footer
         text-align: center;
         margin-top: 9px;
     }
-section div.alto-mapa
-    {
-        background-color: #e5e5e7;
-        height: 100%;
-    }
+
 section div.mapa-container {
 position: relative;
-padding-bottom: 60%; 
+padding-bottom: 75%; 
 height: 0;
 overflow: hidden;
 }
@@ -583,6 +579,7 @@ body{overflow-x:hidden; }
     {
         background-color: #e5e5e7;
         height:60%;
+        padding:15px 0px;
     }
 .subtitu
     {
@@ -630,7 +627,7 @@ body{overflow-x:hidden; }
 textarea{height: 117px;}
 .mapa-container {
 position: relative;
-padding-bottom: 35%; 
+padding-bottom: 30%; 
 height: 0;
 overflow: hidden;
 }

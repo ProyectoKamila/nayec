@@ -258,10 +258,15 @@ footer .redes-footer
 
 section div.mapa-container {
 position: relative;
-padding-bottom: 50%; 
+padding-bottom: 85%; 
 height: 0;
 overflow: hidden;
 }
+section div.alto-mapa
+    {
+        background-color: #e5e5e7;
+        height: 100%;
+    }
     
 }
 /* smartphone */

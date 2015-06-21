@@ -273,7 +273,7 @@ overflow: hidden;
 
 section div.mapa-container {
 position: relative;
-padding-bottom: 60%; 
+padding-bottom: 85%; 
 height: 0;
 overflow: hidden;
 }
@@ -343,7 +343,7 @@ footer .redes-footer
         text-align: center;
         margin-top: 9px;
     }
-footer .footer-nayec{margin-top:260px;}
+footer .footer-nayec{margin-top:5px;}
 section div.alto-mapa
     {
         background-color: #e5e5e7;
@@ -630,7 +630,7 @@ body{overflow-x:hidden; }
 textarea{height: 117px;}
 .mapa-container {
 position: relative;
-padding-bottom: 22%; 
+padding-bottom: 35%; 
 height: 0;
 overflow: hidden;
 }

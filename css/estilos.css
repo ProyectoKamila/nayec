@@ -247,8 +247,14 @@ footer .redes-footer
 section div.alto-mapa
     {
         background-color: #e5e5e7;
-        height: 164px;
+        height: 100%;
     }
+section div.mapa-container {
+position: relative;
+padding-bottom: 60%; 
+height: 0;
+overflow: hidden;
+}
     
 }
 /* smartphone */

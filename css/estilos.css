@@ -275,6 +275,16 @@ div.fondo-textoimpo
         position:relative;
         top:47px;
     }
+div.servicio-parrafo10 p
+    {
+        text-align: justify;
+        width: 100%;
+        text-transform: none;
+        text-indent: 25px;
+        padding: 0px 9px;
+        padding-top: 85px;
+        font-size: 12px;
+    }
     
 }
 /* smartphone */
@@ -361,9 +371,19 @@ section div.alto-mapa
 div.fondo-textoimpo
     {
         background-color:#eaebec;
-        height:100px;
+        height:100%;
         position:relative;
         top:47px;
+    }
+div.servicio-parrafo10 p
+    {
+        text-align: justify;
+        width: 100%;
+        text-transform: none;
+        text-indent: 25px;
+        padding: 0px 9px;
+        padding-top: 85px;
+        font-size: 12px;
     }
 }
 /*CIERRA MEDIA QUERY */

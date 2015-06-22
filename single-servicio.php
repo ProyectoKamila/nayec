@@ -109,6 +109,7 @@
     </header>
 <?php } ?>  
 <!-- IMPORTACION Section -->
+ <?php query_posts(array('post_type'=>'servicio',''=>'','posts_per_page'=>1)); ?>
  <?php while(have_posts()){ the_post();?>
 <div class="container-fluid sin-padding">
     <div class="row">

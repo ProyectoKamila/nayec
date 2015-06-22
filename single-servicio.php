@@ -90,8 +90,7 @@
                 <li style="background: url(<?php echo $feat_image;?> ) top center no-repeat; background-size:cover; sin-padding">
                    <div class="container">
                       <div class="row">
-                        <div class="col-lg-12">
-                        <div class="cuadro-slider">
+                        <div class="cuadro-slider col-xs-12 col-sm-12 col-md-6  col-lg-6">
                              <?php if(get_field('titulo-fondo')){?>
                                 <h2 class="slider-titulo1"><?php the_field('titulo-fondo');?> </h2>
                                  <?php } ?>
@@ -102,7 +101,6 @@
                              <?php } ?>
                             <button type="button" class="btn btn-primary slider-boton">VER MÁS</button>
                         </div>
-                    </div>
                     </div>
                 </div>
                 </li>

@@ -114,11 +114,11 @@
 <div class="container-fluid sin-padding">
     <div class="row">
         <div class="col-lg-12">
-            <div class="servicio-texto1">
-                  <?php if(get_field('servicio-texto1')){?>
-                    <h2 class="importacion"><?php the_field('servicio-texto1');?> </h2>
-                 <?php } ?>
-            </div>
+             <?php if(get_field('servicio-texto01')){?>
+                <div class="servicio-texto1">
+                        <h2 class="importacion"><?php the_field('servicio-texto01');?> </h2>
+                </div>
+             <?php } ?>
         </div>
     </div>
 </div>

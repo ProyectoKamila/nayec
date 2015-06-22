@@ -747,10 +747,12 @@ height: 100% !important;
 .subtitulo10
     {
         margin:auto;
-        width:100px;
+        width:312px;
+        text-align:center;
     }
 .subtitulo11
     {
         margin:auto;
-        width:100px;
+        width:30%;
+        text-align:center;
     }

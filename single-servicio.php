@@ -113,13 +113,11 @@
  <?php  the_post();?>
 <div class="container-fluid sin-padding">
     <div class="row">
-        <div class="col-lg-12">
-            <div class="fondo-textoimpo">
+            <div class="fondo-textoimpo col-lg-12 text-center">
                 <h2 class="importacion"><?php the_title();?></h2>
                 <p class="subtitulo10">DAMOS SOLUCIONES A NUESTROS CLIENTES</p>
                 <p class="subtitulo11">A TRAVÉS DEL SIGUIENTE PORTAFOLIO DE SERVICIOS:</p>
             </div>
-        </div>
     </div>
 </div>
 

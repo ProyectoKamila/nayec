@@ -140,8 +140,7 @@
                     QUE LOGRÓ HACER UN LIBRO DE TEXTOS 
                     ESPECIMEN. 
                 </p>
-            </div>
-            <div class="servicio-parrafo11">
+         
                 <p>
                     NO SÓLO SOBREVIVIÓ 500 AÑOS, SINO QUE 
                     TAMBIEN INGRESÓ COMO TEXTO DE RELLENO EN 

@@ -122,78 +122,7 @@
  <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>
  <?php if(!empty($pagename)) {?>
      <?php while(have_posts()){ the_post();?>
-    <section id="contacto">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center ">
-                    <h2 class="section-heading contacto-emca"><?php the_title();?></h2>
-                       <?php if(get_field('contacto-texto1')){?>
-                            <h3 class="subtitu"><?php the_field('contacto-texto1');?></h3>
-                         <?php } ?>
-                        <?php if(get_field('contacto-texto2')){?>
-                            <h3 class="subtitu1"><?php the_field('contacto-texto2');?></h3>
-                         <?php } ?>
-                </div>
-                
-            </div>
-            <div class="row">
-                <div class="col-lg-12 formu">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <h3 class="subtitu4">NOMBRE Y APELLIDO</h3>
-                                    <input type="text" class="form-control" placeholder="Nombre y apellido *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <h3 class="subtitu4">EMAIL</h3>
-                                    <input type="email" class="form-control" placeholder=" Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                       <h3 class="subtitu4">TELÉFONO </h3>
-                                    <input type="tel" class="form-control" placeholder="Teléfono *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                     <h3 class="subtitu4">MENSAJE</h3>
-                                    <textarea class="form-control area" placeholder="Mensaje*" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                
-                                <button type="button" class="btn btn-success">ENVIAR</button>
-                                                       <?php if(get_field('contacto-texto3')){?>
-                                 <h3 class="subtitu"><?php the_field('contacto-texto3');?></h3>
-                                  <?php if(get_field('contacto-texto4')){?>
-                            <h3 class="subtitu1"><?php the_field('contacto-texto4');?></h3>
-                            <?php } ?>
-                     <?php } ?>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="col-lg-12 alto-mapa">
-         <div class="mapa-container">
-         <?php if(get_field('google_map')){?>
-             <iframe src=" <?php the_field('google_map');?>" width="600" height="450" frameborder="0" style="border:0"></iframe>
-         
-          <?php } ?>
-
-        </div>
-        </div>
-        </div>
-        
-    </section>
-
+    
      <footer >
         <div class="container-footer">
         <div class="container">

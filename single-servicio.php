@@ -116,13 +116,12 @@
         <div class="col-lg-12">
             
                 <div class="servicio-texto1">
-                        <h2 class="importacion"><?php the_ttitle;?> </h2>
+                        <h2 class="importacion"><?php the_title();?></h2>
                 </div>
        
         </div>
     </div>
 </div>
-<?php } ?> 
 
  <!-- Contact Section -->
  <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>

@@ -110,8 +110,12 @@
 <?php } ?>  
 <!-- IMPORTACION Section -->
 <div class="container-fluid sin-padding">
-    <div class="fondo-textoimpo">
-        <h2 class="importacion">IMPORTACIÓN</h2>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="fondo-textoimpo">
+                <h2 class="importacion">IMPORTACIÓN</h2>
+            </div>
+        </div>
     </div>
 </div>
     

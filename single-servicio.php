@@ -107,18 +107,18 @@
             </ul>
         </div>
     </header>
-<?php } ?>  
+<?php } wp_reset_query(); ?>  
 <!-- IMPORTACION Section -->
- <?php query_posts(array('post_type'=>'servicio',''=>'','posts_per_page'=>1)); ?>
- <?php while(have_posts()){ the_post();?>
+ 
+ <?php  the_post();?>
 <div class="container-fluid sin-padding">
     <div class="row">
         <div class="col-lg-12">
-             <?php if(get_field('servicio-texto01')){?>
+            
                 <div class="servicio-texto1">
-                        <h2 class="importacion"><?php the_field('servicio-texto01');?> </h2>
+                        <h2 class="importacion"><?php the_ttitle;?> </h2>
                 </div>
-             <?php } ?>
+       
         </div>
     </div>
 </div>

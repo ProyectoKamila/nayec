@@ -411,10 +411,10 @@ if(!empty($pagename)){
                 <div class="col-lg-12 text-center ">
                     <h2 class="section-heading contacto-emca"><?php the_title();?></h2>
                        <?php if(get_field('contacto-texto1')){?>
-                            <h3 class="subtitu2"><?php the_field('contacto-texto1');?></h3>
+                            <h3 class="subtitu"><?php the_field('contacto-texto1');?></h3>
                          <?php } ?>
                         <?php if(get_field('contacto-texto2')){?>
-                            <h3 class="subtitu3"><?php the_field('contacto-texto2');?></h3>
+                            <h3 class="subtitu1"><?php the_field('contacto-texto2');?></h3>
                          <?php } ?>
                 </div>
                 

@@ -109,18 +109,19 @@
     </header>
 <?php } ?>  
 <!-- IMPORTACION Section -->
+ <?php while(have_posts()){ the_post();?>
 <div class="container-fluid sin-padding">
     <div class="row">
         <div class="col-lg-12">
             <div class="servicio-texto1">
                   <?php if(get_field('servicio-texto1')){?>
-                <h2 class="importacion"><?php the_field('servicio-texto1');?> </h2>
+                    <h2 class="importacion"><?php the_field('servicio-texto1');?> </h2>
                  <?php } ?>
             </div>
         </div>
     </div>
 </div>
-    
+<?php } ?> 
 
  <!-- Contact Section -->
  <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>

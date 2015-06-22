@@ -114,11 +114,9 @@
 <div class="container-fluid sin-padding">
     <div class="row">
         <div class="col-lg-12">
-            
-                <div class="servicio-texto1">
-                        <h2 class="importacion"><?php the_title();?></h2>
-                </div>
-       
+            <div class="fondo-textoimpo">
+                    <h2 class="importacion"><?php the_title();?></h2>
+            </div>
         </div>
     </div>
 </div>

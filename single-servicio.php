@@ -123,9 +123,9 @@
                 <?php } ?>
             </div>
     </div>
-</div>
+
 <!-- IMAGENES Y PARRAFOS Section -->
-<div class="container">
+
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
             <div class="servicio-parrafo10">
@@ -155,7 +155,7 @@
             <img src="<?php echo $feat_image;?>" class="img-responsive" alt="">
         </div>
     </div>
-</div>
+
  <!-- Contact Section -->
  <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>
  <?php if(!empty($pagename)) {?>

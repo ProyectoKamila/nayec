@@ -268,6 +268,13 @@ section div.alto-mapa
         background-color: #e5e5e7;
         height: 100%;
     }
+div.fondo-textoimpo
+    {
+        background-color:#eaebec;
+        height:100px;
+        position:relative;
+        top:47px;
+    }
     
 }
 /* smartphone */

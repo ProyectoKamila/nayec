@@ -20,7 +20,7 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body id="home" class="index>"
+<body id="home" class="index>">
 <div class="contenedor">
     <!-- Navigation -->
 <div class="row">

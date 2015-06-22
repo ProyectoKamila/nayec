@@ -271,7 +271,7 @@ section div.alto-mapa
 div.fondo-textoimpo
     {
         background-color:#eaebec;
-        height:100px;
+        height:100%;
         position:relative;
         top:47px;
     }

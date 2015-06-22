@@ -124,7 +124,34 @@
             </div>
     </div>
 </div>
-
+<!-- IMAGENES Y PARRAFOS Section -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <p class="servicio-parrafo10">
+                LOREM IPSUM ES SIMPLEMENTE EL TEXTO DE 
+                RELLENO DE LAS IMPRENTAS Y ARCHIVOS DE TEXTO. 
+                LOREM IPSUM HA SIDO EL TEXTO DE RELLENO 
+                ESTÁNDAR DE LAS INDUSTRIAS DESDE EL AÑO 1500, 
+                CUANDO UN IMPRESOR (N. DEL T. PERSONA QUE SE 
+                DEDICA A LA IMPRENTA) DESCONOCIDO USÓ UNA 
+                GALERÍA DE TEXTOS Y LOS MEZCLÓ DE TAL MANERA 
+                QUE LOGRÓ HACER UN LIBRO DE TEXTOS 
+                ESPECIMEN. 
+            </p>
+            <p class="servicio-parrafo11">
+                NO SÓLO SOBREVIVIÓ 500 AÑOS, SINO QUE 
+                TAMBIEN INGRESÓ COMO TEXTO DE RELLENO EN 
+                DOCUMENTOS ELECTRÓNICOS, QUEDANDO 
+                ESENCIALMENTE IGUAL AL ORIGINAL.
+            </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
+            <img src="<?php echo $feat_image;?>" class="img-responsive blog-imagen1" alt="">
+        </div>
+    </div>
+</div>
  <!-- Contact Section -->
  <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>
  <?php if(!empty($pagename)) {?>

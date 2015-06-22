@@ -115,8 +115,12 @@
     <div class="row">
             <div class="fondo-textoimpo col-lg-12 text-center">
                 <h2 class="importacion"><?php the_title();?></h2>
-                <p class="subtitulo10">DAMOS SOLUCIONES A NUESTROS CLIENTES</p>
-                <p class="subtitulo11">A TRAVÉS DEL SIGUIENTE PORTAFOLIO DE SERVICIOS:</p>
+                 <?php if(get_field('servicio-texto1')){?>
+                    <p class="subtitulo10"><?php the_field('servicio-texto1');?></p>
+                 <?php } ?>
+                 <?php if(get_field('servicio-texto1')){?>
+                    <p class="subtitulo11"><?php the_field('servicio-texto2');?></p>
+                <?php } ?>
             </div>
     </div>
 </div>

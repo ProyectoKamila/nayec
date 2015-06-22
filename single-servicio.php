@@ -108,63 +108,7 @@
         </div>
     </header>
 <?php } ?>     
-    <!-- Services Section -->
-<?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicios-aduaneros','posts_per_page'=>1));
-if(!empty($pagename)){
-?>
-        <div class="container-fluid sin-padding">
-        <div class="servi services">
-                        <?php while(have_posts()){ the_post();?>
-                    <section id="servicios">
-                    <div class="row">
-                                            <div class="col-lg-12 text-center">
-                                            <h2 class="section-heading"><?php the_title();?></h2>
-                                            <?php if(get_field('subtitle')){?>
-                                            </br>
-                                            <p class="textos">
-                                                        <?php the_field('subtitle');?> 
-                                                        <?php if(get_field('subtitle_2')){?>
-                                                        <br/> <?php the_field('subtitle_2');?> 
-                                                        <?php }?>
-                                                                         </p>
-                                         <?php } ?>
-                                            </div>
-                                        </div>
-                    <div class="container-fluid sin-padding">
-                    <div class="row sin-padding">
-                        <?php if(get_field('background_left')){?>
-                    <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>) top center no-repeat; backgroun-size:cover;">
-
-                        <?php }else{ ?>
-                    <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  ">
-                        <?php } ?>
-                        <div class="aduana-info">
-                        <?php if(get_field('title_left')) { ?>
-                        
-                                <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
-                                <?php }else{?>
-                                <h2 class="text-center texto-servicios">SERVICIOS ADUANALES</h2>
-                                <?php } ?>
-                            </div>
-                    </div>
-                    <?php if(get_field('background_right')) { ?>
-                    <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">
-                    <?php } else {?>
-                        <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" >
-                    <?php } ?>
-                            <div class="logisinfo">
-                                    <?php the_field('content_righ');?>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </section>
-                                    <?php } ?>                
-                    </div>
-                </div>
-                 <!--  Section Nosotros-->
-<?php } ?>   
+    
 <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'nosotros','posts_per_page'=>1)); ?>
 <?php if(!empty($pagename)) {?>
 <?php while(have_posts()){ the_post();?>

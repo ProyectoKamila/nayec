@@ -88,9 +88,8 @@
                  <?php while(have_posts()){ the_post();?>
                   <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
                 <li style="background: url(<?php echo $feat_image;?> ) top center no-repeat; background-size:cover; sin-padding">
-                   <div class="container">
-                      <div class="row">
-                        <div class="cuadro-slider col-xs-12 col-sm-12 col-md-6  col-lg-6">
+                   
+                        <div class="cuadro-slider col-xs-12 col-sm-12">
                              <?php if(get_field('titulo-fondo')){?>
                                 <h2 class="slider-titulo1"><?php the_field('titulo-fondo');?> </h2>
                                  <?php } ?>
@@ -100,8 +99,6 @@
                             </p>
                              <?php } ?>
                             <button type="button" class="btn btn-primary slider-boton">VER MÁS</button>
-                        </div>
-                    </div>
                 </div>
                 </li>
                 

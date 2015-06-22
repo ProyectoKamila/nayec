@@ -107,17 +107,15 @@
             </ul>
         </div>
     </header>
-<?php } ?>     
+<?php } ?>  
+<!-- IMPORTACION Section -->
+<div class="container-fluid">
+    <div class="fondo-textoimpo">
+        <h2>IMPORTACIÓN</h2>
+    </div>
+</div>
     
 
-         
-
-
-
-
-
-
-    
  <!-- Contact Section -->
  <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>
  <?php if(!empty($pagename)) {?>

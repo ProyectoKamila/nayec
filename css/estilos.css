@@ -275,7 +275,7 @@ div.fondo-textoimpo
         position:relative;
         top:47px;
     }
-div.servicio-parrafo10 p
+div.servicio-parrafo10 
     {
         text-align: justify;
         width: 100%;
@@ -285,7 +285,6 @@ div.servicio-parrafo10 p
         padding-top: 85px;
         font-size: 12px;
     }
-    
 }
 /* smartphone */
 @media (max-width: 480px) {

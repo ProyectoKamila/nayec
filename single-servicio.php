@@ -89,7 +89,7 @@
                   <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
                 <li style="background: url(<?php echo $feat_image;?> ) top center no-repeat; background-size:cover; sin-padding">
                    
-                        <div class="cuadro-slider col-xs-12 col-sm-12">
+                        <div class="cuadro-slider">
                              <?php if(get_field('titulo-fondo')){?>
                                 <h2 class="slider-titulo1"><?php the_field('titulo-fondo');?> </h2>
                                  <?php } ?>

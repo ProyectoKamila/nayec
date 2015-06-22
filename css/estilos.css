@@ -717,4 +717,16 @@ height: 100% !important;
     {
         margin-top:50px;
     }
-.fondo-textoimpo{background-color:#eaebec;}
+.fondo-textoimpo
+    {
+        background-color:#eaebec;
+        height:100px;
+        position:relative;
+        top:71px;
+    }
+.importacion
+    {
+     width:203px;
+     margin:0 auto;
+     padding-top:25px;
+    }

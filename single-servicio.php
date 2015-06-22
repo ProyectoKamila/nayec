@@ -109,9 +109,9 @@
     </header>
 <?php } ?>  
 <!-- IMPORTACION Section -->
-<div class="container-fluid">
+<div class="container-fluid sin-padding">
     <div class="fondo-textoimpo">
-        <h2>IMPORTACIÓN</h2>
+        <h2 class="importacion">IMPORTACIÓN</h2>
     </div>
 </div>
     

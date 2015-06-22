@@ -760,7 +760,7 @@ height: 100% !important;
         font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size:16px;
     }
-.servicio-parrafo10
+div.servicio-parrafo10 p
     {
         text-align: justify;
         width: 100%;
@@ -768,7 +768,7 @@ height: 100% !important;
         text-indent: 25px;
         padding: 0px 27px;
     }
-.servicio-parrafo11
+div.servicio-parrafo11 p
     {
         text-align: justify;
         width: 100%;

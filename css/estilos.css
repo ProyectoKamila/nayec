@@ -701,19 +701,19 @@ height: 100% !important;
         background-color: rgba(81,83,94,0.7);
         margin: 0 auto;
         margin-top: 20%;
-        height: 35% !important;
+        height: 43% !important;
         width: 35% !important;
 
     }
 .slider-titulo1
     {
         color:white;
-        padding-top: 18px;
+        padding-top: 46px;
     }
 .slider-parrafo
     {
           color:rgba(255,255,255,0.8);
-          width: 397px;
+          width: 75%;
           text-align: justify;
           margin: auto;
           padding-top: 10px;

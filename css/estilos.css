@@ -762,9 +762,17 @@ height: 100% !important;
     }
 .servicio-parrafo10
     {
-        
+        text-align: justify;
+        width: 100%;
+        text-transform: none;
+        text-indent: 25px;
+        padding: 0px 27px;
     }
 .servicio-parrafo11
     {
-        
+        text-align: justify;
+        width: 100%;
+        text-transform: none;
+        text-indent: 25px;
+        padding: 0px 27px;
     }

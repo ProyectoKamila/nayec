@@ -116,6 +116,8 @@
         <div class="col-lg-12">
             <div class="fondo-textoimpo">
                 <h2 class="importacion"><?php the_title();?></h2>
+                <p class="subtitulo1">DAMOS SOLUCIONES A NUESTROS CLIENTES</p>
+                <p class="subtitulo1">A TRAVÉS DEL SIGUIENTE PORTAFOLIO DE SERVICIOS:</p>
             </div>
         </div>
     </div>

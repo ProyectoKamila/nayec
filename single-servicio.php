@@ -134,7 +134,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
           <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
-            <img src="<?php echo $feat_image;?>" class="img-responsive " alt="">
+            <img src="<?php echo $feat_image;?>" class="img-responsive imagen1-servicio" alt="">
         </div>
     </div>
 </div>

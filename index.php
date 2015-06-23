@@ -139,9 +139,16 @@ if(!empty($pagename)){
                     <?php } else {?>
                         <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" >
                     <?php } ?>
-                             <?php if(get_field('content_righ')) { ?>
                             <div class="logisinfo">
-                                    <?php the_field('content_righ');?>
+                                <?php if(get_field('servicios-titulo')) { ?>
+                                <h2 class="titulo-logistica"><?php the_field('servicios-titulo');?></h2>
+                                  <?php } ?>
+                                <div class="parrafo20">
+                                     <?php if(get_field('servicios-parrafo')) { ?>
+                                         <p>
+                                            <?php the_field('servicios-parrafo');?>
+                                         </p>
+                                </div>
                                                     </div>
                                                      <?php } ?>    
                                                 </div>

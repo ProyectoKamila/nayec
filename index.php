@@ -65,12 +65,23 @@
         </ul>
                          <!-- Redes sociales -->
 <ul class=" list-inline social-buttons redes-sociales col-md-6">
-<li><a href=""><i class="fa fa-facebook face"></i></a>
-                            </li>
-<li><a  href=""><i class="fa fa-twitter twi"></i></a>
-                            </li>
-<li><a href=""><i class="fa fa-linkedin in"></i></a>
-                            </li>
+ 
+    <li>
+        <?php if(get_field('cuenta-facebook')){?>
+            <a href="<?php the_field('cuenta-facebook');?>"><i class="fa fa-facebook face"></i></a>
+        <?php } ?>
+    </li>
+ 
+    <li>
+        <?php if(get_field('subtitle')){?>
+            <a  href="<?php the_field('subtitle_2');?>"><i class="fa fa-twitter twi"></i></a>
+        <?php } ?>
+    </li>
+<li>
+     <?php if(get_field('subtitle')){?>
+        <a href="<?php the_field('subtitle_2');?>"><i class="fa fa-linkedin in"></i></a>
+     <?php } ?>
+</li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->

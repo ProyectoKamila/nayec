@@ -141,7 +141,7 @@ if(!empty($pagename)){
                     <?php } ?>
                             <div class="logisinfo">
                                          <p>
-                                            <?php the_field('content_right');?>
+                                           
                                          </p>
                                                     </div>
                                                 </div>

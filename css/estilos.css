@@ -716,6 +716,7 @@ height: 100% !important;
 #slider1 div.cuadro-slider
     {
         background-color: rgba(81,83,94,0.7);
+        overflow:hidden;
        
 
     }
@@ -734,7 +735,7 @@ height: 100% !important;
     }
 .slider-boton
     {
-        margin-left: 330px;
+        margin-left: 56%;
         width: 132px;
     }
 .contacto-emca

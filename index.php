@@ -180,9 +180,11 @@ if(!empty($pagename)){
 <h3 class=" nosotros section-subheading text-muted "><?php the_field('subtitle');?></h3>
 <br/>
 <h2 class="mision"><?php the_field('title_1');?></h2>
-<h3 class="parrafo-mision">
-                                        <?php the_field('content_1');?>
-                                    </h3>
+<div class="parrafo-mision">
+                            <p>
+                                <?php the_field('content_1');?>
+                            </p>
+                </div>
 <h2 class="mision"><?php the_field('title_2');?></h2>
 <h3 class="parrafo-mision">
                                         <?php the_field('content_2');?>

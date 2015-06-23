@@ -4,7 +4,7 @@
 <header>
     <div class="container-fluid sin-padding">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 alto-slider">
                 <ul id="slider1">
                      <?php while(have_posts()){ the_post();?>
                           <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>

@@ -65,14 +65,11 @@
         </ul>
                          <!-- Redes sociales -->
 <ul class=" list-inline social-buttons redes-sociales col-md-6">
-    <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
-<li><a href="<?php echo $feat_image;?>"><i class="fa fa-facebook face"></i></a>
+<li><a href=""><i class="fa fa-facebook face"></i></a>
                             </li>
-<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
-<li><a  href="<?php echo $feat_image;?>"><i class="fa fa-twitter twi"></i></a>
+<li><a  href=""><i class="fa fa-twitter twi"></i></a>
                             </li>
-<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
-<li><a href="<?php echo $feat_image;?>"><i class="fa fa-linkedin in"></i></a>
+<li><a href=""><i class="fa fa-linkedin in"></i></a>
                             </li>
                         </ul>
                     </div>

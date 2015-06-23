@@ -21,7 +21,9 @@
                                                               <?php the_field('parrafo-fondo');?> 
                                                             </p>
                                                      <?php } ?>
-                                                    <button type="button" class="btn btn-primary slider-boton">VER MÁS</button>
+                                                      <?php if(get_field('boton-vermas')){?>
+                                                        <button type="button" href"<?php the_field('boton-vermas');?> " class="btn btn-primary slider-boton">VER MÁS</button>
+                                                    <?php } ?>
                                                 </div>
                                            </div>
                                        </div>

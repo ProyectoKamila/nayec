@@ -148,9 +148,9 @@ if(!empty($pagename)){
                                          <p>
                                             <?php the_field('servicios-parrafo');?>
                                          </p>
+                                      <?php } ?>
                                 </div>
                                                     </div>
-                                                     <?php } ?>    
                                                 </div>
                                             </div>
                                         </div>

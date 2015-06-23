@@ -20,7 +20,7 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body id="home" class="index>"
+<body id="home" class="index>">
 <div class="contenedor">
     <!-- Navigation -->
 <div class="row">
@@ -64,13 +64,15 @@
         </li>
         </ul>
                          <!-- Redes sociales -->
-                    
 <ul class=" list-inline social-buttons redes-sociales col-md-6">
-<li><a href="#"><i class="fa fa-facebook face"></i></a>
+    <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
+<li><a href="<?php echo $feat_image;?>"><i class="fa fa-facebook face"></i></a>
                             </li>
-<li><a  href="#"><i class="fa fa-twitter twi"></i></a>
+<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
+<li><a  href="<?php echo $feat_image;?>"><i class="fa fa-twitter twi"></i></a>
                             </li>
-<li><a href="#"><i class="fa fa-linkedin in"></i></a>
+<?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
+<li><a href="<?php echo $feat_image;?>"><i class="fa fa-linkedin in"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -124,9 +126,11 @@ if(!empty($pagename)){
                     <?php } else {?>
                         <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" >
                     <?php } ?>
+                             <?php if(get_field('content_righ')) { ?>
                             <div class="logisinfo">
                                     <?php the_field('content_righ');?>
                                                     </div>
+                                                     <?php } ?>    
                                                 </div>
                                             </div>
                                         </div>

@@ -11,7 +11,7 @@
                                 <li style="background: url(<?php echo $feat_image;?> ) top center no-repeat; background-size:cover; sin-padding">
                                     <div class="container">
                                         <div class="row">
-                                           <div class="col-lg-5 col-lg-offset-4 col-md-5 col-md-offset-4  col-sm-5 col-lg-offset-4 col-xs-12 cuadro-sli">
+                                           <div class="col-lg-5 col-lg-offset-4 col-md-5 col-md-offset-4  col-sm-5 col-sm-offset-4 col-xs-12 cuadro-sli">
                                                <div class="cuadro-slider">
                                                      <?php if(get_field('titulo-fondo')){?>
                                                         <h2 class="slider-titulo1"><?php the_field('titulo-fondo');?> </h2>

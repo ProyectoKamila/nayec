@@ -509,6 +509,7 @@ if(!empty($pagename)){
                             
                              <?php if(get_field('cuenta-facebook')){?>
                                 <a href="<?php the_field('cuenta-facebook');?>"><i class="fa fa-facebook face"></i></a>
+                                 <?php } ?>
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-12 text-center"> 
                              <?php if(get_field('redessociales-facebook')){?>

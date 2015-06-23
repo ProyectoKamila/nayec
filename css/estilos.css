@@ -716,10 +716,7 @@ height: 100% !important;
 #slider1 div.cuadro-slider
     {
         background-color: rgba(81,83,94,0.7);
-        margin: 0 auto;
-        margin-top: 18%;
-        height: 100% !important;
-        width: 45% !important;
+       
 
     }
 .slider-titulo1

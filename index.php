@@ -76,13 +76,13 @@
     </li>
  
     <li>
-        <?php if(get_field('subtitle')){?>
-            <a  href="<?php the_field('subtitle_2');?>"><i class="fa fa-twitter twi"></i></a>
+        <?php if(get_field('cuenta-twitter')){?>
+            <a  href="<?php the_field('cuenta-twitter');?>"><i class="fa fa-twitter twi"></i></a>
         <?php } ?>
     </li>
 <li>
-     <?php if(get_field('subtitle')){?>
-        <a href="<?php the_field('subtitle_2');?>"><i class="fa fa-linkedin in"></i></a>
+     <?php if(get_field('cuenta-in')){?>
+        <a href="<?php the_field('cuenta-in');?>"><i class="fa fa-linkedin in"></i></a>
      <?php } ?>
 </li>
                         </ul>

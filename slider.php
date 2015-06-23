@@ -22,7 +22,7 @@
                                                             </p>
                                                      <?php } ?>
                                                       <?php if(get_field('boton-vermas')){?>
-                                                        <button href"<?php the_field('boton-vermas');?> " type="button"  class="btn btn-primary slider-boton">VER MÁS</button>
+                                                        <button href="<?php the_field('boton-vermas');?> " type="button"  class="btn btn-primary slider-boton">VER MÁS</button>
                                                     <?php } ?>
                                                 </div>
                                            </div>

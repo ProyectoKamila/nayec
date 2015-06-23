@@ -140,16 +140,9 @@ if(!empty($pagename)){
                         <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" >
                     <?php } ?>
                             <div class="logisinfo">
-                                <?php if(get_field('servicios-titulo')) { ?>
-                                <h2 class="titulo-logistica"><?php the_field('servicios-titulo');?></h2>
-                                  <?php } ?>
-                                <div class="parrafo20">
-                                     <?php if(get_field('servicios-parrafo')) { ?>
                                          <p>
-                                            <?php the_field('servicios-parrafo');?>
+                                            <?php the_field('content_right');?>
                                          </p>
-                                      <?php } ?>
-                                </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -507,10 +500,15 @@ if(!empty($pagename)){
                        
                     </div>
                 </div>
+                <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'redes-sociales','posts_per_page'=>1)); ?>
+                <?php if(!empty($pagename)) {?>
+                <?php while(have_posts()){ the_post();?>
                 <div class="col-md-3 col-sm-6">
                     <div class="row">
-                            <div class="col-lg-4 col-md-4 col-sm-12 logos-footer">                 
-                                <a href="#"><i class="fa fa-facebook face"></i></a>
+                            <div class="col-lg-4 col-md-4 col-sm-12 logos-footer"> 
+                            
+                             <?php if(get_field('cuenta-facebook')){?>
+                                <a href="<?php the_field('cuenta-facebook');?>"><i class="fa fa-facebook face"></i></a>
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-12 text-center"> 
                              <?php if(get_field('redessociales-facebook')){?>
@@ -520,7 +518,9 @@ if(!empty($pagename)){
                         </div>
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 logos-footer">
-                                    <a  href="#"><i class="fa fa-twitter twi"></i></a>
+                                    <?php if(get_field('cuenta-twitter')){?>
+                                    <a  href="<?php the_field('cuenta-twitter');?>"><i class="fa fa-twitter twi"></i></a>
+                                     <?php } ?>
                                 </div>
                                  <div class="col-lg-8 col-md-8">
                                       <?php if(get_field('redessociales-twitter')){?>
@@ -530,7 +530,9 @@ if(!empty($pagename)){
                             </div>
                              <div class="row">
                                 <div class="col-lg-4 col-md-4 logos-footer">
-                                  <a href="#"><i class="fa fa-linkedin in"></i></a>
+                                     <?php if(get_field('cuenta-in')){?>
+                                  <a href="<?php the_field('cuenta-in');?>"><i class="fa fa-linkedin in"></i></a>
+                                  <?php } ?>
                                 </div>
                                  <div class="col-lg-8 col-md-8">
                                      <?php if(get_field('redessociales-in')){?>
@@ -540,6 +542,8 @@ if(!empty($pagename)){
                             </div>
                        
                     </div>
+                    <?php } ?>
+                <?php } ?>
                     <div class="col-md-3 col-sm-6">
                      <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-12 logo-ubicacion  ">

@@ -64,6 +64,9 @@
         </li>
         </ul>
                          <!-- Redes sociales -->
+<?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'redes-sociales','posts_per_page'=>1)); ?>
+ <?php if(!empty($pagename)) {?>
+     <?php while(have_posts()){ the_post();?>
 <ul class=" list-inline social-buttons redes-sociales col-md-6">
  
     <li>
@@ -83,6 +86,8 @@
      <?php } ?>
 </li>
                         </ul>
+                <?php } ?>
+                <?php } ?>
                     </div>
                     <!-- /.navbar-collapse -->
                 </div>

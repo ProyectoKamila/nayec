@@ -786,3 +786,9 @@ div.servicio-parrafo10 p
         text-indent: 25px;
         padding: 0px 27px;
     }
+.imagen1-servicio
+    {
+        height: 235px;
+        width: 100%;
+        margin: auto;   
+    }

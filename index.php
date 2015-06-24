@@ -561,7 +561,7 @@ if(!empty($pagename)){
                     </div>
                 </div>
          <?php } ?>
-        <?php } wp_reset_query(); ?> 
+        <?php }  ?> 
                 <div class="row">
                     <div class="col-lg-12 text-center pk">
                         <p  class="desarrollado-pk">Copyright © 2015 www.nayec.com Todos los derechos reservados

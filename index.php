@@ -87,7 +87,7 @@
 </li>
                         </ul>
                 <?php } ?>
-                <?php } ?>
+               <?php } wp_reset_query(); ?>  
                     </div>
                     <!-- /.navbar-collapse -->
                 </div>
@@ -500,8 +500,9 @@ if(!empty($pagename)){
                        
                     </div>
                 </div>
-                
-               
+                <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'redes-sociales','posts_per_page'=>1)); ?>
+                <?php if(!empty($pagename)) {?>
+                <?php while(have_posts()){ the_post();?>
                 <div class="col-md-3 col-sm-6">
                     <div class="row">
                             <div class="col-lg-4 col-md-4 col-sm-12 logos-footer"> 
@@ -559,7 +560,8 @@ if(!empty($pagename)){
                             </div>
                     </div>
                 </div>
-        
+         <?php } ?>
+        <?php } ?>
                 <div class="row">
                     <div class="col-lg-12 text-center pk">
                         <p  class="desarrollado-pk">Copyright © 2015 www.nayec.com Todos los derechos reservados

@@ -500,8 +500,8 @@ if(!empty($pagename)){
                        
                     </div>
                 </div>
-               <?php  the_post();?>
-                
+               
+                <?php while(have_posts()){ the_post();?>
                 <div class="col-md-3 col-sm-6">
                     <div class="row">
                             <div class="col-lg-4 col-md-4 col-sm-12 logos-footer"> 
@@ -542,7 +542,7 @@ if(!empty($pagename)){
                             </div>
                        
                     </div>
-                   
+                    <?php } ?>
                     <div class="col-md-3 col-sm-6">
                      <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-12 logo-ubicacion  ">

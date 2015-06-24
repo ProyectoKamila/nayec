@@ -544,7 +544,7 @@ if(!empty($pagename)){
                        
                     </div>
                     <?php } ?>
-                <?php }  ?> 
+                 <?php } wp_reset_query(); ?> 
                     <div class="col-md-3 col-sm-6">
                      <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-12 logo-ubicacion  ">

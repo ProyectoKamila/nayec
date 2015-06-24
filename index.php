@@ -500,9 +500,8 @@ if(!empty($pagename)){
                        
                     </div>
                 </div>
-                <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'redes-sociales','posts_per_page'=>1)); ?>
-                <?php if(!empty($pagename)) {?>
-                <?php while(have_posts()){ the_post();?>
+               <?php  the_post();?>
+                
                 <div class="col-md-3 col-sm-6">
                     <div class="row">
                             <div class="col-lg-4 col-md-4 col-sm-12 logos-footer"> 
@@ -543,8 +542,7 @@ if(!empty($pagename)){
                             </div>
                        
                     </div>
-                    <?php } ?>
-                 <?php } wp_reset_query(); ?> 
+                   
                     <div class="col-md-3 col-sm-6">
                      <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-12 logo-ubicacion  ">

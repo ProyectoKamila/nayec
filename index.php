@@ -421,7 +421,7 @@ if(!empty($pagename)){ ?>
             </div>
             <div class="row">
                 <div class="col-lg-12 formu">
-                    <form    method="POST">
+                    <form name="email"   method="post">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -450,7 +450,7 @@ if(!empty($pagename)){ ?>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 
-                                <input type="submit" class="btn btn-success" value="ENVIAR"></input>
+                                <input type="submit" class="btn btn-success" name="enviar" value="ENVIAR"></input>
                                                        <?php if(get_field('contacto-texto3')){?>
                                  <h3 class="subtitu"><?php the_field('contacto-texto3');?></h3>
                                   <?php if(get_field('contacto-texto4')){?>

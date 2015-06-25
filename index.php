@@ -598,6 +598,8 @@ if(!empty($pagename)){
 expand: true,
 buildStartStop: false,
 buildArrows: true,
+enableArrows        : false,  
+			  buildArrows         : false, 
 autoPlay: true ,
 hashTags: false
                         

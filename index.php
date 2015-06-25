@@ -590,10 +590,6 @@ if(!empty($pagename)){ ?>
 <script src="<?php bloginfo('template_url');?>/js/classie.js"></script>
 <script src="<?php bloginfo('template_url');?>/js/cbpAnimatedHeader.js"></script>
 
-    <!-- Contact Form JavaScript -->
-<script src="<?php bloginfo('template_url');?>/js/jqBootstrapValidation.js"></script>
-<script src="<?php bloginfo('template_url');?>/js/contact_me.js"></script>
-
     <!-- Custom Theme JavaScript -->
 <script src="<?php bloginfo('template_url');?>/js/agency.js"></script>
 

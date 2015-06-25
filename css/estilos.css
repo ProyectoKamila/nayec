@@ -724,6 +724,7 @@ height: 100% !important;
     {
         color:white;
        margin-top:10px;
+       font-size:23px;
     }
 .slider-parrafo
     {
@@ -732,11 +733,10 @@ height: 100% !important;
           text-align: justify;
           margin: auto;
           padding-top: 10px;
-          font-size:23px;
     }
 .slider-boton
     {
-        margin-left: 56%;
+        margin-left: 45%;
         width: 132px;
     }
 .contacto-emca-mision

@@ -723,7 +723,7 @@ height: 100% !important;
 .slider-titulo1
     {
         color:white;
-        padding-top: 46px;
+       margin-top:10px;
     }
 .slider-parrafo
     {
@@ -732,6 +732,7 @@ height: 100% !important;
           text-align: justify;
           margin: auto;
           padding-top: 10px;
+          font-size:23px;
     }
 .slider-boton
     {

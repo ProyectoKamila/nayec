@@ -97,8 +97,7 @@
     <?php get_template_part("slider");?>
     <!-- Services Section -->
 <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicios-aduaneros','posts_per_page'=>1));
-if(!empty($pagename)){
-?>
+if(!empty($pagename)){?>
         <div class="container-fluid sin-padding">
         <div class="servi services">
                         <?php while(have_posts()){ the_post();?>
@@ -139,13 +138,13 @@ if(!empty($pagename)){
                     <?php } else {?>
                         <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" >
                     <?php } ?>
+                    <?php if(get_field('content_right')) { ?>
                             <div class="logisinfo">
-                                <?php if(get_field('content_right')) { ?>
                                          <p>
                                           <?php the_field('content_right');?> 
                                          </p>
-                                <?php } ?>
                                                     </div>
+                                        <?php } ?>
                                                 </div>
                                             </div>
                                         </div>

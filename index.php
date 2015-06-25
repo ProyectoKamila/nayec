@@ -405,9 +405,9 @@ if(!empty($pagename)){
  <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>
  <?php if(!empty($pagename)) {?>
      <?php while(have_posts()){ the_post();?>
-<?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'redes-sociales','posts_per_page'=>1)); ?>
- <?php if(!empty($pagename)) {?>
-     <?php while(have_posts()){ the_post();?>
+    <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'redes-sociales','posts_per_page'=>1)); ?>
+    <?php if(!empty($pagename)) {?>  <?php } ?>
+     <?php while(have_posts()){ the_post();?><?php } ?>
     <section id="contacto">
         <div class="container">
             <div class="row">
@@ -553,8 +553,6 @@ if(!empty($pagename)){
                             </div>
                        
                     </div>
-            <?php } ?>
-        <?php } ?>
                   
                     <div class="col-md-3 col-sm-6">
                      <div class="row">

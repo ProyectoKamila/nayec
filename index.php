@@ -426,7 +426,7 @@ if(!empty($pagename)){ ?>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <h3 class="subtitu4">NOMBRE Y APELLIDO</h3>
-                                    <input type="text" class="form-control" placeholder="Nombre y apellido *" id="name" name="nombre" required >
+                                    <input type="text" class="form-control" placeholder="Nombre y apellido *" id="nombre" name="nombre" required >
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">

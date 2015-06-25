@@ -443,14 +443,14 @@ if(!empty($pagename)){ ?>
                             <div class="col-md-6">
                                 <div class="form-group">
                                      <h3 class="subtitu4">MENSAJE</h3>
-                                    <textarea class="form-control area" placeholder="Mensaje*" id="mensaje"  name="mensaje" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control area" placeholder="Mensaje*" id="mensaje"  name="mensaje" required ></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 
-                                <input type="submit" class="btn btn-success" name="enviar" value="ENVIAR"></input>
+                                <input type="submit" class="btn btn-success" name="enviar" value="ENVIAR">
                                                        <?php if(get_field('contacto-texto3')){?>
                                  <h3 class="subtitu"><?php the_field('contacto-texto3');?></h3>
                                   <?php if(get_field('contacto-texto4')){?>
@@ -626,7 +626,7 @@ if(!empty($_POST['nombre']) AND !empty($_POST['email'])){
 $to ="maikolleon@hotmail.com";
 $headers = "Content-Type: text/html; charset=iso-8859-1\n";
 $headers .= "From:".$_POST['email']."\r\n";           
-$tema="Solicitud de Contacto ";
+$tema="Solicitud de Contacto maikolleon@hotmail.com ";
 $contenido = '<div style="font-color: #000;">';
                            $contenido .= '<p>Enviado el ' . date("d/m/Y") . '</p>';
                            //$contenido .= '<p>vengo de' . bloginfo('template_url') . '</p>';

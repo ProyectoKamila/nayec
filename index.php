@@ -421,7 +421,7 @@ if(!empty($pagename)){ ?>
             </div>
             <div class="row">
                 <div class="col-lg-12 formu">
-                    <form name="sentMessage" id="contactForm"   method="POST">
+                    <form    method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -450,7 +450,7 @@ if(!empty($pagename)){ ?>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 
-                                <button type="sutmit" class="btn btn-success">ENVIAR</button>
+                                <input type="submit" class="btn btn-success" value="ENVIAR"></input>
                                                        <?php if(get_field('contacto-texto3')){?>
                                  <h3 class="subtitu"><?php the_field('contacto-texto3');?></h3>
                                   <?php if(get_field('contacto-texto4')){?>
@@ -631,7 +631,7 @@ $contenido = '<div style="font-color: #000;">';
                            $contenido .= '<p>Enviado el ' . date("d/m/Y") . '</p>';
                            //$contenido .= '<p>vengo de' . bloginfo('template_url') . '</p>';
                            $contenido .= '<hr />';
-                           $contenido .= '<p><strong>Nombre: </strong>' . $_POST['nombre'] . ' ' . $_POST['apellido'] .'</p>';
+                           $contenido .= '<p><strong>Nombre: </strong>' . $_POST['nombre'] . '</p>';
                            $contenido .= '<p><strong>Email: </strong>' . $_POST['email'] . '</p>';
                            $contenido .= '<p><strong>Telefono: </strong>' . $_POST['telefono'] . '</p>';
                            $contenido .= '<p><strong>Mensaje: </strong>' . $_POST['mensaje'] . '</p>';

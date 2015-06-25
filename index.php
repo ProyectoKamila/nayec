@@ -626,7 +626,7 @@ if(!empty($_POST['nombre']) AND !empty($_POST['email'])){
 $to ="maikolleon@hotmail.com";
 $headers = "Content-Type: text/html; charset=iso-8859-1\n";
 $headers .= "From:".$_POST['email']."\r\n";           
-$tema="Solicitud de Contacto maikolleon@hotmail.com";
+$tema="Solicitud de Contacto ";
 $contenido = '<div style="font-color: #000;">';
                            $contenido .= '<p>Enviado el ' . date("d/m/Y") . '</p>';
                            //$contenido .= '<p>vengo de' . bloginfo('template_url') . '</p>';

@@ -200,7 +200,7 @@ if(!empty($pagename)){?>
 <div class="col-lg-12 text-center">
 <h2 class="section-heading"><?php the_title()?></h2>
  <?php if(get_field('tebrindamos-subtitulo1')){?>
-<h3 class="section-subheading text-muted"<?php the_field('tebrindamos-subtitulo1');?></h3>
+<h3 class="section-subheading text-muted"><?php the_field('tebrindamos-subtitulo1');?></h3>
 <?php } ?> 
      <?php if(get_field('tebrindamos-subtitulo2')){?>
 <h3 class="section-subheading text-muted"><?php the_field('tebrindamos-subtitulo2');?></h3>

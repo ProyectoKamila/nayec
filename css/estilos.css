@@ -198,7 +198,7 @@ font-family: Helvetica, Sans-Serif; padding: 5px 35px 2px 54px; text-transform: 
     
 footer .footer-nayec{margin-top:0px;} 
 
-section #nosotros .parrafo-mision p
+section #nosotros div.parrafo-mision p
     {
         color: white; 
         text-transform: none;

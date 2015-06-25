@@ -195,22 +195,22 @@ if(!empty($pagename)){ ?>
 <section id="nosotros2" class="bg-light-gray">
 <div class="container-fluid sin-padding">
 <div class="row">
-    <?php query_posts(array('post_type'=>'servicio','posts_per_page'=>-1,));?>
-<?php while(have_posts()){ the_post();?>
+    <?php query_posts(array('post_type'=>'configuracion','posicion'=>'texto-brindamos','posts_per_page'=>1,));?>
+    <?php while(have_posts()){ the_post();?>
 <div class="col-lg-12 text-center">
-     <?php if(get_field('tebrindamos-titulo')){?>
-<h2 class="section-heading"><?php the_field('tebrindamos-titulo');?></h2>
-<?php } ?>   
+<h2 class="section-heading"><?php the_title()?></h2>
  <?php if(get_field('tebrindamos-subtitulo1')){?>
-<h3 class="section-subheading text-muted"<?php the_field('tebrindamos-subtitulo1');?></h3>
+<h3 class="section-subheading text-muted"><?php the_field('tebrindamos-subtitulo1');?></h3>
 <?php } ?> 
      <?php if(get_field('tebrindamos-subtitulo2')){?>
 <h3 class="section-subheading text-muted"><?php the_field('tebrindamos-subtitulo2');?></h3>
 <?php } ?> 
                 </div>
+                <?php } ?> 
             </div>
 <div class="clearfix"></div>
-
+<?php query_posts(array('post_type'=>'servicio','posts_per_page'=>-1,));?>
+<?php while(have_posts()){ the_post();?>
 <?php if(get_field('pos1')){?>
 <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 <div class="col-lg-3 col-md-3 col-sm-6 sin-padding">

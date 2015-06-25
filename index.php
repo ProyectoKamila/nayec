@@ -195,7 +195,7 @@ if(!empty($pagename)){?>
 <section id="nosotros2" class="bg-light-gray">
 <div class="container-fluid sin-padding">
 <div class="row">
-    <?php query_posts(array('post_type'=>'configuracion','posts_per_page'=>1,'posicion'=>"texto brindamos"));?>
+    <?php query_posts(array('post_type'=>'configuracion','posicion'=>"texto brindamos",'posts_per_page'=>1));?>
 <?php while(have_posts()){ the_post();?>
 <div class="col-lg-12 text-center">
 <h2 class="section-heading"><?php the_title()?></h2>

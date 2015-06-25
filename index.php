@@ -195,12 +195,10 @@ if(!empty($pagename)){?>
 <section id="nosotros2" class="bg-light-gray">
 <div class="container-fluid sin-padding">
 <div class="row">
-    <?php query_posts(array('post_type'=>'servicio','posts_per_page'=>-1,));?>
+    <?php query_posts(array('post_type'=>'configuracion','posts_per_page'=>1,'posicion'=>'texto-brindamos'));?>
 <?php while(have_posts()){ the_post();?>
 <div class="col-lg-12 text-center">
-     <?php if(get_field('tebrindamos-titulo')){?>
-<h2 class="section-heading"><?php the_field('tebrindamos-titulo');?></h2>
-<?php } ?>   
+<h2 class="section-heading"><?php the_title()?></h2>
  <?php if(get_field('tebrindamos-subtitulo1')){?>
 <h3 class="section-subheading text-muted"<?php the_field('tebrindamos-subtitulo1');?></h3>
 <?php } ?> 

@@ -421,22 +421,22 @@ if(!empty($pagename)){ ?>
             </div>
             <div class="row">
                 <div class="col-lg-12 formu">
-                    <form    method="post">
+                    <form    method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <h3 class="subtitu4">NOMBRE Y APELLIDO</h3>
-                                    <input type="text" class="form-control" placeholder="Nombre y apellido *" id="name" name="nombre" required data-validation-required-message="Please enter your name.">
+                                    <input type="text" class="form-control" placeholder="Nombre y apellido *" id="name" name="nombre" required >
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
                                     <h3 class="subtitu4">EMAIL</h3>
-                                    <input type="email" class="form-control" placeholder=" Email *" id="email"  name="email" required data-validation-required-message="Please enter your email address.">
+                                    <input type="email" class="form-control" placeholder=" Email *" id="email"  name="email" required >
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
                                        <h3 class="subtitu4">TELÉFONO </h3>
-                                    <input type="tel" class="form-control" placeholder="Teléfono *" id="telefono"  name="telefono" required data-validation-required-message="Please enter your phone number.">
+                                    <input type="tel" class="form-control" placeholder="Teléfono *" id="telefono"  name="telefono" required >
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>

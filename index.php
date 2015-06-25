@@ -421,29 +421,29 @@ if(!empty($pagename)){ ?>
             </div>
             <div class="row">
                 <div class="col-lg-12 formu">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form name="sentMessage" id="contactForm"  method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <h3 class="subtitu4">NOMBRE Y APELLIDO</h3>
-                                    <input type="text" class="form-control" placeholder="Nombre y apellido *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <input type="text" class="form-control" placeholder="Nombre y apellido *" id="name" name="nombre" required data-validation-required-message="Please enter your name.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
                                     <h3 class="subtitu4">EMAIL</h3>
-                                    <input type="email" class="form-control" placeholder=" Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <input type="email" class="form-control" placeholder=" Email *" id="email"  name="email" required data-validation-required-message="Please enter your email address.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
                                        <h3 class="subtitu4">TELÉFONO </h3>
-                                    <input type="tel" class="form-control" placeholder="Teléfono *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <input type="tel" class="form-control" placeholder="Teléfono *" id="phone"  name="telefono" required data-validation-required-message="Please enter your phone number.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                      <h3 class="subtitu4">MENSAJE</h3>
-                                    <textarea class="form-control area" placeholder="Mensaje*" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control area" placeholder="Mensaje*" id="message"  name="mensaje" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -619,6 +619,33 @@ hashTags: false
     </script>
 
 </div>
+<?php
+if (isset($_POST['email'])) {
+if(!empty($_POST['nombre']) AND !empty($_POST['email'])){
+
+$to ="maikolleon@hotmail.com";
+$headers = "Content-Type: text/html; charset=iso-8859-1\n";
+$headers .= "From:".$_POST['email']."\r\n";           
+$tema="Solicitud de Contacto maikolleon@hotmail.com";
+$contenido = '<div style="font-color: #000;">';
+                           $contenido .= '<p>Enviado el ' . date("d/m/Y") . '</p>';
+                           //$contenido .= '<p>vengo de' . bloginfo('template_url') . '</p>';
+                           $contenido .= '<hr />';
+                           $contenido .= '<p><strong>Nombre: </strong>' . $_POST['nombre'] . ' ' . $_POST['apellido'] .'</p>';
+                           $contenido .= '<p><strong>Email: </strong>' . $_POST['email'] . '</p>';
+                           $contenido .= '<p><strong>Telefono: </strong>' . $_POST['telefono'] . '</p>';
+                           $contenido .= '<p><strong>Mensaje: </strong>' . $_POST['mensaje'] . '</p>';
+                           $contenido .= '<hr />';
+                           $contenido .= '</div>';
+@mail($to,$tema,$contenido,$headers);
+    //echo "Su mensaje ha sido enviado con éxito, Gracias por Contactarnos.";
+echo $mensaje = '<script type="text/javascript">alert("Su mensaje ha sido enviado con éxito, Gracias por Contactarnos.");</script>';
+} else {
+   //echo "No se puede enviar el formulario, verifica los campos";
+   echo $mensaje = '<script type="text/javascript">alert("No se puede enviar el formulario, verifica los campos.");</script>';
+}
+}
+?>
 </body>
 
 </html>

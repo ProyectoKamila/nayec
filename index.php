@@ -436,14 +436,14 @@ if(!empty($pagename)){ ?>
                                 </div>
                                 <div class="form-group">
                                        <h3 class="subtitu4">TELÉFONO </h3>
-                                    <input type="tel" class="form-control" placeholder="Teléfono *" id="phone"  name="telefono" required data-validation-required-message="Please enter your phone number.">
+                                    <input type="tel" class="form-control" placeholder="Teléfono *" id="telefono"  name="telefono" required data-validation-required-message="Please enter your phone number.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                      <h3 class="subtitu4">MENSAJE</h3>
-                                    <textarea class="form-control area" placeholder="Mensaje*" id="message"  name="mensaje" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control area" placeholder="Mensaje*" id="mensaje"  name="mensaje" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>

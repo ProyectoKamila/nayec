@@ -79,6 +79,7 @@
                 <!-- /.container-fluid -->
             </nav>
     </div>
+    <?php get_template_part("slider");?>
     
 <!-- IMPORTACION Section -->
  
@@ -96,7 +97,6 @@
             </div>
     </div>
 </div>
-<?php include('slider.php');?>
 <!-- IMAGENES Y PARRAFOS Section -->
 <div class="container">
     <div class="row">

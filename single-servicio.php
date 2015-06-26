@@ -79,7 +79,7 @@
                 <!-- /.container-fluid -->
             </nav>
     </div>
-   <?php include('slider.php');?>
+    
 <!-- IMPORTACION Section -->
  
  <?php  the_post();?>
@@ -96,6 +96,7 @@
             </div>
     </div>
 </div>
+<?php include('slider.php');?>
 <!-- IMAGENES Y PARRAFOS Section -->
 <div class="container">
     <div class="row">
@@ -106,7 +107,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
           <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );?>
-            <img src="<?php echo $feat_image;?>" class="img-responsive imagen1-servicio" alt="">
+            <img src="<?php echo $feat_image;?>" class="img-responsive .imagen1-servicio" alt="">
         </div>
     </div>
 </div>

@@ -83,7 +83,9 @@
     
 <!-- IMPORTACION Section -->
  
- <?php  the_post();?>
+ <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicio','posts_per_page'=>1)); ?>
+ <?php if(!empty($pagename)) {?>
+     <?php while(have_posts()){ the_post();?>
 <div class="container-fluid sin-padding">
     <div class="row">
             <div class="fondo-textoimpo col-lg-12 text-center">
@@ -97,6 +99,8 @@
             </div>
     </div>
 </div>
+ <?php } ?>
+  <?php } ?>
 <!-- IMAGENES Y PARRAFOS Section -->
 <div class="container">
     <div class="row">

@@ -42,7 +42,7 @@
 <?php while(have_posts()){ the_post();?>
 <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
     <img src="<?php echo $feat_image;?>" class="img-responsive logo" alt="<?php the_title(); ?>">
-<?php } ?>
+<?php } wp_reset_query(); ?>
                                 </a>
                     <!-- Collect the nav links, forms, and other content for toggling -->
 <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
@@ -84,7 +84,9 @@
     
 <!-- IMPORTACION Section -->
  
- 
+ <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicio','posts_per_page'=>1)); ?>
+ <?php if(!empty($pagename)) {?>
+ <?php while(have_posts()){ the_post();?>
 <div class="container-fluid sin-padding">
     <div class="row">
             <div class="fondo-textoimpo col-lg-12 text-center">
@@ -98,7 +100,8 @@
             </div>
     </div>
 </div>
-
+<?php } ?>
+ <?php } wp_reset_query(); ?>
 <!-- IMAGENES Y PARRAFOS Section -->
 <div class="container">
     <div class="row">

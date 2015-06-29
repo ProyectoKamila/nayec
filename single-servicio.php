@@ -42,7 +42,7 @@
 <?php while(have_posts()){ the_post();?>
 <?php $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
     <img src="<?php echo $feat_image;?>" class="img-responsive logo" alt="<?php the_title(); ?>">
-<?php } wp_reset_query(); ?>
+<?php } ?>
                                 </a>
                     <!-- Collect the nav links, forms, and other content for toggling -->
 <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
@@ -79,17 +79,14 @@
                 <!-- /.container-fluid -->
             </nav>
     </div>
-   
+    <?php get_template_part("slider");?>
   
     
 <!-- IMPORTACION Section -->
- 
- <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicio','posts_per_page'=>1));
-if(!empty($pagename)){ ?>
- 
+  <?php the_post();?>
 <div class="container-fluid sin-padding">
     <div class="row">
-        <?php while(have_posts()){ the_post();?>
+      
             <div class="fondo-textoimpo col-lg-12 text-center">
                 <h2 class="importacion"><?php the_title();?></h2>
                  <?php if(get_field('servicio-texto1')){?>
@@ -99,10 +96,10 @@ if(!empty($pagename)){ ?>
                     <p class="subtitulo11"><?php the_field('servicio-texto2');?></p>
                 <?php } ?>
             </div>
-        <?php } ?>
+         
     </div>
 </div>
- <?php } ?>
+ 
 <!-- IMAGENES Y PARRAFOS Section -->
 <div class="container">
     <div class="row">

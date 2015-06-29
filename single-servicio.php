@@ -121,7 +121,7 @@ if(!empty($pagename)){ ?>
                     <div class="row">
                     <!-- fondo 1-->
                         <?php if(get_field('background_left')){?>
-                    <div class="aduanas-n   col-lg-6  col-md-6 col-sm-12  col-xs-12"style="background: url(<?php the_field('background_left'); ?>)   top center no-repeat; backgroun-size:cover;">
+                    <div class="aduanas-n   col-lg-6  col-md-6 col-sm-12  col-xs-12" style="background: url(<?php the_field('background_left'); ?>)   top center no-repeat; backgroun-size:cover;">
                         <?php } ?>
                         <?php if(get_field('title_left')) { ?>
                             <div class="aduana-info-n">

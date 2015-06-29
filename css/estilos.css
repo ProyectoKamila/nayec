@@ -189,8 +189,7 @@ div.logistica:hover div.logisinfo{margin-top:0px;}
     background-position: center;
     height: 300px;
     display:block;
-    padding:0 !important;
-    margin:0;
+    
     box-sizing:border-box;
     overflow: hidden;
 }

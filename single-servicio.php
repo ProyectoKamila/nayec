@@ -139,8 +139,6 @@ if(!empty($pagename)){ ?>
                      <!-- fondo 2-->
                     <?php if(get_field('background_right')) { ?>
                     <div class="logistica-n  col-xs-12 col-sm-12 col-md-6  col-lg-6" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">
-                    <?php } else {?>
-                        <div class="logistica-n  col-xs-12 col-sm-12 col-md-6  col-lg-6" >
                     <?php } ?>
                       <?php if(get_field('content_right')) { ?>
                             <div class="logisinfo-n">

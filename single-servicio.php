@@ -157,7 +157,7 @@ if(!empty($pagename)){ ?>
                                             </div>
                                              <!-- /fondo 2-->
                                         </div>
-                                        </div>
+                                       
                                     <?php } ?>                
                     </div>
 <?php } ?>   

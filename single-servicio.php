@@ -79,8 +79,8 @@
                 <!-- /.container-fluid -->
             </nav>
     </div>
-    <?php get_template_part("slider");?>
-    <?php wp_reset_query(); ?>
+   
+  
     
 <!-- IMPORTACION Section -->
  

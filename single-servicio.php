@@ -114,6 +114,9 @@
     </div>
 </div>
 <!-- servicios aduanales -->
+<?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicios-aduaneros','posts_per_page'=>1));
+if(!empty($pagename)){ ?>
+ <?php while(have_posts()){ the_post();?>
 <div class="container">
     <div class="row">
             <?php if(get_field('background_left')){?>
@@ -131,8 +134,9 @@
             
         </div>
     </div>
-
 </div>
+<?php } ?>
+<?php } ?>
  <!-- Contact Section -->
  <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>
  <?php if(!empty($pagename)) {?>

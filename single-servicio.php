@@ -144,7 +144,7 @@ if(!empty($pagename)){ ?>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="practi col-lg-6 col-md-6">
+                    <div class=" col-lg-6 col-md-6">
                         <ul>
                             <li>
                                 exportacio

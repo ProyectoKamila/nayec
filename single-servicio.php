@@ -140,7 +140,7 @@ if(!empty($pagename)){ ?>
                         <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" >
                     <?php } ?>
                       <?php if(get_field('content_right')) { ?>
-                            <div class="logisinfo-n">
+                            <div class="logisinfo-n text-center">
                                          <p>
                                           <?php the_field('content_right');?> 
                                          </p>

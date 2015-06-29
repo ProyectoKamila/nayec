@@ -83,11 +83,12 @@
   
     
 <!-- IMPORTACION Section -->
-  <?php the_post();?>
+<?php the_post();?>
 <div class="container-fluid sin-padding">
     <div class="row">
       
             <div class="fondo-textoimpo col-lg-12 text-center">
+                <div class="col-lg-12 text-center">
                 <h2 class="importacion"><?php the_title();?></h2>
                  <?php if(get_field('servicio-texto1')){?>
                     <p class="subtitulo10"><?php the_field('servicio-texto1');?></p>
@@ -96,7 +97,7 @@
                     <p class="subtitulo11"><?php the_field('servicio-texto2');?></p>
                 <?php } ?>
             </div>
-         
+          </div>
     </div>
 </div>
  

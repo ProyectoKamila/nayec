@@ -84,8 +84,8 @@
     
 <!-- IMPORTACION Section -->
  
- <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicio','posts_per_page'=>1)); ?>
- <?php if(!empty($pagename)) {?>
+ <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicio','posts_per_page'=>1));
+if(!empty($pagename)){ ?>
  
 <div class="container-fluid sin-padding">
     <div class="row">

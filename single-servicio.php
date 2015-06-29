@@ -133,6 +133,7 @@ if(!empty($pagename)){ ?>
                                 <?php } ?>
                         </div>
                     </div>
+                    </div>
                     <?php if(get_field('background_right')) { ?>
                     <div class="logistica-n sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">
                     
@@ -153,6 +154,8 @@ if(!empty($pagename)){ ?>
                                     <?php } ?>                
                    
 <?php } ?>
+
+
  <!-- Contact Section -->
  <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>
  <?php if(!empty($pagename)) {?>

@@ -150,7 +150,6 @@ if(!empty($pagename)){ ?>
                                             </div>
                                         </div>
                                         </div>
-                                    </section>
                                     <?php } ?>                
                     </div>
 <?php } ?>

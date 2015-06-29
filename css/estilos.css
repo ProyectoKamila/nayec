@@ -213,8 +213,7 @@ div.aduanas-n:hover div.aduana-info-n{ margin-top:225px; }
     background-position: center;
     height: 300px;
     display:block;
-    padding:0 !important;
-    margin:0;
+    margin:auto;
     box-sizing:border-box;
     overflow: hidden;
     

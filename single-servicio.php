@@ -154,7 +154,6 @@ if(!empty($pagename)){ ?>
                                     <?php } ?>                
                     </div>
 <?php } ?>
-<?php } ?>
  <!-- Contact Section -->
  <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>
  <?php if(!empty($pagename)) {?>

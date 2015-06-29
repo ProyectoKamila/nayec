@@ -138,6 +138,7 @@ if(!empty($pagename)){ ?>
                     <div class="practi col-lg-12 ">
                             
                         </div>
+                        </div>
                     <!-- /fondo 1-->
                      <!-- fondo 2-->
                     <?php if(get_field('background_right')) { ?>

@@ -161,6 +161,20 @@ if(!empty($pagename)){ ?>
                         </ul>
                     </div>
                      <div class="practi col-lg-6 col-md-6">
+                         <ul>
+                            <li>
+                                exportacio
+                            </li>
+                            <li>
+                                cuarentena
+                            </li>
+                             <li>
+                                exoneraciones
+                            </li>
+                             <li>
+                               aupsa
+                            </li>
+                        </ul>
                         
                     </div>
                 </div>

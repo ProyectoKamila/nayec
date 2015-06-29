@@ -213,7 +213,8 @@ div.aduanas-n:hover div.aduana-info-n{ margin-top:225px; }
     background-position: center;
     height: 300px;
     display:block;
-    margin:auto;
+    padding:0 !important;
+    margin:0;
     box-sizing:border-box;
     overflow: hidden;
     
@@ -851,3 +852,8 @@ div.servicio-parrafo10 p
 .alto-slider{height:612px;}
 
 .cuadro-sli{margin-top:215px;}
+.practi
+    {
+        height:50px; 
+        border:5px solid red;
+    }

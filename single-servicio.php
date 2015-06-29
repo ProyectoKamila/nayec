@@ -121,7 +121,7 @@ if(!empty($pagename)){ ?>
                     <div class="row sin-padding">
                     <!-- fondo 1-->
                         <?php if(get_field('background_left')){?>
-                    <div class="aduanas-n sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>)   top center no-repeat; backgroun-size:cover;   padding-left: 0px;   padding-right: 0px;">
+                    <div class="aduanas-n sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>)   top center no-repeat; backgroun-size:cover;">
 
                         <?php }else{ ?>
                     <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  ">
@@ -133,6 +133,9 @@ if(!empty($pagename)){ ?>
                                 <?php }else{?>
                                 <h2 class="text-center texto-servicios">SERVICIOS ADUANALES</h2>
                                 <?php } ?>
+                        </div>
+                        <div class="practi col-lg-12 ">
+                            
                         </div>
                     </div>
                     <!-- /fondo 1-->

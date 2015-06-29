@@ -117,8 +117,8 @@
 <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicios-aduaneros','posts_per_page'=>1));
 if(!empty($pagename)){ ?>
  <?php while(have_posts()){ the_post();?>
-<div class="container-fluid sin-padding">
-                    <div class="row sin-padding">
+<div class="container">
+                    <div class="row">
                         <?php if(get_field('background_left')){?>
                     <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>) top center no-repeat; backgroun-size:cover;">
 

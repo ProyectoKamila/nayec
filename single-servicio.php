@@ -117,14 +117,16 @@
 <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicios-aduaneros','posts_per_page'=>1));
 if(!empty($pagename)){ ?>
  <?php while(have_posts()){ the_post();?>
-<div class="container sin-padding">
+ <div class="container-fluid sin-padding">
                     <div class="row sin-padding">
+                    <!-- fondo 1-->
                         <?php if(get_field('background_left')){?>
                     <div class="aduanas-n sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>) top center no-repeat; backgroun-size:cover;">
+
                         <?php }else{ ?>
                     <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  ">
                         <?php } ?>
-                        <div class="aduana-info-n sin-padding">
+                        <div class="aduana-info-n">
                         <?php if(get_field('title_left')) { ?>
                         
                                 <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
@@ -133,15 +135,15 @@ if(!empty($pagename)){ ?>
                                 <?php } ?>
                         </div>
                     </div>
-                    </div>
+                    <!-- /fondo 1-->
+                     <!-- fondo 2-->
                     <?php if(get_field('background_right')) { ?>
                     <div class="logistica-n sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">
-                    
                     <?php } else {?>
-                        <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" >
+                        <div class="logistica-n sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" >
                     <?php } ?>
                       <?php if(get_field('content_right')) { ?>
-                            <div class="logisinfo-n text-center">
+                            <div class="logisinfo-n">
                                          <p>
                                           <?php the_field('content_right');?> 
                                          </p>
@@ -149,12 +151,12 @@ if(!empty($pagename)){ ?>
                                   <?php } ?>
                                                 </div>
                                             </div>
+                                             <!-- /fondo 2-->
                                         </div>
                                         </div>
                                     <?php } ?>                
-                   
-<?php } ?>
-
+                    </div>
+<?php } ?>   
 
  <!-- Contact Section -->
  <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>

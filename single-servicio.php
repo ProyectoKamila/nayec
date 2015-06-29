@@ -121,7 +121,7 @@ if(!empty($pagename)){ ?>
                     <div class="row sin-padding">
                     <!-- fondo 1-->
                         <?php if(get_field('background_left')){?>
-                    <div class="aduanas-n sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>) top center no-repeat; backgroun-size:cover;">
+                    <div class="aduanas-n sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>)  padding-left: 0px;   padding-right: 0px; top center no-repeat; backgroun-size:cover;">
 
                         <?php }else{ ?>
                     <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  ">

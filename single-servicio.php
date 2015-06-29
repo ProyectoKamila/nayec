@@ -123,9 +123,8 @@ if(!empty($pagename)){ ?>
                         <?php if(get_field('background_left')){?>
                     <div class="aduanas-n  col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>)   top center no-repeat; backgroun-size:cover;">
 
-                        <?php }else{ ?>
-                    <div class="aduanas  col-xs-12 col-sm-12 col-md-6  col-lg-6  ">
                         <?php } ?>
+                   
                         <div class="aduana-info-n">
                         <?php if(get_field('title_left')) { ?>
                         
@@ -134,7 +133,7 @@ if(!empty($pagename)){ ?>
                                 <h2 class="text-center texto-servicios">SERVICIOS ADUANALES</h2>
                                 <?php } ?>
                         </div>
-                    </div>
+                        </div>
                         </div>
                     <!-- /fondo 1-->
                      <!-- fondo 2-->

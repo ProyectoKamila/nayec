@@ -122,35 +122,39 @@ if(!empty($pagename)){ ?>
                     <!-- fondo 1-->
                         <?php if(get_field('background_left')){?>
                     <div class="aduanas-n  col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>)   top center no-repeat; backgroun-size:cover;">
-
                         <?php } ?>
-                    <?php if(get_field('title_left')) { ?>
-                        <div class="aduana-info-n">
-                       
-                        
-                                <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
-                        </div>
-                         <?php }?>
-                        </div>
+                        <?php if(get_field('title_left')) { ?>
+                            <div class="aduana-info-n">
+                                    <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
+                            </div>
+                             <?php }?>
+                    </div>
                     <!-- /fondo 1-->
                      <!-- fondo 2-->
                     <?php if(get_field('background_right')) { ?>
                     <div class="logistica-n  col-xs-12 col-sm-12 col-md-6  col-lg-6" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">
                     <?php } ?>
-                      <?php if(get_field('content_right')) { ?>
+                     <?php if(get_field('content_right')) { ?>
                             <div class="logisinfo-n">
-                                         <p>
-                                          <?php the_field('content_right');?> 
-                                         </p>
-                                                    </div>
-                                  <?php } ?>
-                                                </div>
-                                            </div>
-                                             <!-- /fondo 2-->
-                                        </div>
-                                       
-                                    <?php } ?>                
+                                 <p>
+                                  <?php the_field('content_right');?> 
+                                 </p>
+                            </div>
+                    <?php } ?>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="practi col-lg-6 col-md-6">
+                        
+                    </div>
+                     <div class=" practi col-lg-6 col-md-6">
+                        
+                    </div>
+                </div>
+                                             <!-- /fondo 2-->
+                                       
+                                    <?php } ?>  
+                     </div>
 <?php } ?>   
 
  <!-- Contact Section -->

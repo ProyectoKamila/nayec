@@ -134,10 +134,10 @@ if(!empty($pagename)){ ?>
                                 <h2 class="text-center texto-servicios">SERVICIOS ADUANALES</h2>
                                 <?php } ?>
                         </div>
-                        <div class="practi col-lg-12 ">
+                    </div>
+                    <div class="practi col-lg-12 ">
                             
                         </div>
-                    </div>
                     <!-- /fondo 1-->
                      <!-- fondo 2-->
                     <?php if(get_field('background_right')) { ?>

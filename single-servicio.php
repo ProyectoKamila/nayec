@@ -120,12 +120,12 @@ if(!empty($pagename)){ ?>
 <div class="container">
                     <div class="row">
                         <?php if(get_field('background_left')){?>
-                    <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>) top center no-repeat; backgroun-size:cover;">
+                    <div class="aduanas-n sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>) top center no-repeat; backgroun-size:cover;">
 
                         <?php }else{ ?>
                     <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  ">
                         <?php } ?>
-                        <div class="aduana-info">
+                        <div class="aduana-info-n">
                         <?php if(get_field('title_left')) { ?>
                         
                                 <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
@@ -135,12 +135,12 @@ if(!empty($pagename)){ ?>
                         </div>
                     </div>
                     <?php if(get_field('background_right')) { ?>
-                    <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">
+                    <div class="logistica-n sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">
                     <?php } else {?>
                         <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" >
                     <?php } ?>
                       <?php if(get_field('content_right')) { ?>
-                            <div class="logisinfo">
+                            <div class="logisinfo-n">
                                          <p>
                                           <?php the_field('content_right');?> 
                                          </p>

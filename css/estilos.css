@@ -182,6 +182,57 @@ div.aduanas:hover div.aduana-info{ margin-top:500px; }
     }
  
 div.logistica:hover div.logisinfo{margin-top:0px;}
+
+.aduanas-n{background-image: url(img/portfolio/publi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 664px;
+    display:block;
+    padding:0 !important;
+    margin:0;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+.aduana-info-n{width: 100%;
+    height: 180px;
+    background-position: center center;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+    margin-top:664px;
+    background-color: rgba(255,255,255,0.6);
+    overflow: hidden;
+    transition:1s all ease-in-out;
+}
+div.aduanas-n:hover div.aduana-info-n{ margin-top:500px; }
+
+.logistica-n{background-image: url(img/portfolio/publi2.jpg);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 667px;
+    display:block;
+    padding:0 !important;
+    margin:0;
+    box-sizing:border-box;
+    overflow: hidden;
+    
+}
+    
+.logisinfo-n{width: 100%;
+    height: 667px;
+    background-position: center center;
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+    margin-top:664px;
+    background-color: rgba(81,83,94,0.9);
+    overflow: hidden;
+    transition:1s all ease-in-out;
+    }
+ 
+div.logistica-n:hover div.logisinfo-n{margin-top:0px;}
 .titulo-logistica{color: white; text-align: center; 
 padding: 34px 10px;}
 .parrafos-servicios{color: white; text-align: justify; font-size: 20px;

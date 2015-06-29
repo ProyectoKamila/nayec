@@ -205,7 +205,7 @@ div.logistica:hover div.logisinfo{margin-top:0px;}
     overflow: hidden;
     transition:1s all ease-in-out;
 }
-div.aduanas-n:hover div.aduana-info-n{ margin-top:100px; }
+div.aduanas-n:hover div.aduana-info-n{ margin-top:225px; }
 
 .logistica-n{background-image: url(img/portfolio/publi2.jpg);
    background-size: cover;
@@ -232,7 +232,7 @@ div.aduanas-n:hover div.aduana-info-n{ margin-top:100px; }
     transition:1s all ease-in-out;
     }
  
-div.logistica-n:hover div.logisinfo-n{margin-top:0px;}
+div.logistica-n:hover div.logisinfo-n{margin-top:100px;}
 .titulo-logistica{color: white; text-align: center; 
 padding: 34px 10px;}
 .parrafos-servicios{color: white; text-align: justify; font-size: 20px;

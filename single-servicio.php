@@ -117,15 +117,15 @@
 <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicios-aduaneros','posts_per_page'=>1));
 if(!empty($pagename)){ ?>
  <?php while(have_posts()){ the_post();?>
-<div class="container">
-                    <div class="row">
+<div class="container sin-padding">
+                    <div class="row sin-padding">
                         <?php if(get_field('background_left')){?>
                     <div class="aduanas-n sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>) top center no-repeat; backgroun-size:cover;">
 
                         <?php }else{ ?>
                     <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  ">
                         <?php } ?>
-                        <div class="aduana-info-n">
+                        <div class="aduana-info-n sin-padding">
                         <?php if(get_field('title_left')) { ?>
                         
                                 <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>

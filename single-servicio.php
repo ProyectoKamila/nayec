@@ -117,24 +117,42 @@
 <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicios-aduaneros','posts_per_page'=>1));
 if(!empty($pagename)){ ?>
  <?php while(have_posts()){ the_post();?>
-<div class="container">
-    <div class="row">
-            <?php if(get_field('background_left')){?>
-        <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>) top center no-repeat; backgroun-size:cover;">
-        </div>
-         <?php } ?>
-         <div class="aduana-info">
-            <?php if(get_field('title_left')) { ?>
-                    <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
-                    <?php }else{?>
-                    <h2 class="text-center texto-servicios">SERVICIOS ADUANALES</h2>
+<div class="container-fluid sin-padding">
+                    <div class="row sin-padding">
+                        <?php if(get_field('background_left')){?>
+                    <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>) top center no-repeat; backgroun-size:cover;">
+
+                        <?php }else{ ?>
+                    <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  ">
+                        <?php } ?>
+                        <div class="aduana-info">
+                        <?php if(get_field('title_left')) { ?>
+                        
+                                <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
+                                <?php }else{?>
+                                <h2 class="text-center texto-servicios">SERVICIOS ADUANALES</h2>
+                                <?php } ?>
+                        </div>
+                    </div>
+                    <?php if(get_field('background_right')) { ?>
+                    <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">
+                    <?php } else {?>
+                        <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" >
                     <?php } ?>
-        </div>
-        <div class="col-lg-6 col-md-6">
-            
-        </div>
-    </div>
-</div>
+                      <?php if(get_field('content_right')) { ?>
+                            <div class="logisinfo">
+                                         <p>
+                                          <?php the_field('content_right');?> 
+                                         </p>
+                                                    </div>
+                                  <?php } ?>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </section>
+                                    <?php } ?>                
+                    </div>
 <?php } ?>
 <?php } ?>
  <!-- Contact Section -->

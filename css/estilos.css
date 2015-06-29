@@ -205,7 +205,7 @@ div.logistica:hover div.logisinfo{margin-top:0px;}
     overflow: hidden;
     transition:1s all ease-in-out;
 }
-div.aduanas-n:hover div.aduana-info-n{ margin-top:500px; }
+div.aduanas-n:hover div.aduana-info-n{ margin-top:100px; }
 
 .logistica-n{background-image: url(img/portfolio/publi2.jpg);
    background-size: cover;

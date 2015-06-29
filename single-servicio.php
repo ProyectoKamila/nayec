@@ -117,14 +117,14 @@
 <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicios-aduaneros','posts_per_page'=>1));
 if(!empty($pagename)){ ?>
  <?php while(have_posts()){ the_post();?>
-         <div class="container sin-padding">
-                    <div class="row sin-padding">
+         <div class="container ">
+                    <div class="row">
                     <!-- fondo 1-->
                         <?php if(get_field('background_left')){?>
-                    <div class="aduanas-n sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>)   top center no-repeat; backgroun-size:cover;">
+                    <div class="aduanas-n  col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>)   top center no-repeat; backgroun-size:cover;">
 
                         <?php }else{ ?>
-                    <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  ">
+                    <div class="aduanas  col-xs-12 col-sm-12 col-md-6  col-lg-6  ">
                         <?php } ?>
                         <div class="aduana-info-n">
                         <?php if(get_field('title_left')) { ?>
@@ -135,16 +135,13 @@ if(!empty($pagename)){ ?>
                                 <?php } ?>
                         </div>
                     </div>
-                    <div class="practi col-lg-12 ">
-                            
-                        </div>
                         </div>
                     <!-- /fondo 1-->
                      <!-- fondo 2-->
                     <?php if(get_field('background_right')) { ?>
-                    <div class="logistica-n sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">
+                    <div class="logistica-n  col-xs-12 col-sm-12 col-md-6  col-lg-6" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">
                     <?php } else {?>
-                        <div class="logistica-n sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" >
+                        <div class="logistica-n  col-xs-12 col-sm-12 col-md-6  col-lg-6" >
                     <?php } ?>
                       <?php if(get_field('content_right')) { ?>
                             <div class="logisinfo-n">
@@ -187,7 +184,7 @@ if(!empty($pagename)){ ?>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                     <div class="row">
+                     <div class=333"row">
                          <div class="col-lg-4 logo-correo ">
                             <i class="fa fa-envelope"></i>
                         </div>

@@ -86,9 +86,10 @@
  
  <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicio','posts_per_page'=>1)); ?>
  <?php if(!empty($pagename)) {?>
- <?php while(have_posts()){ the_post();?>
+ 
 <div class="container-fluid sin-padding">
     <div class="row">
+        <?php while(have_posts()){ the_post();?>
             <div class="fondo-textoimpo col-lg-12 text-center">
                 <h2 class="importacion"><?php the_title();?></h2>
                  <?php if(get_field('servicio-texto1')){?>
@@ -98,10 +99,10 @@
                     <p class="subtitulo11"><?php the_field('servicio-texto2');?></p>
                 <?php } ?>
             </div>
+        <?php } ?>
     </div>
 </div>
-<?php } ?>
- <?php } wp_reset_query(); ?>
+ <?php } ?>
 <!-- IMAGENES Y PARRAFOS Section -->
 <div class="container">
     <div class="row">

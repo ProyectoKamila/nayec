@@ -35,4 +35,4 @@
         </div>
     </div>
 </header>
-<?php } ?>     
+  <?php } wp_reset_query(); ?>   

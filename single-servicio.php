@@ -145,9 +145,16 @@ if(!empty($pagename)){ ?>
                 </div>
                 <div class="row">
                     <div class="practi col-lg-6 col-md-6">
-                        
+                        <ul>
+                            <li>
+                                exportacio
+                            </li>
+                            <li>
+                                cuarentena
+                            </li>
+                        </ul>
                     </div>
-                     <div class=" practi col-lg-6 col-md-6">
+                     <div class="practi col-lg-6 col-md-6">
                         
                     </div>
                 </div>

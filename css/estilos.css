@@ -189,8 +189,6 @@ div.logistica:hover div.logisinfo{margin-top:0px;}
     background-position: center;
     height: 300px;
     display:block;
-    
-    box-sizing:border-box;
     overflow: hidden;
 }
 .aduana-info-n{width: 100%;
@@ -851,8 +849,3 @@ div.servicio-parrafo10 p
 .alto-slider{height:612px;}
 
 .cuadro-sli{margin-top:215px;}
-.practi
-    {
-        height:50px; 
-        border:5px solid red;
-    }

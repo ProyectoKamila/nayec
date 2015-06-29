@@ -113,6 +113,26 @@
         </div>
     </div>
 </div>
+<!-- servicios aduanales -->
+<div class="container">
+    <div class="row">
+            <?php if(get_field('background_left')){?>
+        <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>) top center no-repeat; backgroun-size:cover;">
+        </div>
+         <?php } ?>
+         <div class="aduana-info">
+            <?php if(get_field('title_left')) { ?>
+                    <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
+                    <?php }else{?>
+                    <h2 class="text-center texto-servicios">SERVICIOS ADUANALES</h2>
+                    <?php } ?>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            
+        </div>
+    </div>
+
+</div>
  <!-- Contact Section -->
  <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>
  <?php if(!empty($pagename)) {?>

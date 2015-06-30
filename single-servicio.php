@@ -214,9 +214,11 @@ if(!empty($pagename)){ ?>
                             <div class="col-lg-6">
                                 <a href="">
                                     <li>
-                                          Almacén General; Administración de Inventarios,
-                                        Recepción de Mercadería, Despacho de Pedidos,
-                                        Control de Devoluciones
+                                        <p>
+                                              Almacén General; Administración de Inventarios,
+                                            Recepción de Mercadería, Despacho de Pedidos,
+                                            Control de Devoluciones
+                                         </p>
                                     </li>
                                 </a>
                             </div>

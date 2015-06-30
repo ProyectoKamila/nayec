@@ -133,7 +133,7 @@ if(!empty($pagename)){ ?>
                              <div class=" col-lg-12 col-md-6">
                         <ul>
                             <li>
-                                exportacio
+                                exportacion
                             </li>
                             <li>
                                 cuarentena
@@ -163,14 +163,9 @@ if(!empty($pagename)){ ?>
                     <?php } ?>
                     </div>
                 </div>
-                
-                    
-                     
-                </div>
-                                             <!-- /fondo 2-->
-                                       
-                                    <?php } ?>  
-                     </div>
+                             <!-- /fondo 2-->
+            </div>
+        <?php } ?>
 <?php } ?>   
 
  <!-- Contact Section -->

@@ -146,7 +146,7 @@ if(!empty($pagename)){ ?>
                     </div>
                      <!-- /fondo 2-->
                      <!-- LISTAS-->
-                    <div class="lista-n  col-lg-12 ">
+                    <div class="lista-n sin-padding   col-lg-12 ">
                         <ul class="sin-padding ">
                             <div class="sin-padding col-lg-6">
                                 <li class="sin-padding" >

@@ -858,4 +858,9 @@ div.servicio-parrafo10 p
 .lista-n ul li
     {
         list-style:none;
+        padding-top:10px;
+    }
+.lista-n 
+    {
+        margin-top:20px;
     }

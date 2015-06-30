@@ -158,7 +158,7 @@ if(!empty($pagename)){ ?>
                                   Transporte Internacional; Aéreo, Marítimo y Terrestre.
                                 </li>
                             </div>
-                            <div class="col-lg-6">
+                            <div class=" sin-padding col-lg-6">
                                 <li>
                                   Cuarentena
                                 </li>
@@ -168,7 +168,7 @@ if(!empty($pagename)){ ?>
                                     Consolidados; Aéreos y Marítimos.
                                 </li>
                             </div>
-                             <div class="col-lg-6">
+                             <div class=" sin-padding col-lg-6">
                                 <li>
                                     Exoneraciones
                                 </li>
@@ -178,7 +178,7 @@ if(!empty($pagename)){ ?>
                                Seguro de carga
                                 </li>
                             </div>
-                            <div class="col-lg-6">
+                            <div class=" sin-padding col-lg-6">
                                 <li>
                                       Aupsa
                                 </li>

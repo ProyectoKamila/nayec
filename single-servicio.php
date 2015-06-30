@@ -146,9 +146,9 @@ if(!empty($pagename)){ ?>
                     </div>
                      <!-- /fondo 2-->
                      <!-- LISTAS-->
-                    <div class="col-lg-12 lista-n sin-padding">
+                    <div class="lista-n sin-padding col-lg-12 ">
                         <ul>
-                            <div class="col-lg-6 sin-padding">
+                            <div class=" sin-padding col-lg-6">
                                 <li>
                                     exportacion
                                 </li>

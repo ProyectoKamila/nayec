@@ -232,6 +232,7 @@ div.aduanas-n:hover div.aduana-info-n{ margin-top:225px; }
     {
         color:white; 
         font-size:35px;
+        text-align:center;
     }
  
 div.logistica-n:hover div.logisinfo-n{margin-top:225px;}

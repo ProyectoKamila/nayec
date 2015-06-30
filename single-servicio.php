@@ -128,23 +128,7 @@ if(!empty($pagename)){ ?>
                                     <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
                             </div>
                              <?php }?>
-                    </div>
-                    <!-- /fondo 1-->
-                     <!-- fondo 2-->
-                    <?php if(get_field('background_right')) { ?>
-                    <div class="logistica-n sin-padding  col-lg-6  col-md-6 col-sm-12  col-xs-12" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">
-                    <?php } ?>
-                     <?php if(get_field('content_right')) { ?>
-                            <div class="logisinfo-n">
-                                 <p>
-                                  <?php the_field('content_right');?> 
-                                 </p>
-                            </div>
-                    <?php } ?>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class=" col-lg-6 col-md-6">
+                             <div class=" col-lg-6 col-md-6">
                         <ul>
                             <li>
                                 exportacio
@@ -160,6 +144,23 @@ if(!empty($pagename)){ ?>
                             </li>
                         </ul>
                     </div>
+                    </div>
+                    <!-- /fondo 1-->
+                     <!-- fondo 2-->
+                    <?php if(get_field('background_right')) { ?>
+                    <div class="logistica-n sin-padding  col-lg-6  col-md-6 col-sm-12  col-xs-12" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">
+                    <?php } ?>
+                     <?php if(get_field('content_right')) { ?>
+                            <div class="logisinfo-n">
+                                 <p>
+                                  <?php the_field('content_right');?> 
+                                 </p>
+                            </div>
+                    <?php } ?>
+                    </div>
+                </div>
+                
+                    
                      <div class="col-lg-6 col-md-6">
                          <ul>
                             <li>

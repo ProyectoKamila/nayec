@@ -139,100 +139,40 @@ if(!empty($pagename)){ ?>
                      <?php if(get_field('content_right')) { ?>
                             <div class="logisinfo-n text-center col-lg-12">
                                  <p>
-                                  <?php the_field('content_right');?> 
+                                      <?php the_field('content_right');?> 
                                  </p>
                             </div>
                     <?php } ?>
                     </div>
+                    <?php } ?>
+                    
                      <!-- /fondo 2-->
                       <div class="clearfix"></div>
                      <!-- LISTAS-->
-                     <?php the_post();?>
+                       <?php $pagename = query_posts(array('post_type'=>'servicio','posts_per_page'=>10));?>
                     <div class="lista-n sin-padding   col-lg-12 ">
                         <ul class="sin-padding ">
+                            <?php while(have_posts()){ the_post();?>
+                                <li>
                             <div class="sin-padding col-lg-6">
-                                 <?php if(get_field('cuadro1-texto1')){?>
+                              
                                 <a href="">
-                                    <li>
+                                
                                         <p>
-                                             <?php the_field('cuadro1-texto1');?>
+                                             <?php the_title();?>
                                         </p>
-                                    </li>
+                                   
                                 </a>
-                                 <?php } ?>
-                            </div>
-                            <div class="col-lg-6">
-                                <a href="">
-                                    <li>
-                                         <p>
-                                              Transporte Internacional; Aéreo, Marítimo y Terrestre.
-                                         </p>
-                                    </li>
-                                </a>
-                            </div>
-                            <div class=" sin-padding col-lg-6">
-                                <a href="">
-                                    <li>
-                                        <p>
-                                          Cuarentena
-                                        </p>
-                                    </li>
-                                </a>
-                            </div>
-                             <div class="col-lg-6">
-                                <a href="">
-                                    <li>
-                                        <p>
-                                            Consolidados; Aéreos y Marítimos.
-                                        </p>
-                                    </li>
-                                </a>
-                            </div>
-                             <div class=" sin-padding col-lg-6">
-                                <a href="">
-                                    <li>
-                                        <p>
-                                            Exoneraciones
-                                        </p>
-                                    </li>
-                                </a>
-                            </div>
-                             <div class="col-lg-6">
-                                <a href="">
-                                    <li>
-                                        <p>
-                                           Seguro de carga
-                                        </p>
-                                    </li>
-                                 </a>
-                            </div>
-                            <div class=" sin-padding col-lg-6">
-                                <a href="">
-                                    <li>
-                                        <p>
-                                          Aupsa
-                                        </p>
-                                    </li>
-                                 </a>
-                            </div>
-                            <div class="col-lg-6">
-                                <a href="">
-                                    <li>
-                                        <p>
-                                              Almacén General; Administración de Inventarios,
-                                            Recepción de Mercadería, Despacho de Pedidos,
-                                            Control de Devoluciones
-                                         </p>
-                                    </li>
-                                </a>
-                            </div>
+                                <?php } ?>
+                                </div>
+                                 </li>
+                         
                         </ul>
                     </div>
                 </div>
             </div>
             </div>
-        <?php } ?>
-<?php } ?>   
+ 
 
  <!-- Contact Section -->
  <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'contacto','posts_per_page'=>1)); ?>

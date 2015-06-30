@@ -148,7 +148,7 @@ if(!empty($pagename)){ ?>
                      <!-- LISTAS-->
                     <div class="col-lg-12 lista-n">
                         <ul>
-                            <div class="col-lg-5 col-lg-offset-1">
+                            <div class="col-lg-6 col-lg-offset-0">
                                 <li>
                                     exportacion
                                 </li>

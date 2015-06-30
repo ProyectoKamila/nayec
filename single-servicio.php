@@ -173,42 +173,7 @@
                                     </a>
                                 <?php } ?>
                                 </li>
-                                 <li class="col-lg-6 col-xs-6">
-                                <?php if(get_field('cuadro1-texto2')){?>
-                                    <a href="">
-                                        <p>
-                                             <?php the_field('cuadro1-texto2');?>
-                                        </p>
-                                    </a>
-                                <?php } ?>
-                                </li>
-                                 <li class="col-lg-6 col-xs-6">
-                                <?php if(get_field('cuadro2-texto2')){?>
-                                    <a href="">
-                                        <p>
-                                             <?php the_field('cuadro2-texto2');?>
-                                        </p>
-                                    </a>
-                                <?php } ?>
-                                </li>
-                                 <li class="col-lg-6 col-xs-6">
-                                <?php if(get_field('cuadro1-texto3')){?>
-                                    <a href="">
-                                        <p>
-                                             <?php the_field('cuadro1-texto3');?>
-                                        </p>
-                                    </a>
-                                <?php } ?>
-                                </li>
-                                 <li class="col-lg-6 col-xs-6">
-                                <?php if(get_field('cuadro2-texto3')){?>
-                                    <a href="">
-                                        <p>
-                                             <?php the_field('cuadro2-texto3');?>
-                                        </p>
-                                    </a>
-                                <?php } ?>
-                                </li>
+                                
                           <?php } ?>
                         </ul>
                     </div>

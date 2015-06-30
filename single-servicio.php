@@ -117,7 +117,8 @@
 <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicios-aduaneros','posts_per_page'=>1));
 if(!empty($pagename)){ ?>
  <?php while(have_posts()){ the_post();?>
-         <div class="container sin-padding fondo-n">
+     <div class="conten-font">
+         <div class="container sin-padding ">
                     <div class="row">
                     <!-- fondo 1-->
                         <?php if(get_field('background_left')){?>
@@ -192,6 +193,7 @@ if(!empty($pagename)){ ?>
                         </ul>
                     </div>
                 </div>
+            </div>
             </div>
         <?php } ?>
 <?php } ?>   

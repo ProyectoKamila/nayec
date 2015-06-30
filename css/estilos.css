@@ -870,7 +870,9 @@ div.servicio-parrafo10 p
     }
 .lista-n ul a li p
     {
-       padding-left:5px;
+       padding-left:21px;
+       position:relative;
+       bottom:4px;
     }
 .lista-n 
     {

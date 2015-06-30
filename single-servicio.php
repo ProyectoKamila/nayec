@@ -151,7 +151,9 @@ if(!empty($pagename)){ ?>
                             <div class="sin-padding col-lg-6">
                                 <a href="">
                                     <li>
-                                        exportacion
+                                        <p>
+                                            exportacion
+                                        </p>
                                     </li>
                                 </a>
                             </div>

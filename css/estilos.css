@@ -868,6 +868,10 @@ div.servicio-parrafo10 p
         transition:1s all ease-in-out;
         color:black;
     }
+.lista-n ul a li p
+    {
+       padding-left:5px;
+    }
 .lista-n 
     {
         margin-top:20px;

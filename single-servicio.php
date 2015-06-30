@@ -146,9 +146,6 @@ if(!empty($pagename)){ ?>
                     </div>
                      <!-- /fondo 2-->
                       <div class="clearfix"></div>
-                      <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicio','posts_per_page'=>1)); ?>
-                        <?php if(!empty($pagename)) {?>
-                        <?php while(have_posts()){ the_post();?>
                      <!-- LISTAS-->
                      
                     <div class="lista-n sin-padding   col-lg-12 ">
@@ -232,8 +229,6 @@ if(!empty($pagename)){ ?>
                             </div>
                         </ul>
                     </div>
-                    <?php } ?>
-                     <?php } ?>
                 </div>
             </div>
             </div>

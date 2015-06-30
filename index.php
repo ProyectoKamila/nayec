@@ -119,7 +119,7 @@ if(!empty($pagename)){ ?>
                     <div class="container-fluid sin-padding">
                     <div class="row sin-padding">
                         <?php if(get_field('background_left')){?>
-                    <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>) top center no-repeat; backgroun-size:cover;">
+                    <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  "style="background: url(<?php the_field('background_left'); ?>) top center no-repeat; background-size:cover;">
 
                         <?php }else{ ?>
                     <div class="aduanas sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6  ">
@@ -131,7 +131,7 @@ if(!empty($pagename)){ ?>
                                 <?php }else{?>
                                 <h2 class="text-center texto-servicios">SERVICIOS ADUANALES</h2>
                                 <?php } ?>
-                            </div>
+                        </div>
                     </div>
                     <?php if(get_field('background_right')) { ?>
                     <div class="logistica sin-padding col-xs-12 col-sm-12 col-md-6  col-lg-6" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">

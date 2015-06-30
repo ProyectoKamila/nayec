@@ -871,4 +871,5 @@ div.servicio-parrafo10 p
         transition:1s all ease-in-out;
     }
 
+a:hover { text-decoration:none; }
 div.lista-n li:hover { background-color:#ffffff; }

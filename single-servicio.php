@@ -127,7 +127,7 @@
                         <?php } ?>
                         <?php if(get_field('title_left')) { ?>
                             <div class="aduana-info-n">
-                                    <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
+                                    <h2 class="text-center texto-servicios21"><?php the_field('title_left'); ?></h2>
                             </div>
                              <?php }?>
                        

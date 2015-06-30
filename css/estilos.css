@@ -368,9 +368,8 @@ div.servi .aduanas .aduana-info
         overflow: hidden;
         transition:1s all ease-in-out;
     }
-h2.texto-servicios{
+.texto-servicios{
                     color: #353743; 
-                    padding-top:20px;
                 }
 div.aduanas:hover div.aduana-info{ margin-top:200px; }
 
@@ -437,7 +436,7 @@ div.servicio-parrafo10
     }
 }
 /*CIERRA MEDIA QUERY */
-.texto-servicios{color: #353743;}
+.texto-servicios21{color: #353743; padding-top:20px;}
 .sin-padding
     {
         padding-left: 0px;

@@ -873,6 +873,8 @@ div.servicio-parrafo10 p
        padding-left:21px;
        position:relative;
        bottom:4px;
+       text-align:justify;
+       font-size:17px;
     }
 .lista-n 
     {

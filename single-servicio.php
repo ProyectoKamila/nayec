@@ -137,7 +137,7 @@ if(!empty($pagename)){ ?>
                     <div class="logistica-n sin-padding  col-lg-6  col-md-6 col-sm-12  col-xs-12" style="background:url(<?php the_field('background_right');?>) top center no-repeat; background-size:cover;">
                     <?php } ?>
                      <?php if(get_field('content_right')) { ?>
-                            <div class="logisinfo-n col-lg-12">
+                            <div class="logisinfo-n text-center col-lg-12">
                                  <p>
                                   <?php the_field('content_right');?> 
                                  </p>

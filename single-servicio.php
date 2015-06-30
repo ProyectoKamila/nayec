@@ -147,7 +147,7 @@ if(!empty($pagename)){ ?>
                      <!-- /fondo 2-->
                       <div class="clearfix"></div>
                      <!-- LISTAS-->
-                     
+                     <?php the_post();?>
                     <div class="lista-n sin-padding   col-lg-12 ">
                         <ul class="sin-padding ">
                             <div class="sin-padding col-lg-6">

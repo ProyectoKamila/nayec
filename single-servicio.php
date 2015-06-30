@@ -155,8 +155,8 @@
                     <div class="lista-n sin-padding   col-lg-12 ">
                         <ul class="sin-padding ">
                             <?php while(have_posts()){ the_post();?>
-                                <li>
-                            <div class="sin-padding col-lg-6">
+                                <li class="col-lg-6 col-xs-6">
+                          
                               
                                 <a href="">
                                 
@@ -165,10 +165,10 @@
                                         </p>
                                    
                                 </a>
-                                <?php } ?>
-                                </div>
+                               
+                               
                                  </li>
-                         
+                          <?php } ?>
                         </ul>
                     </div>
                 </div>

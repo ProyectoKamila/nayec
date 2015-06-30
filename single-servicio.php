@@ -127,7 +127,8 @@ if(!empty($pagename)){ ?>
                             <div class="aduana-info-n">
                                     <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
                             </div>
-                            <div class=" col-lg-12 col-md-6">
+                             <?php }?>
+                             <div class=" col-lg-6 col-md-6">
                         <ul>
                             <li>
                                 exportacio
@@ -143,7 +144,6 @@ if(!empty($pagename)){ ?>
                             </li>
                         </ul>
                     </div>
-                             <?php }?>
                     </div>
                     <!-- /fondo 1-->
                      <!-- fondo 2-->
@@ -156,13 +156,28 @@ if(!empty($pagename)){ ?>
                                   <?php the_field('content_right');?> 
                                  </p>
                             </div>
-                          
                     <?php } ?>
-                    
                     </div>
                 </div>
                 
                     
+                     <div class="col-lg-6 col-md-6">
+                         <ul>
+                            <li>
+                                exportacio
+                            </li>
+                            <li>
+                                cuarentena
+                            </li>
+                             <li>
+                                exoneraciones
+                            </li>
+                             <li>
+                               aupsa
+                            </li>
+                        </ul>
+                        
+                    </div>
                 </div>
                                              <!-- /fondo 2-->
                                        

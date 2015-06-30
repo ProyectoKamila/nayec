@@ -51,7 +51,7 @@
 <a href="#page-top"></a>
                             </li>
         <li>
-            <a class="page-scroll tama" href="#servicios"><b>Servicios</b></a>
+            <a class="page-scroll tama" href="index.php"><b>Servicios</b></a>
         </li>
         <li>
             <a class="page-scroll tama" href="#nosotros"><b>Nosotros</b></a>

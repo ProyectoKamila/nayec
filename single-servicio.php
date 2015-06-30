@@ -128,6 +128,7 @@ if(!empty($pagename)){ ?>
                                     <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
                             </div>
                              <?php }?>
+                             <div class="row">
                              <div class=" col-lg-6 col-md-6">
                         <ul>
                             <li>
@@ -143,6 +144,7 @@ if(!empty($pagename)){ ?>
                                aupsa
                             </li>
                         </ul>
+                    </div>
                     </div>
                     </div>
                     <!-- /fondo 1-->
@@ -161,23 +163,7 @@ if(!empty($pagename)){ ?>
                 </div>
                 
                     
-                     <div class="col-lg-6 col-md-6">
-                         <ul>
-                            <li>
-                                exportacio
-                            </li>
-                            <li>
-                                cuarentena
-                            </li>
-                             <li>
-                                exoneraciones
-                            </li>
-                             <li>
-                               aupsa
-                            </li>
-                        </ul>
-                        
-                    </div>
+                     
                 </div>
                                              <!-- /fondo 2-->
                                        

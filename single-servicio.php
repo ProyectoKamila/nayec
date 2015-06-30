@@ -115,12 +115,13 @@
 </div>
 <!-- servicios aduanales -->
 <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicios-aduaneros','posts_per_page'=>1));
-if(!empty($pagename)){ ?>
- <?php while(have_posts()){ the_post();?>
+?>
+
      <div class="conten-font">
          <div class="container sin-padding ">
                     <div class="row">
                     <!-- fondo 1-->
+                     <?php while(have_posts()){ the_post();?>
                         <?php if(get_field('background_left')){?>
                     <div class="aduanas-n sin-padding   col-lg-6  col-md-6 col-sm-12  col-xs-12" style="background: url(<?php the_field('background_left'); ?>)   top center no-repeat; background-size:cover;">
                         <?php } ?>
@@ -143,8 +144,9 @@ if(!empty($pagename)){ ?>
                                  </p>
                             </div>
                     <?php } ?>
+                      <?php } ?>
                     </div>
-                    <?php } ?>
+                  
                     
                      <!-- /fondo 2-->
                       <div class="clearfix"></div>

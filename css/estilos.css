@@ -370,7 +370,7 @@ div.servi .aduanas .aduana-info
     }
 .texto-servicios{
                     color: #353743; 
-                    font-size: 25px;
+                    padding-top:20px;
                 }
 div.aduanas:hover div.aduana-info{ margin-top:200px; }
 

@@ -855,3 +855,7 @@ div.servicio-parrafo10 p
     {
         background-color:#e1e1e3;
     }
+.lista-n ul li
+    {
+        list-style:none;
+    }

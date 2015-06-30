@@ -146,7 +146,7 @@ if(!empty($pagename)){ ?>
                     </div>
                      <!-- /fondo 2-->
                      <!-- LISTAS-->
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 lista-n">
                         <ul>
                             <div class="col-lg-6">
                                 <li>

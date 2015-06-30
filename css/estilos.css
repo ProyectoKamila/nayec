@@ -859,6 +859,7 @@ div.servicio-parrafo10 p
     {
         list-style:none;
         padding-top:10px;
+        transition:1s all ease-in-out;
     }
 .lista-n 
     {

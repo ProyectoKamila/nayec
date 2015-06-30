@@ -149,7 +149,7 @@ if(!empty($pagename)){ ?>
                     <div class="lista-n sin-padding   col-lg-12 ">
                         <ul class="sin-padding ">
                             <div class="sin-padding col-lg-6">
-                                <li class="sin-padding" >
+                                <li>
                                     exportacion
                                 </li>
                             </div>

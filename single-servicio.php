@@ -156,78 +156,12 @@
                         <ul class="sin-padding ">
                             <?php while(have_posts()){ the_post();?>
                                 <li class="col-lg-6 col-xs-6">
-                                <?php if(get_field('cuadro1-texto1')){?>
-                                    <a href="">
+                                    <a href="<?php the_permalink(); ?>">
                                         <p>
-                                             <?php the_field('cuadro1-texto1');?>
+                                             <?php the_title();?>
                                         </p>
                                     </a>
-                                <?php } ?>
                                 </li>
-                                <li class="col-lg-6 col-xs-6">
-                                <?php if(get_field('cuadro2-texto1')){?>
-                                    <a href="">
-                                        <p>
-                                             <?php the_field('cuadro2-texto1');?>
-                                        </p>
-                                    </a>
-                                <?php } ?>
-                                </li>
-                                <li class="col-lg-6 col-xs-6">
-                                <?php if(get_field('cuadro1-texto2')){?>
-                                    <a href="">
-                                        <p>
-                                             <?php the_field('cuadro1-texto2');?>
-                                        </p>
-                                    </a>
-                                <?php } ?>
-                                </li>
-                                 <li class="col-lg-6 col-xs-6">
-                                <?php if(get_field('cuadro2-texto2')){?>
-                                    <a href="">
-                                        <p>
-                                             <?php the_field('cuadro2-texto2');?>
-                                        </p>
-                                    </a>
-                                <?php } ?>
-                                </li>
-                                 <li class="col-lg-6 col-xs-6">
-                                <?php if(get_field('cuadro1-texto3')){?>
-                                    <a href="">
-                                        <p>
-                                             <?php the_field('cuadro1-texto3');?>
-                                        </p>
-                                    </a>
-                                <?php } ?>
-                                </li>
-                                 <li class="col-lg-6 col-xs-6">
-                                <?php if(get_field('cuadro2-texto3')){?>
-                                    <a href="">
-                                        <p>
-                                             <?php the_field('cuadro2-texto3');?>
-                                        </p>
-                                    </a>
-                                <?php } ?>
-                                </li>
-                                 <li class="col-lg-6 col-xs-6">
-                                <?php if(get_field('cuadro1-texto4')){?>
-                                    <a href="">
-                                        <p>
-                                             <?php the_field('cuadro1-texto4');?>
-                                        </p>
-                                    </a>
-                                <?php } ?>
-                                </li>
-                                 <li class="col-lg-6 col-xs-6">
-                                <?php if(get_field('cuadro2-texto4')){?>
-                                    <a href="">
-                                        <p>
-                                             <?php the_field('cuadro2-texto4');?>
-                                        </p>
-                                    </a>
-                                <?php } ?>
-                                </li>
-                                
                           <?php } ?>
                         </ul>
                     </div>

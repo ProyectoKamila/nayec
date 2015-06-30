@@ -157,12 +157,8 @@ if(!empty($pagename)){ ?>
                                  </p>
                             </div>
                     <?php } ?>
-                    </div>
-                </div>
-                
-                    
-                     <div class="col-lg-6 col-md-6">
-                         <ul>
+                    <div class=" col-lg-6 col-md-6">
+                        <ul>
                             <li>
                                 exportacio
                             </li>
@@ -176,8 +172,11 @@ if(!empty($pagename)){ ?>
                                aupsa
                             </li>
                         </ul>
-                        
                     </div>
+                    </div>
+                </div>
+                
+                    
                 </div>
                                              <!-- /fondo 2-->
                                        

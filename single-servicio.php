@@ -127,8 +127,7 @@ if(!empty($pagename)){ ?>
                             <div class="aduana-info-n">
                                     <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
                             </div>
-                             <?php }?>
-                             <div class=" col-lg-12 col-md-6">
+                            <div class=" col-lg-12 col-md-6">
                         <ul>
                             <li>
                                 exportacio
@@ -144,6 +143,7 @@ if(!empty($pagename)){ ?>
                             </li>
                         </ul>
                     </div>
+                             <?php }?>
                     </div>
                     <!-- /fondo 1-->
                      <!-- fondo 2-->

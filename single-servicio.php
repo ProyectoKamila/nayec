@@ -147,7 +147,6 @@ if(!empty($pagename)){ ?>
                      <!-- /fondo 2-->
                       <div class="clearfix"></div>
                      <!-- LISTAS-->
-                     <?php the_post();?>
                     <div class="lista-n sin-padding   col-lg-12 ">
                         <ul class="sin-padding ">
                              <?php if(get_field('cuadro1-texto1')){?>

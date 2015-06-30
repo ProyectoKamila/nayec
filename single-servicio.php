@@ -128,26 +128,7 @@ if(!empty($pagename)){ ?>
                                     <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
                             </div>
                              <?php }?>
-                        <div class="container">
-                         <div class="row">
-                             <div class=" col-lg-12 col-md-6">
-                        <ul>
-                            <li>
-                                exportacion
-                            </li>
-                            <li>
-                                cuarentena
-                            </li>
-                             <li>
-                                exoneraciones
-                            </li>
-                             <li>
-                               aupsa
-                            </li>
-                        </ul>
-                    </div>
-                    </div> 
-                    </div>
+                       
                     </div>
                     <!-- /fondo 1-->
                      <!-- fondo 2-->
@@ -162,8 +143,55 @@ if(!empty($pagename)){ ?>
                             </div>
                     <?php } ?>
                     </div>
+                     <!-- /fondo 2-->
+                     <!-- LISTAS-->
+                    <div class="col-lg-12">
+                        <ul>
+                            <div class="col-lg-6">
+                                <li>
+                                    exportacion
+                                </li>
+                            </div>
+                            <div class="col-lg-6">
+                                <li>
+                                  Transporte Internacional; Aéreo, Marítimo y Terrestre.
+                                </li>
+                            </div>
+                            <div class="col-lg-6">
+                                <li>
+                                  Cuarentena
+                                </li>
+                            </div>
+                             <div class="col-lg-6">
+                                <li>
+                                    Consolidados; Aéreos y Marítimos.
+                                </li>
+                            </div>
+                             <div class="col-lg-6">
+                                <li>
+                                    Exoneraciones
+                                </li>
+                            </div>
+                             <div class="col-lg-6">
+                                <li>
+                               Seguro de carga
+                                </li>
+                            </div>
+                            <div class="col-lg-6">
+                                <li>
+                                      Aupsa
+                                </li>
+                            </div>
+                            <div class="col-lg-6">
+                                <li>
+                                      Almacén General; Administración de Inventarios,
+                                    Recepción de Mercadería, Despacho de Pedidos,
+                                    Control de Devoluciones
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
                 </div>
-                             <!-- /fondo 2-->
             </div>
         <?php } ?>
 <?php } ?>   

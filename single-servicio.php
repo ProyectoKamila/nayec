@@ -54,13 +54,13 @@
             <a class="page-scroll tama" href="<?php echo home_url("#servicios"); ?>"><b>Servicios</b></a>
         </li>
         <li>
-            <a class="page-scroll tama" href="#nosotros"><b>Nosotros</b></a>
+            <a class="page-scroll tama" href="<?php echo home_url("#nosotros"); ?>"><b>Nosotros</b></a>
         </li>
         <li>
-            <a class="page-scroll tama" href="#blog"><b>Blog</b></a>
+            <a class="page-scroll tama" href="<?php echo home_url("#servicios/blog"); ?>"><b>Blog</b></a>
         </li>
         <li>
-            <a class="page-scroll tama" href="#contacto"><b>Contacto</b></a>
+            <a class="page-scroll tama" href="<?php echo home_url("#contacto"); ?>"><b>Contacto</b></a>
         </li>
         </ul>
                          <!-- Redes sociales -->

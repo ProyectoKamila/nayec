@@ -156,8 +156,7 @@ if(!empty($pagename)){ ?>
                                   <?php the_field('content_right');?> 
                                  </p>
                             </div>
-                    <?php } ?>
-                    <div class=" col-lg-6 col-md-6">
+                            <div class=" col-lg-6 col-md-6">
                         <ul>
                             <li>
                                 exportacio
@@ -173,6 +172,8 @@ if(!empty($pagename)){ ?>
                             </li>
                         </ul>
                     </div>
+                    <?php } ?>
+                    
                     </div>
                 </div>
                 

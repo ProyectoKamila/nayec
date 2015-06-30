@@ -162,7 +162,16 @@
                                              <?php the_field('cuadro1-texto1');?>
                                         </p>
                                     </a>
-                                     <?php } ?>
+                                <?php } ?>
+                                </li>
+                                <li class="col-lg-6 col-xs-6">
+                                <?php if(get_field('cuadro1-texto2')){?>
+                                    <a href="">
+                                        <p>
+                                             <?php the_field('cuadro1-texto2');?>
+                                        </p>
+                                    </a>
+                                <?php } ?>
                                 </li>
                           <?php } ?>
                         </ul>

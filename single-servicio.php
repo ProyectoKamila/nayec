@@ -150,8 +150,8 @@ if(!empty($pagename)){ ?>
                      <?php the_post();?>
                     <div class="lista-n sin-padding   col-lg-12 ">
                         <ul class="sin-padding ">
+                             <?php if(get_field('cuadro1-texto1')){?>
                             <div class="sin-padding col-lg-6">
-                                  <?php if(get_field('cuadro1-texto1')){?>
                                 <a href="">
 
                                     <li>
@@ -160,8 +160,8 @@ if(!empty($pagename)){ ?>
                                         </p>
                                     </li>
                                 </a>
-                             <?php } ?>
                             </div>
+                            <?php } ?>
                             <div class="col-lg-6">
                                 <a href="">
                                     <li>

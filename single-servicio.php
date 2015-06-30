@@ -169,37 +169,45 @@ if(!empty($pagename)){ ?>
                             <div class=" sin-padding col-lg-6">
                                 <a href="">
                                     <li>
-                                         <p>
-                                      Cuarentena
-                                       </p>
+                                        <p>
+                                          Cuarentena
+                                        </p>
                                     </li>
                                 </a>
                             </div>
                              <div class="col-lg-6">
                                 <a href="">
                                     <li>
-                                        Consolidados; Aéreos y Marítimos.
+                                        <p>
+                                            Consolidados; Aéreos y Marítimos.
+                                        </p>
                                     </li>
                                 </a>
                             </div>
                              <div class=" sin-padding col-lg-6">
                                 <a href="">
                                     <li>
-                                        Exoneraciones
+                                        <p>
+                                            Exoneraciones
+                                        </p>
                                     </li>
                                 </a>
                             </div>
                              <div class="col-lg-6">
                                 <a href="">
                                     <li>
-                                       Seguro de carga
+                                        <p>
+                                           Seguro de carga
+                                        </p>
                                     </li>
                                  </a>
                             </div>
                             <div class=" sin-padding col-lg-6">
                                 <a href="">
                                     <li>
+                                        <p>
                                           Aupsa
+                                        </p>
                                     </li>
                                  </a>
                             </div>

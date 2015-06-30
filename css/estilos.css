@@ -368,7 +368,7 @@ div.servi .aduanas .aduana-info
         overflow: hidden;
         transition:1s all ease-in-out;
     }
-.texto-servicios{
+h2.texto-servicios{
                     color: #353743; 
                     padding-top:20px;
                 }

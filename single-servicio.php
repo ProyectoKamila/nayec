@@ -149,46 +149,62 @@ if(!empty($pagename)){ ?>
                     <div class="lista-n sin-padding   col-lg-12 ">
                         <ul class="sin-padding ">
                             <div class="sin-padding col-lg-6">
-                                <li>
-                                    exportacion
-                                </li>
+                                <a href="">
+                                    <li>
+                                        exportacion
+                                    </li>
+                                </a>
                             </div>
                             <div class="col-lg-6">
-                                <li>
-                                  Transporte Internacional; Aéreo, Marítimo y Terrestre.
-                                </li>
+                                <a href="">
+                                    <li>
+                                      Transporte Internacional; Aéreo, Marítimo y Terrestre.
+                                    </li>
+                                </a>
                             </div>
                             <div class=" sin-padding col-lg-6">
-                                <li>
-                                  Cuarentena
-                                </li>
+                                <a href="">
+                                    <li>
+                                      Cuarentena
+                                    </li>
+                                </a>
                             </div>
                              <div class="col-lg-6">
-                                <li>
-                                    Consolidados; Aéreos y Marítimos.
-                                </li>
+                                <a href="">
+                                    <li>
+                                        Consolidados; Aéreos y Marítimos.
+                                    </li>
+                                </a>
                             </div>
                              <div class=" sin-padding col-lg-6">
-                                <li>
-                                    Exoneraciones
-                                </li>
+                                <a href="">
+                                    <li>
+                                        Exoneraciones
+                                    </li>
+                                </a>
                             </div>
                              <div class="col-lg-6">
-                                <li>
-                               Seguro de carga
-                                </li>
+                                <a href="">
+                                    <li>
+                                       Seguro de carga
+                                    </li>
+                                 </a>
                             </div>
                             <div class=" sin-padding col-lg-6">
-                                <li>
-                                      Aupsa
-                                </li>
+                                <a href="">
+                                    <li>
+                                          Aupsa
+                                    </li>
+                                 </a>
                             </div>
                             <div class="col-lg-6">
-                                <li>
-                                      Almacén General; Administración de Inventarios,
-                                    Recepción de Mercadería, Despacho de Pedidos,
-                                    Control de Devoluciones
-                                </li>
+                                <a href="">
+                                    <li>
+                                          Almacén General; Administración de Inventarios,
+                                        Recepción de Mercadería, Despacho de Pedidos,
+                                        Control de Devoluciones
+                                    </li>
+                                </a>
                             </div>
                         </ul>
                     </div>

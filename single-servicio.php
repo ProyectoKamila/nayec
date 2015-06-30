@@ -160,14 +160,18 @@ if(!empty($pagename)){ ?>
                             <div class="col-lg-6">
                                 <a href="">
                                     <li>
-                                      Transporte Internacional; Aéreo, Marítimo y Terrestre.
+                                         <p>
+                                              Transporte Internacional; Aéreo, Marítimo y Terrestre.
+                                         </p>
                                     </li>
                                 </a>
                             </div>
                             <div class=" sin-padding col-lg-6">
                                 <a href="">
                                     <li>
+                                         <p>
                                       Cuarentena
+                                       </p>
                                     </li>
                                 </a>
                             </div>

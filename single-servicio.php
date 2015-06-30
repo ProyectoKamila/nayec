@@ -128,7 +128,7 @@ if(!empty($pagename)){ ?>
                                     <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
                             </div>
                              <?php }?>
-                             <div class=" col-lg-6 col-md-6">
+                             <div class=" col-lg-12 col-md-6">
                         <ul>
                             <li>
                                 exportacio
@@ -156,7 +156,7 @@ if(!empty($pagename)){ ?>
                                   <?php the_field('content_right');?> 
                                  </p>
                             </div>
-                            <div class=" col-lg-6 col-md-6">
+                            <div class=" col-lg-12 col-md-6">
                         <ul>
                             <li>
                                 exportacio

@@ -128,6 +128,7 @@ if(!empty($pagename)){ ?>
                                     <h2 class="text-center texto-servicios"><?php the_field('title_left'); ?></h2>
                             </div>
                              <?php }?>
+                             <div class="container">
                          <div class="row">
                              <div class=" col-lg-6 col-md-6">
                         <ul>
@@ -145,7 +146,8 @@ if(!empty($pagename)){ ?>
                             </li>
                         </ul>
                     </div>
-                    </div>  
+                    </div> 
+                    </div>
                     </div>
                     <!-- /fondo 1-->
                      <!-- fondo 2-->

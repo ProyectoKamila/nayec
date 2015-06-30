@@ -146,17 +146,23 @@ if(!empty($pagename)){ ?>
                     </div>
                      <!-- /fondo 2-->
                       <div class="clearfix"></div>
+                      <?php $pagename = query_posts(array('post_type'=>'page','pagename'=>'servicio','posts_per_page'=>1)); ?>
+                        <?php if(!empty($pagename)) {?>
+                        <?php while(have_posts()){ the_post();?>
                      <!-- LISTAS-->
                      
                     <div class="lista-n sin-padding   col-lg-12 ">
                         <ul class="sin-padding ">
                             <div class="sin-padding col-lg-6">
                                 <a href="">
+                                    <?php if(get_field('cuadro1-texto1')){?>
+
                                     <li>
                                         <p>
-                                            exportacion
+                                         <?php the_field('cuadro1-texto1');?>
                                         </p>
                                     </li>
+                                    <?php } ?>
                                 </a>
                             </div>
                             <div class="col-lg-6">
@@ -226,6 +232,8 @@ if(!empty($pagename)){ ?>
                             </div>
                         </ul>
                     </div>
+                    <?php } ?>
+                     <?php } ?>
                 </div>
             </div>
             </div>

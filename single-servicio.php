@@ -151,16 +151,16 @@ if(!empty($pagename)){ ?>
                     <div class="lista-n sin-padding   col-lg-12 ">
                         <ul class="sin-padding ">
                             <div class="sin-padding col-lg-6">
+                                  <?php if(get_field('cuadro1-texto1')){?>
                                 <a href="">
-                                    <?php if(get_field('cuadro1-texto1')){?>
 
                                     <li>
                                         <p>
-                                         <?php the_field('cuadro1-texto1');?>
+                                             <?php the_field('cuadro1-texto1');?>
                                         </p>
                                     </li>
-                                    <?php } ?>
                                 </a>
+                             <?php } ?>
                             </div>
                             <div class="col-lg-6">
                                 <a href="">

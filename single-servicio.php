@@ -156,18 +156,14 @@
                         <ul class="sin-padding ">
                             <?php while(have_posts()){ the_post();?>
                                 <li class="col-lg-6 col-xs-6">
-                          
-                              
-                                <a href="">
-                                
+                                <?php if(get_field('cuadro1-texto1')){?>
+                                    <a href="">
                                         <p>
-                                             <?php the_title();?>
+                                             <?php the_field('cuadro1-texto1');?>
                                         </p>
-                                   
-                                </a>
-                               
-                               
-                                 </li>
+                                    </a>
+                                     <?php } ?>
+                                </li>
                           <?php } ?>
                         </ul>
                     </div>

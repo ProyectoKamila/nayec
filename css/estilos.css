@@ -117,7 +117,7 @@ div#nosotros1{background-image: url(img/portfolio/publi3.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 661px;
+    min-height: 612px;
     }
 #nosotros-info{
     max-width: 100%;
@@ -628,7 +628,7 @@ body{overflow-x:hidden; }
 .blog-texto1
     {
         background-color: rgba(81,83,94,0.8);
-        height: 235px;
+        min-height: 235px;
     }
 .blog-imagen1
     {
